@@ -162,7 +162,6 @@
       <nav aria-label="Primary Navigation">
         <ul class="nav-menu">
           <li><a href="index.html" class="nav-link active">Home</a></li>
-          <li><a href="#studio3D" class="nav-link" style="color: var(--accent-gold); font-weight: 700;">✨ 3D Studio</a></li>
           <li><a href="designs.html" class="nav-link">Home Designs</a></li>
           <li><a href="about.html" class="nav-link">About us</a></li>
           <li><a href="facades.html" class="nav-link">Facades</a></li>
@@ -213,16 +212,16 @@
         </p>
 
         <div class="hero-cta-group">
-          <a href="#studio3D" class="btn btn-primary" style="background: linear-gradient(135deg, #DF982B 0%, #B87318 100%); box-shadow: 0 4px 20px rgba(223, 152, 43, 0.4);">
-            ✨ Launch 3D Studio
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
-          </a>
-          <a href="designs.html" class="btn btn-secondary">
+          <a href="designs.html" class="btn btn-primary">
             Explore 2026 Designs
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </a>
-          <a href="#calculator" class="btn" style="background: rgba(255, 255, 255, 0.1); color: #fff; backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.2);">
-            Cost Calculator
+          <a href="#calculator" class="btn btn-secondary">
+            Instant Cost Calculator
+          </a>
+          <a href="tel:+61411560177" class="btn btn-outline-gold">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            0411 560 177
           </a>
         </div>
 
@@ -407,123 +406,6 @@
       </div>
     </div>
   </section>
-
-  <!-- ==========================================================================
-       EXCLUSIVE 3D ARCHITECTURAL STUDIO & 360 PANORAMA
-       ========================================================================== -->
-  <section class="studio-3d-section" id="studio3D">
-    <div class="container">
-      <div class="section-header" style="text-align: center; margin-bottom: 2.5rem;">
-        <span class="section-tag" style="background: rgba(223, 152, 43, 0.2);">NEXT-GEN ARCHITECTURAL TECH</span>
-        <h2 style="color: #FFFFFF; font-size: clamp(2rem, 3.5vw, 2.75rem);">
-          Interactive 3D Architectural <span class="text-gradient">Design Studio</span>
-        </h2>
-        <p style="color: #94A3B8; max-width: 680px; margin: 0 auto;">
-          Orbit 360° around our signature double-storey Melbourne residence. Test daylight versus dusk illumination, customize facade palettes, and inspect structural 7-Star NatHERS specifications.
-        </p>
-      </div>
-
-      <div class="studio-3d-container">
-        <!-- 3D Viewport -->
-        <div class="studio-3d-viewport">
-          <div id="architectural3DCanvas"></div>
-
-          <!-- Top HUD Bar -->
-          <div class="studio-hud-top">
-            <!-- Lighting Presets -->
-            <div class="hud-group">
-              <span style="font-size: 0.72rem; color: #94A3B8; font-weight: 700; text-transform: uppercase; padding: 0 0.5rem;">Lighting:</span>
-              <button class="hud-btn" data-lighting-mode="day" title="Daylight Lighting">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-                Day
-              </button>
-              <button class="hud-btn" data-lighting-mode="golden" title="Sunset Golden Hour">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41m14.14-14.14l-1.41 1.41"/></svg>
-                Golden Hour
-              </button>
-              <button class="hud-btn active" data-lighting-mode="dusk" title="Dusk / Night Illumination">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-                Dusk Lights
-              </button>
-            </div>
-
-            <!-- Drag Instruction & Step Inside 360 -->
-            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-              <button class="hud-btn" id="btnToggleAutoRotate" style="background: rgba(11, 16, 26, 0.85); border: 1px solid rgba(255, 255, 255, 0.12);">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
-                Pause Rotation
-              </button>
-              <button class="hud-btn" id="btnResetCamera" style="background: rgba(11, 16, 26, 0.85); border: 1px solid rgba(255, 255, 255, 0.12);">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
-                Reset View
-              </button>
-              <button class="hud-btn" data-open-modal="virtualTourModal" style="background: linear-gradient(135deg, #DF982B 0%, #B87318 100%); color: #fff; font-weight: 700;">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
-                Step Inside 360° Interior
-              </button>
-            </div>
-          </div>
-
-          <!-- Dynamic 3D Hotspots Overlay -->
-          <div class="hotspot-3d-overlay" id="architectural3DHotspots"></div>
-        </div>
-
-        <!-- Studio Material Customizer Bar -->
-        <div class="studio-controls-bar">
-          <div>
-            <div class="controls-col-title">Primary Render Palette:</div>
-            <div class="swatches-row">
-              <button class="color-swatch-btn selected" data-render-color="2A2E35" style="background: #2A2E35;" title="Monument Charcoal Render"></button>
-              <button class="color-swatch-btn" data-render-color="E5E7EB" style="background: #E5E7EB;" title="Off-White Architectural Minimalist"></button>
-              <button class="color-swatch-btn" data-render-color="78716C" style="background: #78716C;" title="Limestone Warm Grey"></button>
-              <button class="color-swatch-btn" data-render-color="1E293B" style="background: #1E293B;" title="Deep Midnight Slate"></button>
-            </div>
-          </div>
-
-          <div>
-            <div class="controls-col-title">Feature Timber Accents:</div>
-            <div class="swatches-row">
-              <button class="color-swatch-btn selected" data-timber-color="8D5B36" style="background: #8D5B36;" title="Natural Teak Battens"></button>
-              <button class="color-swatch-btn" data-timber-color="B45309" style="background: #B45309;" title="Warm Western Red Cedar"></button>
-              <button class="color-swatch-btn" data-timber-color="451A03" style="background: #451A03;" title="Smoked Dark Walnut"></button>
-            </div>
-          </div>
-
-          <div style="display: flex; align-items: center; gap: 1rem;">
-            <div style="text-align: right;">
-              <span style="font-size: 0.8rem; color: #94A3B8; display: block;">Interactive 3D Engine:</span>
-              <strong style="font-size: 0.95rem; color: var(--accent-gold);">WebGL 60FPS Hardware Accelerated</strong>
-            </div>
-            <button class="btn btn-outline-gold" data-open-modal="consultModal" style="padding: 0.65rem 1.25rem; font-size: 0.88rem;">
-              Build This Custom Spec
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-       360° VIRTUAL INTERIOR PANORAMA MODAL
-       ========================================================================== -->
-  <div class="modal-overlay" id="virtualTourModal">
-    <div class="pano-modal-box">
-      <div class="pano-header">
-        <div>
-          <span class="section-tag" style="margin-bottom: 0.25rem;">IMMERSIVE WALKTHROUGH</span>
-          <h3 style="font-size: 1.35rem; color: #fff; margin: 0;">360° Virtual Living & Kitchen Walkthrough</h3>
-        </div>
-        <button class="modal-close-btn" aria-label="Close modal" style="position: static; margin-left: 1rem;">&times;</button>
-      </div>
-
-      <div class="pano-viewport" id="panoContainer">
-        <div class="pano-drag-hint">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/><polyline points="9 18 3 12 9 6"/><polyline points="15 6 21 12 15 18"/></svg>
-          Click & Drag to Look Around in 360° | Scroll to Zoom
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- ==========================================================================
        2026 FEATURE: INTERACTIVE BEFORE & AFTER KDR TRANSFORMATION SLIDER
@@ -1771,11 +1653,6 @@
       </div>
     </div>
   </div>
-
-  <!-- 3D WebGL Three.js & Studio Engine -->
-  <script src="assets/js/three.min.js"></script>
-  <script src="assets/js/OrbitControls.js"></script>
-  <script src="assets/js/architectural-3d.js"></script>
 
   <!-- Main JavaScript File -->
   <script src="assets/js/main.js"></script>
