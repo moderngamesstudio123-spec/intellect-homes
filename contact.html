@@ -75,7 +75,7 @@
   <!-- Contact Content -->
   <section style="padding: 5rem 0; background: #FFFFFF;">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1.3fr; gap: 3.5rem;">
+      <div class="contact-grid">
         <!-- Left: Contact Details Cards -->
         <div>
           <span class="section-tag">DIRECT ASSISTANCE</span>
@@ -135,7 +135,7 @@
         </div>
 
         <!-- Right: Inquiry Form -->
-        <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 20px; padding: 3rem;">
+        <div class="contact-form-card" style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 20px; padding: clamp(1.5rem, 4vw, 3rem);">
           <h3 style="font-size: 1.6rem; color: #0F172A; margin-bottom: 0.5rem;">Send A Project Inquiry</h3>
           <p style="color: #64748B; font-size: 0.95rem; margin-bottom: 2rem;">
             Provide your details and block address. Our senior builder will run a preliminary council planning review and respond within 24 hours.
@@ -147,7 +147,7 @@
               <input type="text" class="form-control" id="contactName" placeholder="e.g. David Smith" required>
             </div>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="form-row-2col">
               <div class="form-group">
                 <label class="form-label" for="contactPhone">Phone Number *</label>
                 <input type="tel" class="form-control" id="contactPhone" placeholder="0411 000 000" required>
@@ -213,7 +213,7 @@
           <label class="form-label" for="modalName">Full Name *</label>
           <input type="text" class="form-control" id="modalName" placeholder="e.g. David Smith" required>
         </div>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+        <div class="form-row-2col">
           <div class="form-group">
             <label class="form-label" for="modalPhone">Phone Number *</label>
             <input type="tel" class="form-control" id="modalPhone" placeholder="0411 000 000" required>

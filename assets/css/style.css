@@ -1776,545 +1776,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ==========================================================================
-   RESPONSIVE MEDIA QUERIES
+   MULTI-COLUMN UTILITIES & FORM LAYOUTS
    ========================================================================== */
-@media (max-width: 1280px) {
-  .nav-menu {
-    gap: 0.15rem;
-  }
-  .nav-link {
-    font-size: 0.84rem;
-    padding: 0.4rem 0.55rem;
-  }
-  .header-phone {
-    font-size: 0.84rem;
-    padding: 0.5rem 0.85rem;
-  }
-  .btn-primary {
-    font-size: 0.86rem;
-    padding: 0.6rem 1.15rem;
-  }
+.form-row-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
-@media (max-width: 1140px) {
-  .calculator-wrapper {
-    grid-template-columns: 1fr;
-  }
-  .energy-grid {
-    grid-template-columns: 1fr;
-  }
-  .footer-grid {
-    grid-template-columns: 1fr 1fr;
-  }
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 3.5rem;
 }
 
-@media (max-width: 768px) {
-  .hero-stats {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .option-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .sticky-action-bar {
-    display: block;
-  }
-
-  body {
-    padding-bottom: 60px;
-  }
+.about-vision-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
 }
 
-/* ==========================================================================
-   PERFECT MOBILE & TABLET RESPONSIVE SYSTEM
-   ========================================================================== */
-
-/* Universal Overflow & Touch Protection */
-html, body {
-  overflow-x: hidden !important;
-  max-width: 100vw !important;
-  width: 100% !important;
-  position: relative;
-  -webkit-text-size-adjust: 100%;
+.plan-stats-modal-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
-
-img, video, iframe, canvas {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Tablet & Mobile Breakpoints (<= 1024px) */
-@media (max-width: 1024px) {
-  .site-header {
-    height: 75px;
-  }
-
-  .nav-container {
-    height: 75px;
-    padding: 0 1.25rem;
-  }
-
-  .brand-logo img {
-    height: 44px;
-    max-width: 160px;
-  }
-
-  /* Full Screen Blur Mobile Menu Drawer */
-  .nav-menu {
-    position: fixed;
-    top: 75px;
-    left: 0;
-    width: 100%;
-    height: calc(100vh - 75px);
-    max-height: calc(100vh - 75px);
-    background: rgba(7, 10, 15, 0.98);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    flex-direction: column;
-    padding: 2rem 1.5rem 4rem 1.5rem;
-    gap: 0.75rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    border-bottom: 2px solid var(--accent-gold);
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.8);
-    transform: translateY(-120%);
-    opacity: 0;
-    visibility: hidden;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease, visibility 0.25s;
-    z-index: 999;
-  }
-
-  .nav-menu.open {
-    transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .nav-menu li {
-    width: 100%;
-  }
-
-  .nav-link {
-    font-size: 1.15rem;
-    padding: 0.85rem 1.25rem;
-    width: 100%;
-    text-align: center;
-    border-radius: var(--radius-md);
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    display: block;
-  }
-
-  .nav-link:active,
-  .nav-link.active {
-    background: rgba(223, 152, 43, 0.18);
-    border-color: var(--accent-gold);
-    color: var(--accent-gold);
-  }
-
-  .mobile-menu-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: var(--radius-md);
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
-
-  .mobile-menu-btn:active {
-    transform: scale(0.92);
-    background: rgba(223, 152, 43, 0.2);
-  }
-
-  .header-phone {
-    padding: 0.5rem 0.85rem;
-    font-size: 0.82rem;
-  }
-
-  .nav-actions .btn {
-    padding: 0.55rem 1rem;
-    font-size: 0.82rem;
-  }
-}
-
-/* Smartphone Breakpoint (<= 768px) */
-@media (max-width: 768px) {
-  /* Top Bar Adaptation */
-  .top-bar {
-    padding: 0.4rem 0;
-    font-size: 0.72rem;
-  }
-
-  .top-bar .container {
-    justify-content: center;
-    text-align: center;
-    gap: 0.35rem;
-  }
-
-  .top-bar-left {
-    display: none;
-  }
-
-  .top-bar-right {
-    gap: 0.75rem;
-  }
-
-  /* Header on small screens */
-  .site-header {
-    height: 68px;
-  }
-
-  .nav-container {
-    height: 68px;
-    padding: 0 1rem;
-  }
-
-  .nav-menu {
-    top: 68px;
-    height: calc(100vh - 68px);
-    max-height: calc(100vh - 68px);
-  }
-
-  .brand-logo img {
-    height: 38px;
-    max-width: 140px;
-  }
-
-  .nav-actions .btn {
-    display: none;
-  }
-
-  .header-phone {
-    font-size: 0.78rem;
-    padding: 0.45rem 0.75rem;
-  }
-
-  /* Live Ticker Strip */
-  .construction-ticker-strip {
-    height: 32px;
-    font-size: 0.72rem;
-  }
-
-  .ticker-label {
-    padding: 0 0.75rem;
-    font-size: 0.65rem;
-  }
-
-  .ticker-item {
-    font-size: 0.72rem;
-    padding: 0 0.85rem;
-  }
-
-  /* Hero Section */
-  .hero-section {
-    padding: 4rem 0 3rem 0;
-    min-height: auto;
-  }
-
-  .hero-content {
-    text-align: center;
-  }
-
-  .hero-trust-pill {
-    margin: 0 auto 1.25rem auto;
-    font-size: 0.75rem;
-    padding: 0.4rem 0.85rem;
-  }
-
-  .hero-title {
-    font-size: 2.15rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-  }
-
-  .hero-subtitle {
-    font-size: 0.95rem;
-    line-height: 1.6;
-    margin: 0 auto 1.75rem auto;
-    padding: 0 0.25rem;
-  }
-
-  .hero-cta-group {
-    flex-direction: column;
-    width: 100%;
-    gap: 0.75rem;
-  }
-
-  .hero-cta-group .btn {
-    width: 100%;
-    padding: 0.9rem 1.25rem;
-    font-size: 0.95rem;
-    justify-content: center;
-  }
-
-  .hero-stats {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.6rem;
-    margin-top: 2rem;
-  }
-
-  .stat-item {
-    padding: 0.9rem 0.6rem;
-    border-radius: var(--radius-md);
-  }
-
-  .stat-number {
-    font-size: 1.55rem;
-  }
-
-  .stat-label {
-    font-size: 0.72rem;
-  }
-
-  /* Trust Bar */
-  .trust-bar {
-    padding: 2.5rem 0;
-  }
-
-  .trust-grid {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-  }
-
-  .trust-feature {
-    padding: 1rem;
-    background: rgba(255, 255, 255, 0.02);
-    border-radius: var(--radius-md);
-  }
-
-  /* Section Headers */
-  .section-header {
-    margin-bottom: 2.25rem;
-    text-align: center;
-  }
-
-  .section-header h2 {
-    font-size: 1.85rem;
-    line-height: 1.25;
-  }
-
-  .section-header p {
-    font-size: 0.95rem;
-    line-height: 1.55;
-  }
-
-  /* Services Grid */
-  .services-section {
-    padding: 3.5rem 0;
-  }
-
-  .services-grid {
-    grid-template-columns: 1fr;
-    gap: 1.75rem;
-  }
-
-  .service-card {
-    border-radius: var(--radius-lg);
-  }
-
-  .service-body {
-    padding: 1.5rem;
-  }
-
-  /* Before & After Transformation Slider */
-  .before-after-wrapper {
-    height: 290px !important;
-    border-radius: var(--radius-lg);
-  }
-
-  .before-after-label {
-    font-size: 0.68rem;
-    padding: 0.35rem 0.65rem;
-    top: 1rem;
-  }
-
-  .before-after-handle .handle-circle {
-    width: 36px;
-    height: 36px;
-  }
-
-  /* Calculator Section */
-  .calculator-section {
-    padding: 3.5rem 0;
-  }
-
-  .calculator-wrapper {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
-  .calc-controls {
-    padding: 1.25rem;
-  }
-
-  .option-grid {
-    grid-template-columns: 1fr;
-    gap: 0.65rem;
-  }
-
-  .calc-option {
-    padding: 0.85rem 1rem;
-  }
-
-  .calc-summary-panel {
-    padding: 1.5rem 1.25rem;
-    position: static;
-  }
-
-  .price-display-amount {
-    font-size: 2.2rem;
-  }
-
-  /* Designs & Floor Plans */
-  .designs-section {
-    padding: 3.5rem 0;
-  }
-
-  .designs-grid {
-    grid-template-columns: 1fr;
-    gap: 1.75rem;
-  }
-
-  .designs-filter-bar {
-    gap: 0.4rem;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 0.5rem;
-    justify-content: flex-start;
-  }
-
-  .filter-btn {
-    font-size: 0.78rem;
-    padding: 0.45rem 0.9rem;
-    white-space: nowrap;
-    flex-shrink: 0;
-  }
-
-  /* Energy Section */
-  .energy-section {
-    padding: 3.5rem 0;
-  }
-
-  .energy-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-  /* Volume Builders Comparison Matrix */
-  .comparison-section {
-    padding: 3.5rem 0;
-  }
-
-  .comparison-wrapper {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    border-radius: var(--radius-lg);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  }
-
-  .comparison-table {
-    min-width: 600px;
-  }
-
-  .comparison-table th,
-  .comparison-table td {
-    padding: 1rem 0.85rem;
-  }
-
-  /* Testimonials */
-  .testimonials-section {
-    padding: 3.5rem 0;
-  }
-
-  .testimonials-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
-  /* Footer */
-  .footer-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-  .footer-bottom .container {
-    flex-direction: column;
-    text-align: center;
-    gap: 0.75rem;
-  }
-
-  /* Floating VIP Concierge on Mobile */
-  .vip-concierge-widget {
-    bottom: 1.25rem;
-    right: 1.25rem;
-  }
-
-  .vip-concierge-trigger {
-    width: 54px;
-    height: 54px;
-  }
-
-  .vip-concierge-modal {
-    width: calc(100vw - 2.5rem);
-    max-width: 320px;
-    right: 0;
-    bottom: 66px;
-  }
-
-  /* Modals on Mobile */
-  .modal-box {
-    width: 95vw !important;
-    max-width: 95vw !important;
-    max-height: 88vh !important;
-    padding: 1.5rem 1.15rem !important;
-    border-radius: var(--radius-lg) !important;
-    overflow-y: auto !important;
-  }
-
-  .plan-room-tabs {
-    gap: 0.4rem;
-  }
-
-  .room-tab-btn {
-    font-size: 0.75rem;
-    padding: 0.4rem 0.75rem;
-  }
-}
-
-/* Extra Small Phones (<= 400px - iPhone SE, Galaxy A) */
-@media (max-width: 400px) {
-  .hero-title {
-    font-size: 1.85rem;
-  }
-
-  .hero-stats {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .stat-number {
-    font-size: 1.4rem;
-  }
-
-  .price-display-amount {
-    font-size: 1.9rem;
-  }
-
-  .brand-logo img {
-    height: 34px;
-    max-width: 125px;
-  }
-}
-
 
 /* ==========================================================================
    LIVE MELBOURNE CONSTRUCTION STATUS TICKER
@@ -2513,14 +2005,7 @@ img, video, iframe, canvas {
   margin-bottom: 0.35rem;
 }
 
-@media (max-width: 768px) {
-  .comparison-wrapper {
-    overflow-x: auto;
-  }
-  .comparison-table {
-    min-width: 650px;
-  }
-}
+
 
 /* ==========================================================================
    FLOATING VIP CONCIERGE & WHATSAPP HUB
@@ -2743,3 +2228,613 @@ img, video, iframe, canvas {
   box-shadow: 0 4px 12px rgba(15, 23, 42, 0.2);
 }
 
+/* ==========================================================================
+   CONSOLIDATED LUXURY RESPONSIVE DESIGN SYSTEM (MOBILE-PERFECT)
+   ========================================================================== */
+
+/* Universal Overflow & Touch Protection */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+  width: 100% !important;
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+}
+
+img, video, iframe, canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 1. Large Laptops & Desktops (<= 1280px) */
+@media (max-width: 1280px) {
+  .nav-menu {
+    gap: 0.15rem;
+  }
+  .nav-link {
+    font-size: 0.82rem;
+    padding: 0.35rem 0.5rem;
+  }
+  .header-phone {
+    font-size: 0.82rem;
+    padding: 0.5rem 0.75rem;
+  }
+  .btn-primary {
+    font-size: 0.84rem;
+    padding: 0.55rem 1rem;
+  }
+}
+
+/* 2. Tablet Landscape & Small Laptops (<= 1140px) */
+@media (max-width: 1140px) {
+  .calculator-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .energy-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact-grid {
+    gap: 2rem;
+  }
+}
+
+/* 3. Tablets & Mobile Drawer Navigation Activation (<= 1024px) */
+@media (max-width: 1024px) {
+  .site-header {
+    height: 72px;
+  }
+
+  .nav-container {
+    height: 72px;
+    padding: 0 1.25rem;
+  }
+
+  .brand-logo img {
+    height: 42px;
+    max-width: 150px;
+  }
+
+  /* Full Screen Glassmorphic Mobile Menu Drawer */
+  .nav-menu {
+    position: fixed;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 72px);
+    max-height: calc(100vh - 72px);
+    background: rgba(7, 10, 15, 0.98);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    flex-direction: column;
+    padding: 1.75rem 1.5rem 4rem 1.5rem;
+    gap: 0.65rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 2px solid var(--accent-gold);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-120%);
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease, visibility 0.25s;
+    z-index: 999;
+  }
+
+  .nav-menu.open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav-menu li {
+    width: 100%;
+  }
+
+  .nav-link {
+    font-size: 1.15rem;
+    padding: 0.85rem 1.25rem;
+    width: 100%;
+    text-align: center;
+    border-radius: var(--radius-md);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    display: block;
+  }
+
+  .nav-link:active,
+  .nav-link.active {
+    background: rgba(223, 152, 43, 0.18);
+    border-color: var(--accent-gold);
+    color: var(--accent-gold);
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: var(--radius-md);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .mobile-menu-btn:active {
+    transform: scale(0.92);
+    background: rgba(223, 152, 43, 0.2);
+  }
+
+  .header-phone {
+    padding: 0.5rem 0.85rem;
+    font-size: 0.82rem;
+  }
+
+  .nav-actions .btn {
+    padding: 0.55rem 1rem;
+    font-size: 0.82rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+/* 4. Complete Smartphone Responsive System (<= 768px) */
+@media (max-width: 768px) {
+  /* Prevent background scroll when modal/drawer open */
+  body {
+    padding-bottom: 78px !important;
+  }
+
+  /* Top Bar Adaptation */
+  .top-bar {
+    padding: 0.4rem 0;
+    font-size: 0.72rem;
+  }
+
+  .top-bar .container {
+    justify-content: center;
+    text-align: center;
+    gap: 0.35rem;
+  }
+
+  .top-bar-left {
+    display: none;
+  }
+
+  .top-bar-right {
+    gap: 0.75rem;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Header on small screens */
+  .site-header {
+    height: 66px;
+  }
+
+  .nav-container {
+    height: 66px;
+    padding: 0 1rem;
+  }
+
+  .nav-menu {
+    top: 66px;
+    height: calc(100vh - 66px);
+    max-height: calc(100vh - 66px);
+  }
+
+  .brand-logo img {
+    height: 38px;
+    max-width: 135px;
+  }
+
+  .nav-actions .btn {
+    display: none; /* Moved to sticky bottom bar for better thumb reach */
+  }
+
+  .header-phone {
+    font-size: 0.78rem;
+    padding: 0.4rem 0.75rem;
+  }
+
+  /* Live Ticker Strip */
+  .construction-ticker-strip {
+    height: 34px !important;
+    font-size: 0.72rem;
+  }
+
+  .ticker-label {
+    padding: 0 0.85rem !important;
+    font-size: 0.68rem !important;
+  }
+
+  .ticker-item {
+    font-size: 0.72rem;
+    padding: 0 0.85rem;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 3.5rem 0 2.5rem 0;
+    min-height: auto;
+  }
+
+  .hero-content {
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+
+  .hero-trust-pill {
+    margin: 0 auto 1rem auto;
+    font-size: 0.72rem;
+    padding: 0.35rem 0.75rem;
+  }
+
+  .hero-title {
+    font-size: clamp(1.85rem, 5.5vw, 2.35rem);
+    line-height: 1.22;
+    margin-bottom: 0.85rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    margin: 0 auto 1.5rem auto;
+    padding: 0 0.25rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.65rem;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+    padding: 0.85rem 1.25rem;
+    font-size: 0.92rem;
+    justify-content: center;
+    border-radius: var(--radius-md);
+  }
+
+  .hero-stats {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.6rem;
+    margin-top: 1.75rem;
+  }
+
+  .stat-item {
+    padding: 0.85rem 0.5rem;
+    border-radius: var(--radius-md);
+  }
+
+  .stat-number {
+    font-size: 1.5rem;
+  }
+
+  .stat-label {
+    font-size: 0.72rem;
+  }
+
+  /* Trust Bar */
+  .trust-bar {
+    padding: 2.25rem 0;
+  }
+
+  .trust-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .trust-feature {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: var(--radius-md);
+  }
+
+  /* Section Headers */
+  .section-header {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+  }
+
+  .section-header p {
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  /* Services Grid */
+  .services-section {
+    padding: 3.5rem 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .service-card {
+    border-radius: var(--radius-lg);
+  }
+
+  .service-body {
+    padding: 1.25rem;
+  }
+
+  /* Before & After Transformation Slider */
+  .before-after-wrapper {
+    height: 270px !important;
+    border-radius: var(--radius-lg);
+  }
+
+  .before-after-label {
+    font-size: 0.68rem;
+    padding: 0.35rem 0.65rem;
+    top: 0.75rem;
+  }
+
+  .before-after-handle .handle-circle {
+    width: 36px;
+    height: 36px;
+  }
+
+  /* Calculator Section (Standalone Page) */
+  .calculator-section {
+    padding: 3rem 0;
+  }
+
+  .calculator-wrapper {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .calc-controls {
+    padding: 1.25rem;
+  }
+
+  .option-grid {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+
+  .calc-option {
+    padding: 0.85rem 1rem;
+  }
+
+  .calc-summary-panel {
+    padding: 1.5rem 1.25rem;
+    position: static;
+  }
+
+  .price-display-amount {
+    font-size: 2.1rem;
+  }
+
+  /* Designs & Floor Plans */
+  .designs-section {
+    padding: 3.5rem 0;
+  }
+
+  .designs-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+  }
+
+  .designs-filter-bar {
+    gap: 0.4rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.5rem;
+    justify-content: flex-start;
+    scrollbar-width: none;
+  }
+
+  .designs-filter-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-btn {
+    font-size: 0.78rem;
+    padding: 0.45rem 0.85rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* Energy Section */
+  .energy-section {
+    padding: 3.5rem 0;
+  }
+
+  .energy-grid {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  /* Comparison Matrix */
+  .comparison-section {
+    padding: 3.5rem 0;
+  }
+
+  .comparison-wrapper {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+
+  .comparison-table {
+    min-width: 580px !important;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.9rem 0.75rem;
+    font-size: 0.82rem;
+  }
+
+  /* Testimonials */
+  .testimonials-section {
+    padding: 3.5rem 0;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  /* Footer */
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.75rem;
+    text-align: left;
+  }
+
+  .footer-bottom .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  /* Form & Modal Multi-column Collapses */
+  .form-row-2col,
+  .about-vision-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.75rem !important;
+  }
+
+  .plan-stats-modal-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.75rem !important;
+    padding: 0.75rem !important;
+  }
+
+  /* STICKY QUICK ACTION BAR (Always visible at bottom on mobile) */
+  .sticky-action-bar {
+    display: block !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    background: rgba(7, 10, 15, 0.96) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border-top: 1px solid rgba(223, 152, 43, 0.35) !important;
+    padding: 0.6rem 1rem !important;
+    z-index: 990 !important;
+    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.6) !important;
+  }
+
+  .sticky-action-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0.75rem !important;
+  }
+
+  /* FLOATING VIP CONCIERGE (Positioned safely ABOVE the sticky bar) */
+  .vip-concierge-widget {
+    bottom: 76px !important;
+    right: 1rem !important;
+    z-index: 995 !important;
+  }
+
+  .vip-concierge-trigger {
+    width: 52px !important;
+    height: 52px !important;
+  }
+
+  .vip-concierge-modal {
+    width: calc(100vw - 2rem) !important;
+    max-width: 330px !important;
+    right: 0 !important;
+    bottom: 64px !important;
+  }
+
+  /* Modals on Mobile */
+  .modal-overlay {
+    padding: 0.75rem;
+  }
+
+  .modal-box {
+    width: 95vw !important;
+    max-width: 95vw !important;
+    max-height: 88vh !important;
+    padding: 1.35rem 1rem !important;
+    border-radius: var(--radius-lg) !important;
+    overflow-y: auto !important;
+  }
+
+  .plan-room-tabs {
+    gap: 0.4rem;
+  }
+
+  .room-tab-btn {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.75rem;
+  }
+}
+
+/* 5. Compact Smartphones (<= 480px - iPhone 13/14/15/16, Galaxy S) */
+@media (max-width: 480px) {
+  .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .hero-title {
+    font-size: 1.95rem;
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0.5rem;
+  }
+
+  .stat-number {
+    font-size: 1.4rem;
+  }
+
+  .brand-logo img {
+    height: 35px;
+    max-width: 125px;
+  }
+
+  .price-display-amount {
+    font-size: 1.95rem;
+  }
+}
+
+/* 6. Extra Small Phones (<= 380px - iPhone SE, Galaxy A) */
+@media (max-width: 380px) {
+  .hero-title {
+    font-size: 1.7rem;
+  }
+
+  .header-phone {
+    display: none; /* Hide top phone on tiny screens so logo has full space */
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr !important;
+  }
+
+  .stat-item {
+    padding: 0.65rem 0.5rem;
+  }
+
+  .btn {
+    font-size: 0.88rem;
+    padding: 0.75rem 1rem;
+  }
+}
