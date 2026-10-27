@@ -216,8 +216,8 @@
             Explore 2026 Designs
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </a>
-          <a href="#calculator" class="btn btn-secondary">
-            Instant Cost Calculator
+          <a href="floor-plan.html" class="btn btn-secondary">
+            View Floor Plans
           </a>
           <a href="tel:+61411560177" class="btn btn-outline-gold">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -448,155 +448,7 @@
     </div>
   </section>
 
-  <!-- ==========================================================================
-       INTERACTIVE COST ESTIMATOR / CALCULATOR
-       ========================================================================== -->
-  <section class="calculator-section" id="calculator">
-    <div class="container">
-      <div class="section-header" style="color: #fff;">
-        <span class="section-tag" style="background: rgba(223, 152, 43, 0.2); color: #DF982B;">TRANSPARENT PRICING</span>
-        <h2 style="color: #fff;">Instant 2026 Melbourne Build Cost Calculator</h2>
-        <p style="color: #94A3B8;">Get an instant transparent price guide based on actual Melbourne material and construction rates without vague sales gimmicks.</p>
-      </div>
 
-      <div class="calculator-wrapper">
-        <!-- Left: Interactive Controls -->
-        <div class="calc-controls">
-          <!-- Step 1: Project Type -->
-          <div class="calc-step">
-            <h4>
-              <span class="calc-step-num">1</span>
-              Select Project Type
-            </h4>
-            <div class="option-grid" data-calc-group="type">
-              <div class="calc-option active" data-val="kdr">
-                <span class="calc-option-title">Knock Down Rebuild</span>
-                <span class="calc-option-desc">Demolish & build new on existing block</span>
-              </div>
-              <div class="calc-option" data-val="custom">
-                <span class="calc-option-title">New Land Build</span>
-                <span class="calc-option-desc">Build on vacant land / greenfield estate</span>
-              </div>
-              <div class="calc-option" data-val="granny">
-                <span class="calc-option-title">Granny Flat</span>
-                <span class="calc-option-desc">Secondary backyard dwelling (up to 60m²)</span>
-              </div>
-              <div class="calc-option" data-val="dual">
-                <span class="calc-option-title">Dual Occupancy</span>
-                <span class="calc-option-desc">Side-by-side or rear development</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Step 2: Size & Configuration -->
-          <div class="calc-step">
-            <h4>
-              <span class="calc-step-num">2</span>
-              Home Size & Storey
-            </h4>
-            <div class="option-grid" data-calc-group="size">
-              <div class="calc-option" data-val="single-mid">
-                <span class="calc-option-title">Single Storey (26 Sq)</span>
-                <span class="calc-option-desc">4 Bed, 2 Bath, 2 Car, Alfresco</span>
-              </div>
-              <div class="calc-option" data-val="single-large">
-                <span class="calc-option-title">Grand Single (32 Sq)</span>
-                <span class="calc-option-desc">4 Bed + Theatre, Butler's, 2 Car</span>
-              </div>
-              <div class="calc-option" data-val="double-mid">
-                <span class="calc-option-title">Double Storey (38 Sq)</span>
-                <span class="calc-option-desc">4 Bed, 3 Bath, Lounge, 2 Car</span>
-              </div>
-              <div class="calc-option active" data-val="double-large">
-                <span class="calc-option-title">Luxury Double (48 Sq)</span>
-                <span class="calc-option-desc">5 Bed, 5 Ensuite, 3 Living, 2 Car</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Step 3: Finish Tier -->
-          <div class="calc-step">
-            <h4>
-              <span class="calc-step-num">3</span>
-              Specification & Finishes Tier
-            </h4>
-            <div class="option-grid" data-calc-group="tier">
-              <div class="calc-option active" data-val="signature">
-                <span class="calc-option-title">Signature Luxury</span>
-                <span class="calc-option-desc">40mm Stone, 2.7m Ceilings, 7-Star, Refrigerated Cooling</span>
-              </div>
-              <div class="calc-option" data-val="prestige">
-                <span class="calc-option-title">Ultra-Prestige Bespoke</span>
-                <span class="calc-option-desc">3.0m Ceilings, Miele Appliances, Marble & Custom Joinery</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Step 4: Add-ons Checkboxes -->
-          <div class="calc-step" style="margin-bottom: 0;">
-            <h4>
-              <span class="calc-step-num">4</span>
-              Site Works & Turnkey Inclusions
-            </h4>
-            <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.5rem;">
-              <label style="display: flex; align-items: center; gap: 0.75rem; cursor: pointer; color: #CBD5E1; font-size: 0.9rem;">
-                <input type="checkbox" id="calcCheckDemo" checked style="accent-color: #DF982B; width: 18px; height: 18px;">
-                Include Complete Demolition & Site Clearance Allowance (~$28,000)
-              </label>
-              <label style="display: flex; align-items: center; gap: 0.75rem; cursor: pointer; color: #CBD5E1; font-size: 0.9rem;">
-                <input type="checkbox" id="calcCheckLandscape" checked style="accent-color: #DF982B; width: 18px; height: 18px;">
-                Include Exposed Aggregate Driveway & Boundary Fencing (~$35,000)
-              </label>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right: Real-Time Summary Panel -->
-        <div class="calc-summary-panel">
-          <div class="summary-header">
-            <h3>Estimated Investment</h3>
-            <p>Itemised Melbourne builder estimate (inc. GST)</p>
-          </div>
-
-          <div class="price-display">
-            <div class="price-display-label">Estimated Turnkey Range</div>
-            <div class="price-display-amount" id="calcEstimatedTotal">$903,000</div>
-          </div>
-
-          <ul class="price-breakdown-list">
-            <li>
-              <span>Home Construction:</span>
-              <span id="calcBaseCost">$840,000</span>
-            </li>
-            <li>
-              <span>Estimated Size:</span>
-              <span id="calcHomeSize">48 Squares (446 m²)</span>
-            </li>
-            <li>
-              <span>Build Timeline:</span>
-              <span id="calcTimeline">12-15 Months</span>
-            </li>
-            <li id="calcDemoRow">
-              <span>Demolition & Disconnection:</span>
-              <span>$28,000</span>
-            </li>
-            <li id="calcLandscapeRow">
-              <span>Driveway & Perimeter:</span>
-              <span>$35,000</span>
-            </li>
-            <li>
-              <span>Energy Standard:</span>
-              <span style="color: #22C55E;">7-Star NatHERS Included</span>
-            </li>
-          </ul>
-
-          <button class="btn btn-primary" style="width: 100%; font-size: 1rem;" data-open-modal="consultModal">
-            Lock In Feasibility & Fixed Quote
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- ==========================================================================
        FEATURED DESIGNS & FLOOR PLAN SHOWCASE
@@ -1409,7 +1261,7 @@
             <li><a href="designs.html">Home Designs & Plans</a></li>
             <li><a href="knockdown-rebuild.html">Knock Down Rebuild</a></li>
             <li><a href="inclusions.html">Luxury Inclusions</a></li>
-            <li><a href="calculator.html">Cost Calculator</a></li>
+            <li><a href="floor-plan.html">Floor Plans</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact Us</a></li>
           </ul>

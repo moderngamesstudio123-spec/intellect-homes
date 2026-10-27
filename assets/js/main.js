@@ -376,7 +376,7 @@ const roomPhotos = {
     ]
   },
   ensuite: {
-    img: 'assets/images/WhatsApp-Image-2026-09-02-at-10.36.14-PM-1.jpeg',
+    img: 'assets/images/Gemini_Generated_Image_yjkc22yjkc22yjkc.jpeg',
     inclusions: [
       'Hotel-calibre freestanding composite stone bath with floor-mounted gooseneck tapware.',
       'Full height 600x1200mm rectified porcelain wall and floor tiles.',
@@ -459,40 +459,42 @@ function initFAQ() {
    6. CONSULTATION & ESTIMATE INQUIRY FORM
    ========================================================================== */
 function initConsultationForm() {
-  const form = document.getElementById('consultationForm');
-  if (!form) return;
+  const forms = document.querySelectorAll('#consultationForm, #modalConsultationForm, .contact-form, .consult-form');
+  if (!forms.length) return;
 
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const btn = form.querySelector('button[type="submit"]');
-    const originalText = btn.innerHTML;
+  forms.forEach(form => {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('button[type="submit"]');
+      if (btn) {
+        btn.innerHTML = `
+          <svg class="spinner" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10" stroke-dasharray="32" stroke-linecap="round"></circle>
+          </svg>
+          Processing Feasibility...
+        `;
+        btn.disabled = true;
+      }
 
-    btn.innerHTML = `
-      <svg class="spinner" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="12" cy="12" r="10" stroke-dasharray="32" stroke-linecap="round"></circle>
-      </svg>
-      Processing Feasibility...
-    `;
-    btn.disabled = true;
-
-    setTimeout(() => {
-      form.innerHTML = `
-        <div style="text-align: center; padding: 2rem 1rem;">
-          <div style="width: 64px; height: 64px; background: rgba(34, 197, 94, 0.15); color: #22C55E; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem auto;">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
+      setTimeout(() => {
+        form.innerHTML = `
+          <div style="text-align: center; padding: 2rem 1rem;">
+            <div style="width: 64px; height: 64px; background: rgba(34, 197, 94, 0.15); color: #22C55E; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem auto;">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: #0F172A;">Site Feasibility Request Received!</h3>
+            <p style="color: #64748B; font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.6;">
+              Thank you. Senior Builder Director at Intellect Homes will review your property address, zoning, and orientation. We will call you within 24 business hours to deliver your preliminary feasibility summary.
+            </p>
+            <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 1rem; font-size: 0.85rem; color: #334155;">
+              <strong>Immediate Urgent Inquiries:</strong> Call directly at <a href="tel:+61411560177" style="color: #D4AF37; font-weight: 700;">+61 411 560 177</a>
+            </div>
           </div>
-          <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: #0F172A;">Site Feasibility Request Received!</h3>
-          <p style="color: #64748B; font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.6;">
-            Thank you. Senior Builder Director at Intellect Homes will review your property address, zoning, and orientation. We will call you within 24 business hours to deliver your preliminary feasibility summary.
-          </p>
-          <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 1rem; font-size: 0.85rem; color: #334155;">
-            <strong>Immediate Urgent Inquiries:</strong> Call directly at <a href="tel:+61411560177" style="color: #D4AF37; font-weight: 700;">+61 411 560 177</a>
-          </div>
-        </div>
-      `;
-    }, 1200);
+        `;
+      }, 1200);
+    });
   });
 }
 
