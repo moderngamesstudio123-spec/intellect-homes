@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90">
+  <rect width="120" height="90" fill="#FFFFFF" rx="8"/>
+  <rect x="18" y="14" width="84" height="62" rx="8" fill="#0B1320" stroke="#DF982B" stroke-width="2.5"/>
+  <text x="44" y="58" font-family="'Impact', 'Arial Black', sans-serif" font-size="42" font-weight="900" fill="#DF982B">7</text>
+  <text x="66" y="38" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="13" font-weight="900" fill="#4BB126" letter-spacing="1">STAR</text>
+  <text x="66" y="52" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="8.5" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">ENERGY</text>
+  <path d="M66 62 L67.5 66.5 H72 L68.5 69 L70 73.5 L66 71 L62 73.5 L63.5 69 L60 66.5 H64.5 Z" fill="#DF982B"/>
+  <path d="M78 62 L79.5 66.5 H84 L80.5 69 L82 73.5 L78 71 L74 73.5 L75.5 69 L72 66.5 H76.5 Z" fill="#DF982B"/>
+  <path d="M90 62 L91.5 66.5 H96 L92.5 69 L94 73.5 L90 71 L86 73.5 L87.5 69 L84 66.5 H88.5 Z" fill="#DF982B"/>
+</svg>
