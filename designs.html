@@ -19,8 +19,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Consistent Heading Colours matching Intellect Homes logo -->
+  <style>
+    h1, h2, h3, h4, h5, h6,
+    .page-designs h1, .page-designs h2, .page-designs h3, .page-designs h4, .page-designs h5, .page-designs h6 {
+      color: #DF982B !important;
+    }
+  </style>
 </head>
-<body>
+<body class="page-designs">
 
   <!-- Top Bar -->
   <div class="top-bar">
@@ -28,7 +35,7 @@
       <div class="top-bar-left">
         <span class="top-bar-badge">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          VBA Registered Builder &bull; DB-U Practitioner
+          VBA &amp; BPC Registered Builder &bull; CBD-U 101902 Practitioner
         </span>
         <span class="top-bar-badge">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
@@ -36,7 +43,7 @@
         </span>
       </div>
       <div class="top-bar-right">
-        <a href="mailto:admin@intellecthomes.com.au" class="top-bar-link">admin@intellecthomes.com.au</a>
+        <a href="mailto:admin@intellecthomes.com.au" class="top-bar-link top-bar-email" style="color: #DF982B; font-weight: 700;">admin@intellecthomes.com.au</a>
         <a href="tel:+61411560177" class="top-bar-link" style="color: #DF982B; font-weight: 700;">+61 411 560 177</a>
       </div>
     </div>
@@ -76,7 +83,7 @@
   <section style="background: linear-gradient(135deg, #090D14 0%, #151D2A 100%); padding: 5rem 0 3.5rem 0; color: #fff; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.08);">
     <div class="container">
       <span class="section-tag">2026 ARCHITECTURAL COLLECTION</span>
-      <h1 style="font-size: clamp(2.2rem, 4vw, 3.25rem); color: #fff; margin-bottom: 1rem;">Architectural Home Designs & Plans</h1>
+      <h1 style="font-size: clamp(2.2rem, 4vw, 3.25rem); color: #DF982B; margin-bottom: 1rem;">Architectural Home Designs & Plans</h1>
       <p style="color: #94A3B8; font-size: 1.15rem; max-width: 720px; margin: 0 auto;">
         Every floor plan is fully customisable to your block size, frontage, council easements, and family lifestyle.
       </p>
@@ -96,232 +103,265 @@
       </div>
 
       <!-- Grid -->
+            <!-- Grid: Each Project Displays Corresponding Floor Plan Alongside Exterior Photo -->
       <div class="designs-grid">
-        <!-- Card 1 -->
+        <!-- Card 1: 21 Oswald Street, Dandenong -->
         <article class="design-card" data-category="knockdown">
-          <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="21 Oswald street dandenong 3175">
+          <div class="design-media-duo">
+            <div class="media-col photo-col" title="21 Oswald Street Dandenong Facade">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="21 Oswald street dandenong 3175">
+              <span class="media-pill-tag">Facade</span>
+            </div>
+            <div class="media-col plan-col" title="21 Oswald Street Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="21 Oswald Street Floor Plan Blueprint">
+              <span class="media-pill-tag plan-tag">Floor Plan</span>
+            </div>
             <span class="design-tag">Knock Down Rebuild</span>
             <span class="design-suburb">Dandenong VIC 3175</span>
           </div>
           <div class="design-content">
             <div class="design-title-row">
               <h3>21 Oswald Street, Dandenong</h3>
-              <span class="design-price">From $720k</span>
             </div>
             <p class="design-address">21 Oswald Street, Dandenong VIC 3175</p>
             <div class="design-specs">
-              <span class="spec-item">5 Bed</span>
-              <span class="spec-item">3.5 Bath</span>
-              <span class="spec-item">2 Car</span>
+              <span class="spec-item">2 Car Garage</span>
               <span class="spec-item">42 Squares</span>
             </div>
             <div class="design-actions">
-              <button class="btn btn-outline-gold" onclick="openPlanDetails('21 Oswald Street, Dandenong', '5', '3.5', '2', '42 Squares (390 m²)', 'Dandenong VIC', 'assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg')">
-                View Plan & Specs
+              <button class="btn btn-outline-gold" onclick="openPlanDetails('21 Oswald Street, Dandenong', '', '', '2 Car', '42 Squares (390 m²)', 'Dandenong VIC', 'assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg')">
+                View Plan &amp; Specs
               </button>
               <button class="btn btn-primary" data-open-modal="consultModal">Enquire</button>
             </div>
           </div>
         </article>
 
-        <!-- Card 2 -->
+        <!-- Card 2: 16 Vivero, Wyndham Vale -->
         <article class="design-card" data-category="new-build">
-          <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-09-02-at-10.36.14-PM.jpeg" alt="16 vivero Wyndham vale Vic 3024">
+          <div class="design-media-duo">
+            <div class="media-col photo-col" title="16 Vivero Wyndham Vale Facade">
+              <img src="assets/images/WhatsApp-Image-2026-09-02-at-10.36.14-PM.jpeg" alt="16 vivero Wyndham vale Vic 3024">
+              <span class="media-pill-tag">Facade</span>
+            </div>
+            <div class="media-col plan-col" title="16 Vivero Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="16 Vivero Wyndham Vale Floor Plan">
+              <span class="media-pill-tag plan-tag">Floor Plan</span>
+            </div>
             <span class="design-tag">New Construction</span>
             <span class="design-suburb">Wyndham Vale VIC 3024</span>
           </div>
           <div class="design-content">
             <div class="design-title-row">
               <h3>16 Vivero, Wyndham Vale</h3>
-              <span class="design-price">From $640k</span>
             </div>
             <p class="design-address">16 Vivero, Wyndham Vale VIC 3024</p>
             <div class="design-specs">
-              <span class="spec-item">4 Bed</span>
-              <span class="spec-item">3 Bath</span>
-              <span class="spec-item">2 Car</span>
+              <span class="spec-item">2 Car Garage</span>
               <span class="spec-item">36 Squares</span>
             </div>
             <div class="design-actions">
-              <button class="btn btn-outline-gold" onclick="openPlanDetails('16 Vivero, Wyndham Vale', '4', '3', '2', '36 Squares (334 m²)', 'Wyndham Vale VIC', 'assets/images/WhatsApp-Image-2026-09-02-at-10.36.14-PM.jpeg')">
-                View Plan & Specs
+              <button class="btn btn-outline-gold" onclick="openPlanDetails('16 Vivero, Wyndham Vale', '', '', '2 Car', '36 Squares (334 m²)', 'Wyndham Vale VIC', 'assets/images/WhatsApp-Image-2026-09-02-at-10.36.14-PM.jpeg')">
+                View Plan &amp; Specs
               </button>
               <button class="btn btn-primary" data-open-modal="consultModal">Enquire</button>
             </div>
           </div>
         </article>
 
-        <!-- Card 3 -->
+        <!-- Card 3: 193 Callway Street, Mambourin -->
         <article class="design-card" data-category="new-build">
-          <div class="design-media">
-            <img src="assets/images/Gemini_Generated_Image_j1qfgwj1qfgwj1qf.jpeg" alt="193 Callway Street Mambourin">
+          <div class="design-media-duo">
+            <div class="media-col photo-col" title="193 Callway Street Mambourin Facade">
+              <img src="assets/images/Gemini_Generated_Image_j1qfgwj1qfgwj1qf.jpeg" alt="193 Callway Street Mambourin">
+              <span class="media-pill-tag">Facade</span>
+            </div>
+            <div class="media-col plan-col" title="193 Callway Street Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.47-PM-1024x786.jpeg" alt="193 Callway Street Architectural Floor Plan">
+              <span class="media-pill-tag plan-tag">Floor Plan</span>
+            </div>
             <span class="design-tag">New Construction</span>
             <span class="design-suburb">Mambourin VIC 3024</span>
           </div>
           <div class="design-content">
             <div class="design-title-row">
               <h3>193 Callway Street, Mambourin</h3>
-              <span class="design-price">From $680k</span>
             </div>
             <p class="design-address">193 Callway Street, Mambourin VIC 3024</p>
             <div class="design-specs">
-              <span class="spec-item">4 Bed</span>
-              <span class="spec-item">3 Bath</span>
-              <span class="spec-item">2 Car</span>
+              <span class="spec-item">2 Car Garage</span>
               <span class="spec-item">37 Squares</span>
             </div>
             <div class="design-actions">
-              <button class="btn btn-outline-gold" onclick="openPlanDetails('193 Callway Street, Mambourin', '4', '3', '2', '37 Squares (344 m²)', 'Mambourin VIC', 'assets/images/Gemini_Generated_Image_j1qfgwj1qfgwj1qf.jpeg')">
-                View Plan & Specs
+              <button class="btn btn-outline-gold" onclick="openPlanDetails('193 Callway Street, Mambourin', '', '', '2 Car', '37 Squares (344 m²)', 'Mambourin VIC', 'assets/images/Gemini_Generated_Image_j1qfgwj1qfgwj1qf.jpeg')">
+                View Plan &amp; Specs
               </button>
               <button class="btn btn-primary" data-open-modal="consultModal">Enquire</button>
             </div>
           </div>
         </article>
 
-        <!-- Card 4 -->
+        <!-- Card 4: 7 Abbington Drive, Truganina -->
         <article class="design-card" data-category="granny-flat">
-          <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg" alt="7 Abbington Drive Truganina">
-            <span class="design-tag">Granny Flat & Living</span>
+          <div class="design-media-duo">
+            <div class="media-col photo-col" title="7 Abbington Drive Truganina Facade">
+              <img src="assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg" alt="7 Abbington Drive Truganina">
+              <span class="media-pill-tag">Facade</span>
+            </div>
+            <div class="media-col plan-col" title="7 Abbington Drive Granny Flat Floor Plan">
+              <img src="assets/images/granny-flat.jpg" alt="7 Abbington Drive Granny Flat Floor Plan">
+              <span class="media-pill-tag plan-tag">Floor Plan</span>
+            </div>
+            <span class="design-tag">Granny Flat &amp; Living</span>
             <span class="design-suburb">Truganina VIC 3029</span>
           </div>
           <div class="design-content">
             <div class="design-title-row">
               <h3>7 Abbington Drive, Truganina</h3>
-              <span class="design-price">From $185k</span>
             </div>
             <p class="design-address">7 Abbington Drive, Truganina VIC 3029</p>
             <div class="design-specs">
-              <span class="spec-item">2 Bed</span>
-              <span class="spec-item">1 Bath</span>
-              <span class="spec-item">Deck</span>
+              <span class="spec-item">Outdoor Deck</span>
               <span class="spec-item">60 m² (VIC Code)</span>
             </div>
             <div class="design-actions">
-              <button class="btn btn-outline-gold" onclick="openPlanDetails('7 Abbington Drive, Truganina', '2', '1', 'Outdoor Deck', '60 m² Self Contained', 'Truganina VIC', 'assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg')">
-                View Plan & Specs
+              <button class="btn btn-outline-gold" onclick="openPlanDetails('7 Abbington Drive, Truganina', '', '', 'Outdoor Deck', '60 m² Self Contained', 'Truganina VIC', 'assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg')">
+                View Plan &amp; Specs
               </button>
               <button class="btn btn-primary" data-open-modal="consultModal">Enquire</button>
             </div>
           </div>
         </article>
 
-        <!-- Card 5 -->
+        <!-- Card 5: 3 Reetaj Crescent, Truganina -->
         <article class="design-card" data-category="new-build">
-          <div class="design-media">
-            <img src="assets/images/Gemini_Generated_Image_22s78m22s78m22s7.jpeg" alt="3 Reetaj Crescent Truganina 3029">
+          <div class="design-media-duo">
+            <div class="media-col photo-col" title="3 Reetaj Crescent Truganina Facade">
+              <img src="assets/images/Gemini_Generated_Image_22s78m22s78m22s7.jpeg" alt="3 Reetaj Crescent Truganina 3029">
+              <span class="media-pill-tag">Facade</span>
+            </div>
+            <div class="media-col plan-col" title="3 Reetaj Crescent Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.54-PM.jpeg" alt="3 Reetaj Crescent Architectural Floor Plan">
+              <span class="media-pill-tag plan-tag">Floor Plan</span>
+            </div>
             <span class="design-tag">New Construction</span>
             <span class="design-suburb">Truganina VIC 3029</span>
           </div>
           <div class="design-content">
             <div class="design-title-row">
               <h3>3 Reetaj Crescent, Truganina</h3>
-              <span class="design-price">From $690k</span>
             </div>
             <p class="design-address">3 Reetaj Crescent, Truganina VIC 3029</p>
             <div class="design-specs">
-              <span class="spec-item">4 Bed</span>
-              <span class="spec-item">3 Bath</span>
-              <span class="spec-item">2 Car</span>
+              <span class="spec-item">2 Car Garage</span>
               <span class="spec-item">38 Squares</span>
             </div>
             <div class="design-actions">
-              <button class="btn btn-outline-gold" onclick="openPlanDetails('3 Reetaj Crescent, Truganina', '4', '3', '2', '38 Squares (353 m²)', 'Truganina VIC', 'assets/images/Gemini_Generated_Image_22s78m22s78m22s7.jpeg')">
-                View Plan & Specs
+              <button class="btn btn-outline-gold" onclick="openPlanDetails('3 Reetaj Crescent, Truganina', '', '', '2 Car', '38 Squares (353 m²)', 'Truganina VIC', 'assets/images/Gemini_Generated_Image_22s78m22s78m22s7.jpeg')">
+                View Plan &amp; Specs
               </button>
               <button class="btn btn-primary" data-open-modal="consultModal">Enquire</button>
             </div>
           </div>
         </article>
 
-        <!-- Card 6 -->
+        <!-- Card 6: 170 Cravens Road, Mernda -->
         <article class="design-card" data-category="new-build">
-          <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg" alt="170 cravens road mernda vic 3754">
+          <div class="design-media-duo">
+            <div class="media-col photo-col" title="170 Cravens Road Mernda Facade">
+              <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg" alt="170 cravens road mernda vic 3754">
+              <span class="media-pill-tag">Facade</span>
+            </div>
+            <div class="media-col plan-col" title="170 Cravens Road Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-02-at-2.53.03-PM-1024x726.jpeg" alt="170 Cravens Road Mernda Floor Plan">
+              <span class="media-pill-tag plan-tag">Floor Plan</span>
+            </div>
             <span class="design-tag">New Construction</span>
             <span class="design-suburb">Mernda VIC 3754</span>
           </div>
           <div class="design-content">
             <div class="design-title-row">
               <h3>170 Cravens Road, Mernda</h3>
-              <span class="design-price">From $760k</span>
             </div>
             <p class="design-address">170 Cravens Road, Mernda VIC 3754</p>
             <div class="design-specs">
-              <span class="spec-item">5 Bed</span>
-              <span class="spec-item">4 Bath</span>
-              <span class="spec-item">2 Car</span>
+              <span class="spec-item">2 Car Garage</span>
               <span class="spec-item">44 Squares</span>
             </div>
             <div class="design-actions">
-              <button class="btn btn-outline-gold" onclick="openPlanDetails('170 Cravens Road, Mernda', '5', '4', '2', '44 Squares (408 m²)', 'Mernda VIC', 'assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg')">
-                View Plan & Specs
+              <button class="btn btn-outline-gold" onclick="openPlanDetails('170 Cravens Road, Mernda', '', '', '2 Car', '44 Squares (408 m²)', 'Mernda VIC', 'assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg')">
+                View Plan &amp; Specs
               </button>
               <button class="btn btn-primary" data-open-modal="consultModal">Enquire</button>
             </div>
           </div>
         </article>
 
-        <!-- Card 7 -->
+        <!-- Card 7: 4 Geller Circuit, Tarneit (Photo removed as requested, awaiting user upload) -->
         <article class="design-card" data-category="new-build">
-          <div class="design-media">
-            <img src="assets/images/Gemini_Generated_Image_wgx6dswgx6dswgx6.jpeg" alt="4 Geller Circuit tarneit vic 3029">
+          <div class="design-media-duo">
+            <div class="media-col photo-placeholder-col" title="4 Geller Circuit Photo Coming Soon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#DF982B" stroke-width="2" style="margin-bottom: 0.5rem;"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              <span style="font-size: 0.75rem; font-weight: 700; color: #DF982B; letter-spacing: 0.05em; text-transform: uppercase;">Photo Coming Soon</span>
+              <span style="font-size: 0.7rem; color: #94A3B8; margin-top: 0.2rem;">4 Geller Circuit</span>
+            </div>
+            <div class="media-col plan-col" title="4 Geller Circuit Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="4 Geller Circuit Tarneit Floor Plan">
+              <span class="media-pill-tag plan-tag">Floor Plan</span>
+            </div>
             <span class="design-tag">New Construction</span>
             <span class="design-suburb">Tarneit VIC 3029</span>
           </div>
           <div class="design-content">
             <div class="design-title-row">
               <h3>4 Geller Circuit, Tarneit</h3>
-              <span class="design-price">From $675k</span>
             </div>
             <p class="design-address">4 Geller Circuit, Tarneit VIC 3029</p>
             <div class="design-specs">
-              <span class="spec-item">4 Bed</span>
-              <span class="spec-item">3.5 Bath</span>
-              <span class="spec-item">2 Car</span>
+              <span class="spec-item">2 Car Garage</span>
               <span class="spec-item">39 Squares</span>
             </div>
             <div class="design-actions">
-              <button class="btn btn-outline-gold" onclick="openPlanDetails('4 Geller Circuit, Tarneit', '4', '3.5', '2', '39 Squares (362 m²)', 'Tarneit VIC', 'assets/images/Gemini_Generated_Image_wgx6dswgx6dswgx6.jpeg')">
-                View Plan & Specs
+              <button class="btn btn-outline-gold" onclick="openPlanDetails('4 Geller Circuit, Tarneit', '', '', '2 Car', '39 Squares (362 m²)', 'Tarneit VIC', 'assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg')">
+                View Plan &amp; Specs
               </button>
               <button class="btn btn-primary" data-open-modal="consultModal">Enquire</button>
             </div>
           </div>
         </article>
 
-        <!-- Card 8 -->
+        <!-- Card 8: 4 Conservation Drive, Tarneit -->
         <article class="design-card" data-category="new-build">
-          <div class="design-media">
-            <img src="assets/images/Gemini_Generated_Image_pibvl0pibvl0pibv.jpeg" alt="4 conservation Drive Tarneit vic 3029">
+          <div class="design-media-duo">
+            <div class="media-col photo-col" title="4 Conservation Drive Tarneit Facade">
+              <img src="assets/images/Gemini_Generated_Image_pibvl0pibvl0pibv.jpeg" alt="4 conservation Drive Tarneit vic 3029">
+              <span class="media-pill-tag">Facade</span>
+            </div>
+            <div class="media-col plan-col" title="4 Conservation Drive Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="4 Conservation Drive Tarneit Floor Plan">
+              <span class="media-pill-tag plan-tag">Floor Plan</span>
+            </div>
             <span class="design-tag">New Construction</span>
             <span class="design-suburb">Tarneit VIC 3029</span>
           </div>
           <div class="design-content">
             <div class="design-title-row">
               <h3>4 Conservation Drive, Tarneit</h3>
-              <span class="design-price">From $710k</span>
             </div>
             <p class="design-address">4 Conservation Drive, Tarneit VIC 3029</p>
             <div class="design-specs">
-              <span class="spec-item">4 Bed</span>
-              <span class="spec-item">3 Bath</span>
-              <span class="spec-item">2 Car</span>
+              <span class="spec-item">2 Car Garage</span>
               <span class="spec-item">40 Squares</span>
             </div>
             <div class="design-actions">
-              <button class="btn btn-outline-gold" onclick="openPlanDetails('4 Conservation Drive, Tarneit', '4', '3', '2', '40 Squares (371 m²)', 'Tarneit VIC', 'assets/images/Gemini_Generated_Image_pibvl0pibvl0pibv.jpeg')">
-                View Plan & Specs
+              <button class="btn btn-outline-gold" onclick="openPlanDetails('4 Conservation Drive, Tarneit', '', '', '2 Car', '40 Squares (371 m²)', 'Tarneit VIC', 'assets/images/Gemini_Generated_Image_pibvl0pibvl0pibv.jpeg')">
+                View Plan &amp; Specs
               </button>
               <button class="btn btn-primary" data-open-modal="consultModal">Enquire</button>
             </div>
           </div>
         </article>
       </div>
-
     </div>
   </section>
 
@@ -331,7 +371,7 @@
       <div class="cta-box">
         <div class="cta-text">
           <h2>Have A Custom Floor Plan In Mind?</h2>
-          <p>Bring your sketches or Pinterest boards. Our architectural draftsperson will produce custom 3D working drawings tailored to your exact Melbourne block.</p>
+          <p>Bring Your Architectural Drawings and Sketches.</p>
         </div>
         <div>
           <button class="btn btn-primary" data-open-modal="consultModal">Book Custom Plan Consultation</button>
@@ -344,8 +384,8 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-bottom" style="border: none; padding: 0;">
-        <p>&copy; 2026 Intellect Homes. All rights reserved. VBA Registered Domestic Builder.</p>
-        <p>Direct Call: <a href="tel:+61411560177" style="color: #DF982B;">+61 411 560 177</a> &bull; admin@intellecthomes.com.au</p>
+        <p>&copy; 2026 Intellect Homes. All rights reserved. VBA &amp; BPC Registered Domestic Builder &bull; CBD-U 101902 Practitioner.</p>
+        <p>Direct Call: <a href="tel:+61411560177" style="color: #DF982B;">+61 411 560 177</a> &bull; <a href="mailto:admin@intellecthomes.com.au" class="email-gold" style="color: #DF982B; font-weight: 700;">admin@intellecthomes.com.au</a></p>
       </div>
     </div>
   </footer>
@@ -356,7 +396,7 @@
       <button class="modal-close-btn" aria-label="Close modal">&times;</button>
       <div style="margin-bottom: 1.5rem;">
         <span class="section-tag" style="margin-bottom: 0.5rem;">COMPLIMENTARY FEASIBILITY</span>
-        <h3 style="font-size: 1.5rem; color: #0F172A; margin-bottom: 0.4rem;">Book Your Site Feasibility</h3>
+        <h3 style="font-size: 1.5rem; color: #DF982B; margin-bottom: 0.4rem;">Book Your Site Feasibility</h3>
         <p style="color: #64748B; font-size: 0.9rem;">
           Speak with our Senior Builder Director. We review your block orientation, zoning overlays, and provide an initial fixed-price cost assessment.
         </p>
@@ -392,7 +432,7 @@
       <button class="modal-close-btn" aria-label="Close modal">&times;</button>
       <div style="margin-bottom: 1.25rem;">
         <span class="section-tag" id="planModalSuburb">Melbourne VIC</span>
-        <h3 style="font-size: 1.6rem; color: #0F172A;" id="planModalTitle">Residence Overview</h3>
+        <h3 style="font-size: 1.6rem; color: #DF982B;" id="planModalTitle">Residence Overview</h3>
       </div>
 
       <!-- Interactive Room Inspection Tabs -->
@@ -419,15 +459,7 @@
         <img id="planModalImg" src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="Design Elevation" style="width: 100%; height: 380px; object-fit: contain; background: #090E17;">
       </div>
 
-      <div class="plan-stats-modal-grid">
-        <div>
-          <span style="font-size: 0.75rem; color: #64748B; text-transform: uppercase; font-weight: 600; display: block;">Bedrooms</span>
-          <strong style="font-size: 1.2rem; color: #0F172A;" id="planModalBeds">4</strong>
-        </div>
-        <div>
-          <span style="font-size: 0.75rem; color: #64748B; text-transform: uppercase; font-weight: 600; display: block;">Bathrooms</span>
-          <strong style="font-size: 1.2rem; color: #0F172A;" id="planModalBaths">3</strong>
-        </div>
+      <div class="plan-stats-modal-grid" style="grid-template-columns: 1fr 1fr;">
         <div>
           <span style="font-size: 0.75rem; color: #64748B; text-transform: uppercase; font-weight: 600; display: block;">Garage</span>
           <strong style="font-size: 1.2rem; color: #0F172A;" id="planModalCars">2 Car</strong>
@@ -439,7 +471,7 @@
       </div>
 
       <div style="margin-bottom: 1.5rem;">
-        <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: #0F172A;">Standard Architectural Inclusions:</h4>
+        <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: #DF982B;">Standard Architectural Inclusions:</h4>
         <ul style="padding-left: 1.25rem; color: #475569; font-size: 0.9rem; line-height: 1.7;" id="planModalInclusionsList">
           <li>2740mm ceiling heights on ground floor with square-set cornices.</li>
           <li>40mm Caesarstone kitchen island with dual waterfall gables & butler's pantry.</li>

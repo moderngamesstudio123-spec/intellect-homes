@@ -291,8 +291,10 @@ function initModals() {
 
     document.getElementById('planModalTitle').textContent = name;
     document.getElementById('planModalSuburb').textContent = suburb;
-    document.getElementById('planModalBeds').textContent = beds;
-    document.getElementById('planModalBaths').textContent = baths;
+    const bedsEl = document.getElementById('planModalBeds');
+    if (bedsEl) bedsEl.textContent = beds;
+    const bathsEl = document.getElementById('planModalBaths');
+    if (bathsEl) bathsEl.textContent = baths;
     document.getElementById('planModalCars').textContent = cars;
     document.getElementById('planModalSq').textContent = sq;
     

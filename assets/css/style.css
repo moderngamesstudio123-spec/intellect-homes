@@ -2885,3 +2885,109 @@ img, video, iframe, canvas {
     padding: 0.75rem 1rem;
   }
 }
+
+
+/* ==========================================================================
+   PAGE: HOME DESIGNS SPECIFIC STYLES
+   ========================================================================== */
+.page-designs h1,
+.page-designs h2,
+.page-designs h3,
+.page-designs h4,
+.page-designs h5,
+.page-designs h6,
+.designs-section h1,
+.designs-section h2,
+.designs-section h3,
+.designs-section h4 {
+  color: #DF982B !important;
+}
+
+/* Dual Media: Facade alongside Floor Plan */
+.design-media-duo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 250px;
+  position: relative;
+  background: #0B101B;
+  border-bottom: 1px solid var(--border-light);
+  overflow: hidden;
+}
+
+.design-media-duo .media-col {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.design-media-duo .media-col.photo-col {
+  background: #0B101B;
+}
+
+.design-media-duo .media-col.plan-col {
+  background: #FFFFFF;
+  border-left: 2px solid #E2E8F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.design-media-duo .media-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.design-media-duo .media-col.plan-col img {
+  object-fit: contain;
+  padding: 0.5rem;
+}
+
+.design-card:hover .design-media-duo .media-col img {
+  transform: scale(1.05);
+}
+
+.media-pill-tag {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background: rgba(15, 23, 42, 0.85);
+  color: #FFFFFF;
+  backdrop-filter: blur(4px);
+  z-index: 2;
+}
+
+.media-pill-tag.plan-tag {
+  background: rgba(223, 152, 43, 0.95);
+  color: #0F172A;
+}
+
+.design-media-duo .photo-placeholder-col {
+  background: linear-gradient(135deg, #0A0F17 0%, #151D2A 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .design-media-duo {
+    height: 210px;
+  }
+}
+
+@media (max-width: 480px) {
+  .design-media-duo {
+    height: 180px;
+  }
+}
