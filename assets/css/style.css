@@ -3080,3 +3080,144 @@ img, video, iframe, canvas {
     justify-content: flex-start;
   }
 }
+
+
+/* ==========================================================================
+   PERFECT MOBILE NAVBAR ALIGNMENT (Logo, Phone Button & Hamburger)
+   ========================================================================== */
+@media (max-width: 768px) {
+  .site-header {
+    height: 70px !important;
+  }
+
+  .nav-container {
+    height: 70px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 0 1.15rem !important;
+    gap: 0.75rem !important;
+  }
+
+  .brand-logo {
+    display: flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .brand-logo img {
+    height: 48px !important;
+    width: auto !important;
+    max-width: 175px !important;
+    display: block !important;
+    object-fit: contain !important;
+    margin: 0 !important;
+  }
+
+  .nav-actions {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.65rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .header-phone {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 40px !important;
+    padding: 0 0.85rem !important;
+    font-size: 0.82rem !important;
+    font-weight: 700 !important;
+    color: #FFFFFF !important;
+    background: rgba(223, 152, 43, 0.12) !important;
+    border: 1px solid rgba(223, 152, 43, 0.4) !important;
+    border-radius: 9999px !important;
+    gap: 0.45rem !important;
+    white-space: nowrap !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    line-height: 1 !important;
+    transition: all 0.2s ease !important;
+  }
+
+  .header-phone svg {
+    width: 14px !important;
+    height: 14px !important;
+    flex-shrink: 0 !important;
+    color: var(--accent-gold) !important;
+  }
+
+  .mobile-menu-btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 10px !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    color: #FFFFFF !important;
+    box-sizing: border-box !important;
+    flex-shrink: 0 !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+  }
+
+  .mobile-menu-btn svg {
+    width: 22px !important;
+    height: 22px !important;
+    display: block !important;
+  }
+
+  .nav-menu {
+    top: 70px !important;
+    height: calc(100vh - 70px) !important;
+    max-height: calc(100vh - 70px) !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .nav-container {
+    padding: 0 0.75rem !important;
+    gap: 0.5rem !important;
+  }
+
+  .brand-logo img {
+    height: 42px !important;
+    max-width: 145px !important;
+  }
+
+  .nav-actions {
+    gap: 0.45rem !important;
+  }
+
+  .header-phone {
+    height: 38px !important;
+    padding: 0 0.65rem !important;
+    font-size: 0.76rem !important;
+    gap: 0.35rem !important;
+  }
+
+  .mobile-menu-btn {
+    width: 38px !important;
+    height: 38px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .header-phone {
+    width: 38px !important;
+    padding: 0 !important;
+    justify-content: center !important;
+  }
+  .header-phone span {
+    display: none !important;
+  }
+}
