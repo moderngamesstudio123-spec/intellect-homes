@@ -283,6 +283,28 @@ h1, h2, h3, h4, h5, h6 {
   color: #E2E8F0;
 }
 
+.badge-logo-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 1px 5px;
+  height: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  vertical-align: middle;
+  flex-shrink: 0;
+  margin-right: 4px;
+}
+
+.badge-logo-img {
+  height: 14px;
+  width: auto;
+  max-width: 42px;
+  object-fit: contain;
+  display: block;
+}
+
 .top-bar-badge svg {
   color: var(--accent-gold);
 }
@@ -530,6 +552,17 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: var(--radius-full);
   margin-bottom: 1.5rem;
   backdrop-filter: blur(8px);
+}
+
+.hero-trust-pill .badge-logo-box {
+  height: 22px;
+  padding: 1px 6px;
+  margin-right: 2px;
+}
+
+.hero-trust-pill .badge-logo-img {
+  height: 15px;
+  max-width: 44px;
 }
 
 .hero-trust-pill span {
@@ -2543,6 +2576,18 @@ img, video, iframe, canvas {
     margin: 0 auto 1rem auto;
     font-size: 0.72rem;
     padding: 0.35rem 0.75rem;
+    max-width: 96%;
+    line-height: 1.35;
+  }
+
+  .hero-trust-pill .badge-logo-box {
+    height: 19px;
+    padding: 1px 4px;
+  }
+
+  .hero-trust-pill .badge-logo-img {
+    height: 13px;
+    max-width: 36px;
   }
 
   .hero-title {
