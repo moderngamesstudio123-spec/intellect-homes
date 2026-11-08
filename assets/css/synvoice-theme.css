@@ -1,0 +1,899 @@
+/* ==========================================================================
+   SYNVOICE.IO DESIGN SYSTEM FOR INTELLECT HOMES
+   Ultra-Clean Luminous SaaS & Tech-Luxury Aesthetics
+   Retains 100% of Builder Content, Addresses, Accreditations & Business Logic
+   ========================================================================== */
+
+:root {
+  /* SynVoice Base Palette */
+  --sv-bg: #FFFFFF;
+  --sv-bg-subtle: #F8FAFC;
+  --sv-bg-card: #FFFFFF;
+  --sv-bg-card-hover: #F8FAFC;
+  --sv-bg-muted: #F1F5F9;
+  
+  /* Text */
+  --sv-text-heading: #0F172A;
+  --sv-text-body: #334155;
+  --sv-text-muted: #64748B;
+  --sv-text-subtle: #94A3B8;
+
+  /* SynVoice Emerald + Intellect Gold Harmony */
+  --sv-emerald: #007F5F;
+  --sv-emerald-light: #10B981;
+  --sv-emerald-subtle: rgba(16, 185, 129, 0.12);
+  --sv-gold: #DF982B;
+  --sv-gold-light: #F5B041;
+  --sv-gold-subtle: rgba(223, 152, 43, 0.12);
+
+  /* Gradients */
+  --sv-grad-emerald: linear-gradient(135deg, #007F5F 0%, #10B981 100%);
+  --sv-grad-gold: linear-gradient(135deg, #DF982B 0%, #F5B041 100%);
+  --sv-grad-hero-text: linear-gradient(135deg, #0F172A 0%, #007F5F 50%, #DF982B 100%);
+
+  /* Borders & Shadows */
+  --sv-border: #E2E8F0;
+  --sv-border-hover: rgba(16, 185, 129, 0.35);
+  --sv-shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.04);
+  --sv-shadow-md: 0 10px 28px -6px rgba(15, 23, 42, 0.06), 0 4px 10px -2px rgba(15, 23, 42, 0.03);
+  --sv-shadow-lg: 0 20px 40px -10px rgba(15, 23, 42, 0.1), 0 8px 16px -4px rgba(16, 185, 129, 0.08);
+  --sv-shadow-pill: 0 12px 32px -6px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(16, 185, 129, 0.08);
+
+  /* Radius */
+  --sv-radius-card: 20px;
+  --sv-radius-pill: 9999px;
+}
+
+/* 1. GLOBAL LIGHT CANVAS */
+body {
+  background-color: var(--sv-bg-subtle) !important;
+  color: var(--sv-text-body) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--sv-text-heading) !important;
+}
+
+p {
+  color: var(--sv-text-body);
+}
+
+/* 2. TOP TRUST BAR */
+.top-bar {
+  background: var(--sv-bg) !important;
+  color: var(--sv-text-muted) !important;
+  border-bottom: 1px solid var(--sv-border) !important;
+  padding: 0.45rem 0 !important;
+}
+
+.top-bar-badge {
+  color: var(--sv-text-body) !important;
+  font-weight: 600 !important;
+  font-size: 0.8rem !important;
+}
+
+.top-bar-link {
+  color: var(--sv-text-muted) !important;
+}
+
+.top-bar-link:hover {
+  color: var(--sv-emerald) !important;
+}
+
+.top-bar-email,
+.email-gold {
+  color: var(--sv-gold) !important;
+}
+
+/* 3. LIVE MELBOURNE SITES TICKER */
+.construction-ticker-strip {
+  background: var(--sv-bg-subtle) !important;
+  border-bottom: 1px solid var(--sv-border) !important;
+  color: var(--sv-text-body) !important;
+}
+
+.ticker-label {
+  background: var(--sv-grad-emerald) !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  border-radius: var(--sv-radius-pill) !important;
+  margin: 0 0.5rem !important;
+  padding: 0.25rem 0.85rem !important;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.05em !important;
+}
+
+.ticker-label span {
+  color: #FFFFFF !important;
+}
+
+.ticker-item {
+  color: var(--sv-text-body) !important;
+}
+
+.ticker-item strong {
+  color: var(--sv-text-heading) !important;
+}
+
+.ticker-separator {
+  color: var(--sv-text-subtle) !important;
+}
+
+/* 4. FLOATING CAPSULE NAVIGATION (SYNVOICE HEADER) */
+.site-header {
+  position: sticky !important;
+  top: 0.85rem !important;
+  z-index: 1000 !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 1rem !important;
+  transition: all 0.3s ease !important;
+}
+
+.site-header .nav-container {
+  max-width: 1240px !important;
+  margin: 0 auto !important;
+  background: rgba(255, 255, 255, 0.94) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border: 1px solid rgba(15, 23, 42, 0.09) !important;
+  border-radius: var(--sv-radius-pill) !important;
+  padding: 0.45rem 1.25rem !important;
+  box-shadow: var(--sv-shadow-pill) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.site-header .nav-container:hover {
+  box-shadow: 0 16px 40px -6px rgba(16, 185, 129, 0.16) !important;
+  border-color: rgba(16, 185, 129, 0.25) !important;
+}
+
+.brand-logo img {
+  height: 42px !important;
+  width: auto !important;
+}
+
+.nav-menu {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.nav-link {
+  font-size: 0.88rem !important;
+  font-weight: 600 !important;
+  color: var(--sv-text-muted) !important;
+  padding: 0.42rem 0.85rem !important;
+  border-radius: var(--sv-radius-pill) !important;
+  transition: all 0.2s ease !important;
+}
+
+.nav-link:hover {
+  color: var(--sv-text-heading) !important;
+  background: var(--sv-bg-muted) !important;
+}
+
+.nav-link.active {
+  color: var(--sv-emerald) !important;
+  background: var(--sv-emerald-subtle) !important;
+  font-weight: 700 !important;
+}
+
+.header-phone {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+  font-weight: 700 !important;
+  color: var(--sv-text-heading) !important;
+  background: var(--sv-bg-muted) !important;
+  padding: 0.45rem 0.95rem !important;
+  border-radius: var(--sv-radius-pill) !important;
+  font-size: 0.86rem !important;
+  border: 1px solid var(--sv-border) !important;
+  transition: all 0.2s ease !important;
+}
+
+.header-phone:hover {
+  background: var(--sv-border) !important;
+  color: var(--sv-gold) !important;
+}
+
+.site-header .btn-primary,
+.nav-actions .btn-primary {
+  border-radius: var(--sv-radius-pill) !important;
+  background: var(--sv-grad-emerald) !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  font-size: 0.86rem !important;
+  padding: 0.52rem 1.25rem !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35) !important;
+  border: none !important;
+  transition: all 0.25s ease !important;
+}
+
+.site-header .btn-primary:hover,
+.nav-actions .btn-primary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.45) !important;
+}
+
+/* 5. HERO SECTION (LUMINOUS SYNVOICE STYLE) */
+.hero-section {
+  position: relative !important;
+  background: var(--sv-bg) !important;
+  overflow: hidden !important;
+  padding: 3.5rem 0 4.5rem 0 !important;
+  border-bottom: 1px solid var(--sv-border) !important;
+}
+
+.hero-background {
+  opacity: 0.12 !important;
+  filter: grayscale(20%) contrast(110%) !important;
+}
+
+.hero-overlay {
+  background: linear-gradient(180deg, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.98) 100%) !important;
+}
+
+/* Ambient Ribbon Mesh Glows */
+.hero-section::before {
+  content: '' !important;
+  position: absolute !important;
+  top: -120px !important;
+  right: 10% !important;
+  width: 680px !important;
+  height: 520px !important;
+  border-radius: var(--sv-radius-pill) !important;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.15) 0%, rgba(223, 152, 43, 0.08) 50%, transparent 70%) !important;
+  filter: blur(70px) !important;
+  pointer-events: none !important;
+  z-index: 2 !important;
+}
+
+.hero-section::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  left: -80px !important;
+  width: 550px !important;
+  height: 420px !important;
+  border-radius: var(--sv-radius-pill) !important;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.12) 0%, transparent 70%) !important;
+  filter: blur(60px) !important;
+  pointer-events: none !important;
+  z-index: 2 !important;
+}
+
+.hero-content {
+  position: relative !important;
+  z-index: 3 !important;
+}
+
+.hero-trust-pill {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(16, 185, 129, 0.3) !important;
+  box-shadow: var(--sv-shadow-md) !important;
+  border-radius: var(--sv-radius-pill) !important;
+  color: var(--sv-text-heading) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  padding: 0.4rem 1rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.hero-trust-pill span {
+  color: var(--sv-text-heading) !important;
+  font-weight: 700 !important;
+  font-size: 0.8125rem !important;
+  letter-spacing: 0.04em !important;
+}
+
+.hero-title {
+  color: var(--sv-text-heading) !important;
+  font-size: clamp(2.35rem, 5vw, 3.85rem) !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1.15 !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.hero-tagline {
+  color: var(--sv-text-heading) !important;
+  font-weight: 700 !important;
+  font-size: clamp(1.15rem, 2.5vw, 1.5rem) !important;
+  margin-bottom: 1.25rem !important;
+}
+
+.hero-bullets-list {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 1.25rem !important;
+  justify-content: center !important;
+  list-style: none !important;
+  margin-bottom: 2rem !important;
+}
+
+.hero-bullets-list li {
+  color: var(--sv-text-body) !important;
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.4rem !important;
+}
+
+.hero-bullets-list .bullet-check {
+  color: var(--sv-emerald-light) !important;
+  font-weight: 800 !important;
+}
+
+.hero-cta-group {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 1rem !important;
+  margin-bottom: 2.5rem !important;
+}
+
+.btn {
+  border-radius: var(--sv-radius-pill) !important;
+  font-weight: 700 !important;
+  transition: all 0.25s ease !important;
+}
+
+.hero-cta-group .btn-primary {
+  background: var(--sv-grad-gold) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 16px rgba(223, 152, 43, 0.4) !important;
+  border: none !important;
+}
+
+.hero-cta-group .btn-primary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 24px rgba(223, 152, 43, 0.5) !important;
+}
+
+.btn-outline-gold {
+  background: #FFFFFF !important;
+  border: 1px solid var(--sv-border) !important;
+  color: var(--sv-text-heading) !important;
+  box-shadow: var(--sv-shadow-sm) !important;
+}
+
+.btn-outline-gold:hover {
+  border-color: var(--sv-emerald) !important;
+  color: var(--sv-emerald) !important;
+  background: var(--sv-bg-subtle) !important;
+  transform: translateY(-2px) !important;
+}
+
+.hero-phone-cta {
+  background: var(--sv-bg-muted) !important;
+  border: 1px solid var(--sv-border) !important;
+  color: var(--sv-text-heading) !important;
+  border-radius: var(--sv-radius-pill) !important;
+}
+
+.hero-stats-row {
+  border-top: 1px solid var(--sv-border) !important;
+  padding-top: 2rem !important;
+}
+
+.stat-item h3 {
+  color: var(--sv-emerald) !important;
+  font-size: 2rem !important;
+  font-weight: 800 !important;
+}
+
+.stat-item p {
+  color: var(--sv-text-muted) !important;
+  font-weight: 600 !important;
+}
+
+/* 6. TRUST STRIP & ACCREDITATIONS */
+.trust-strip,
+.trust-bar {
+  background: var(--sv-bg) !important;
+  border-bottom: 1px solid var(--sv-border) !important;
+  padding: 2.5rem 0 !important;
+}
+
+.trust-feature {
+  background: var(--sv-bg-subtle) !important;
+  border: 1px solid var(--sv-border) !important;
+  border-radius: 16px !important;
+  padding: 1.15rem 1.25rem !important;
+  box-shadow: var(--sv-shadow-sm) !important;
+  transition: all 0.25s ease !important;
+}
+
+.trust-feature:hover {
+  transform: translateY(-3px) !important;
+  border-color: var(--sv-border-hover) !important;
+  box-shadow: var(--sv-shadow-md) !important;
+}
+
+.trust-feature h4 {
+  color: var(--sv-text-heading) !important;
+  font-weight: 700 !important;
+}
+
+.trust-feature p {
+  color: var(--sv-text-muted) !important;
+}
+
+/* 7. SECTION TAGS & HEADINGS (SYNVOICE PILLS) */
+.section-tag {
+  background: var(--sv-emerald-subtle) !important;
+  border: 1px solid rgba(16, 185, 129, 0.25) !important;
+  color: var(--sv-emerald) !important;
+  border-radius: var(--sv-radius-pill) !important;
+  padding: 0.35rem 0.95rem !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+}
+
+.section-header h2 {
+  color: var(--sv-text-heading) !important;
+  font-size: clamp(2rem, 3.5vw, 2.75rem) !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.025em !important;
+}
+
+.section-header p {
+  color: var(--sv-text-muted) !important;
+  font-size: 1.05rem !important;
+}
+
+/* 8. SERVICES SECTION & CARDS */
+.services-section {
+  background: var(--sv-bg) !important;
+  padding: 5rem 0 !important;
+  border-bottom: 1px solid var(--sv-border) !important;
+}
+
+.service-card {
+  background: var(--sv-bg-card) !important;
+  border: 1px solid var(--sv-border) !important;
+  border-radius: var(--sv-radius-card) !important;
+  box-shadow: var(--sv-shadow-md) !important;
+  overflow: hidden !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.service-card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: var(--sv-shadow-lg) !important;
+  border-color: var(--sv-border-hover) !important;
+}
+
+.service-body {
+  background: #FFFFFF !important;
+  padding: 1.75rem !important;
+}
+
+.service-body h3 {
+  color: var(--sv-text-heading) !important;
+  font-weight: 700 !important;
+  font-size: 1.25rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.service-body p {
+  color: var(--sv-text-muted) !important;
+  font-size: 0.95rem !important;
+}
+
+.service-features li {
+  color: var(--sv-text-body) !important;
+}
+
+.service-features svg {
+  color: var(--sv-emerald-light) !important;
+}
+
+.service-link {
+  color: var(--sv-emerald) !important;
+  font-weight: 700 !important;
+}
+
+.service-link:hover {
+  color: var(--sv-emerald-light) !important;
+}
+
+/* 9. TRANSFORMATION REVEAL SECTION */
+.transformation-section,
+section[style*="#070A0F"] {
+  background: var(--sv-bg-subtle) !important;
+  color: var(--sv-text-body) !important;
+  border-top: 1px solid var(--sv-border) !important;
+  border-bottom: 1px solid var(--sv-border) !important;
+}
+
+.transformation-section h2,
+section[style*="#070A0F"] h2 {
+  color: var(--sv-text-heading) !important;
+}
+
+.transformation-section p,
+section[style*="#070A0F"] p {
+  color: var(--sv-text-muted) !important;
+}
+
+/* 10. BENTO CARDS & 6-STEP TIMELINE */
+.timeline-section,
+.process-section {
+  background: var(--sv-bg-subtle) !important;
+  border-bottom: 1px solid var(--sv-border) !important;
+  padding: 5rem 0 !important;
+}
+
+.timeline-card {
+  background: var(--sv-bg-card) !important;
+  border: 1px solid var(--sv-border) !important;
+  border-radius: var(--sv-radius-card) !important;
+  padding: 2rem !important;
+  box-shadow: var(--sv-shadow-md) !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.timeline-card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: var(--sv-shadow-lg) !important;
+  border-color: var(--sv-border-hover) !important;
+}
+
+.step-num-badge {
+  background: var(--sv-grad-emerald) !important;
+  color: #FFFFFF !important;
+  border-radius: var(--sv-radius-pill) !important;
+  font-weight: 800 !important;
+}
+
+.step-icon-wrap {
+  background: var(--sv-bg-muted) !important;
+  color: var(--sv-emerald) !important;
+  border-radius: 12px !important;
+}
+
+.timeline-card h3 {
+  color: var(--sv-text-heading) !important;
+  font-weight: 700 !important;
+  font-size: 1.2rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.timeline-card p {
+  color: var(--sv-text-muted) !important;
+  font-size: 0.95rem !important;
+  line-height: 1.65 !important;
+}
+
+/* 11. COMPARISON MATRIX (SYNVOICE PRICING STYLE) */
+.comparison-section {
+  background: var(--sv-bg) !important;
+  padding: 5rem 0 !important;
+  border-bottom: 1px solid var(--sv-border) !important;
+}
+
+.comparison-section h2,
+.comparison-section .section-header h2 {
+  color: var(--sv-text-heading) !important;
+}
+
+.comparison-section p,
+.comparison-section .section-header p {
+  color: var(--sv-text-muted) !important;
+}
+
+.comparison-wrapper {
+  background: var(--sv-bg) !important;
+  border: 1px solid var(--sv-border) !important;
+  border-radius: var(--sv-radius-card) !important;
+  box-shadow: var(--sv-shadow-md) !important;
+  overflow: hidden !important;
+}
+
+.comparison-table {
+  background: var(--sv-bg) !important;
+}
+
+.comparison-table th {
+  background: var(--sv-bg-subtle) !important;
+  color: var(--sv-text-heading) !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid var(--sv-border) !important;
+  padding: 1.25rem 1.5rem !important;
+}
+
+.comparison-table td {
+  border-bottom: 1px solid var(--sv-border) !important;
+  color: var(--sv-text-body) !important;
+  padding: 1.15rem 1.5rem !important;
+}
+
+.comparison-table tr:hover td {
+  background: var(--sv-bg-subtle) !important;
+}
+
+.highlight-col {
+  background: #FCFDFB !important;
+  border-left: 2px solid var(--sv-emerald-light) !important;
+  border-right: 2px solid var(--sv-emerald-light) !important;
+  color: var(--sv-text-heading) !important;
+  font-weight: 700 !important;
+}
+
+.comparison-table th.highlight-col {
+  background: var(--sv-grad-emerald) !important;
+  color: #FFFFFF !important;
+  border: none !important;
+}
+
+/* 12. DESIGN CARDS & PORTFOLIO */
+.featured-section,
+.designs-section,
+.designs-page-section {
+  background: var(--sv-bg-subtle) !important;
+  padding: 5rem 0 !important;
+  border-bottom: 1px solid var(--sv-border) !important;
+}
+
+.design-card {
+  background: var(--sv-bg-card) !important;
+  border: 1px solid var(--sv-border) !important;
+  border-radius: var(--sv-radius-card) !important;
+  box-shadow: var(--sv-shadow-md) !important;
+  overflow: hidden !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.design-card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: var(--sv-shadow-lg) !important;
+  border-color: var(--sv-border-hover) !important;
+}
+
+.design-info {
+  background: var(--sv-bg) !important;
+  padding: 1.5rem !important;
+}
+
+.design-info h3 {
+  color: var(--sv-text-heading) !important;
+  font-weight: 700 !important;
+  font-size: 1.25rem !important;
+}
+
+.design-address {
+  color: var(--sv-text-muted) !important;
+  font-size: 0.9rem !important;
+}
+
+.media-pill-tag {
+  border-radius: var(--sv-radius-pill) !important;
+  font-weight: 700 !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+/* 13. ENERGY EFFICIENCY & 7-STAR SECTION */
+.energy-section {
+  background: var(--sv-bg) !important;
+  padding: 5rem 0 !important;
+  border-bottom: 1px solid var(--sv-border) !important;
+}
+
+.energy-points li {
+  background: var(--sv-bg-subtle) !important;
+  border: 1px solid var(--sv-border) !important;
+  border-radius: 16px !important;
+  padding: 1.15rem 1.25rem !important;
+  margin-bottom: 1rem !important;
+  box-shadow: var(--sv-shadow-sm) !important;
+  transition: all 0.25s ease !important;
+}
+
+.energy-points li:hover {
+  border-color: var(--sv-border-hover) !important;
+  transform: translateY(-2px) !important;
+}
+
+.energy-point-icon {
+  background: var(--sv-emerald-subtle) !important;
+  color: var(--sv-emerald) !important;
+  border-radius: 10px !important;
+}
+
+.energy-points strong {
+  color: var(--sv-text-heading) !important;
+  font-size: 1rem !important;
+}
+
+.energy-points p {
+  color: var(--sv-text-muted) !important;
+  font-size: 0.88rem !important;
+}
+
+/* 14. TESTIMONIALS SECTION */
+.testimonials-section {
+  background: var(--sv-bg-subtle) !important;
+  padding: 5rem 0 !important;
+  border-bottom: 1px solid var(--sv-border) !important;
+}
+
+.testimonial-card {
+  background: var(--sv-bg-card) !important;
+  border: 1px solid var(--sv-border) !important;
+  border-radius: var(--sv-radius-card) !important;
+  padding: 2rem !important;
+  box-shadow: var(--sv-shadow-md) !important;
+  transition: all 0.3s ease !important;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: var(--sv-shadow-lg) !important;
+  border-color: var(--sv-border-hover) !important;
+}
+
+.client-quote {
+  color: var(--sv-text-body) !important;
+  font-size: 1rem !important;
+  line-height: 1.7 !important;
+}
+
+.author-info h4 {
+  color: var(--sv-text-heading) !important;
+  font-weight: 700 !important;
+}
+
+.author-info p {
+  color: var(--sv-text-muted) !important;
+}
+
+/* 15. CTA BANNER (LUMINOUS EMERALD CARD) */
+.cta-banner {
+  background: var(--sv-bg-subtle) !important;
+  padding: 5rem 0 !important;
+}
+
+.cta-box {
+  background: linear-gradient(135deg, #07271E 0%, #004D38 45%, #007F5F 100%) !important;
+  border-radius: 28px !important;
+  padding: 3.5rem 3rem !important;
+  box-shadow: 0 20px 50px -10px rgba(0, 127, 95, 0.35) !important;
+  border: 1px solid rgba(16, 185, 129, 0.3) !important;
+  color: #FFFFFF !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 2rem !important;
+}
+
+.cta-box h2 {
+  color: #FFFFFF !important;
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem) !important;
+  font-weight: 800 !important;
+}
+
+.cta-box p {
+  color: #E2E8F0 !important;
+  font-size: 1.05rem !important;
+}
+
+.cta-box .btn-white {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border-radius: var(--sv-radius-pill) !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15) !important;
+}
+
+.cta-box .btn-white:hover {
+  background: #F8FAFC !important;
+  transform: translateY(-2px) !important;
+}
+
+.cta-box .btn-primary {
+  background: var(--sv-grad-gold) !important;
+  color: #FFFFFF !important;
+  border-radius: var(--sv-radius-pill) !important;
+  box-shadow: 0 4px 14px rgba(223, 152, 43, 0.4) !important;
+  border: none !important;
+}
+
+/* 16. MODERN SYNVOICE FOOTER */
+.site-footer {
+  background: var(--sv-bg) !important;
+  border-top: 1px solid var(--sv-border) !important;
+  color: var(--sv-text-body) !important;
+  padding: 4.5rem 0 2rem 0 !important;
+}
+
+.footer-col h4,
+.footer-col span {
+  color: var(--sv-text-heading) !important;
+  font-weight: 700 !important;
+}
+
+.footer-col p {
+  color: var(--sv-text-muted) !important;
+  line-height: 1.65 !important;
+}
+
+.footer-links li a {
+  color: var(--sv-text-muted) !important;
+  font-size: 0.92rem !important;
+  transition: color 0.2s ease !important;
+}
+
+.footer-links li a:hover {
+  color: var(--sv-emerald) !important;
+}
+
+.suburb-tag {
+  background: var(--sv-bg-muted) !important;
+  border: 1px solid var(--sv-border) !important;
+  color: var(--sv-text-heading) !important;
+  border-radius: var(--sv-radius-pill) !important;
+  padding: 0.35rem 0.85rem !important;
+  font-size: 0.82rem !important;
+  transition: all 0.2s ease !important;
+}
+
+.suburb-tag:hover {
+  background: var(--sv-emerald-subtle) !important;
+  color: var(--sv-emerald) !important;
+  border-color: var(--sv-emerald-light) !important;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--sv-border) !important;
+  color: var(--sv-text-muted) !important;
+  padding-top: 2rem !important;
+  margin-top: 3.5rem !important;
+}
+
+.footer-bottom p {
+  color: var(--sv-text-muted) !important;
+  font-size: 0.85rem !important;
+}
+
+/* 17. MOBILE NAVIGATION ENHANCEMENTS */
+@media (max-width: 991px) {
+  .site-header {
+    top: 0.5rem !important;
+    padding: 0 0.5rem !important;
+  }
+  
+  .site-header .nav-container {
+    padding: 0.4rem 0.9rem !important;
+    border-radius: var(--sv-radius-pill) !important;
+  }
+  
+  .nav-menu {
+    background: rgba(255, 255, 255, 0.98) !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid var(--sv-border) !important;
+    border-radius: 20px !important;
+    box-shadow: var(--sv-shadow-lg) !important;
+  }
+}
+
+
+/* 18. SUBURBS LOCAL SEO SECTION */
+.suburbs-section {
+  background: var(--sv-bg) !important;
+  padding: 5rem 0 !important;
+  border-bottom: 1px solid var(--sv-border) !important;
+}
