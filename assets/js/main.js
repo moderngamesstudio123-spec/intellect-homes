@@ -3,6 +3,21 @@
  * High-conversion interactive tools, calculators, modal controls
  */
 
+function initScrollToTop() {
+  if (document.getElementById('scrollToTopBtn')) return;
+  const btn = document.createElement('button');
+  btn.id = 'scrollToTopBtn';
+  btn.className = 'scroll-to-top-btn';
+  btn.type = 'button';
+  btn.setAttribute('aria-label', 'Scroll to top');
+  btn.title = 'Back to Top';
+  btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>';
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  document.body.appendChild(btn);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initNavbar();
   initCalculator();
@@ -12,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initConsultationForm();
   initVIPConcierge();
   initRoomInspector();
+  initScrollToTop();
 });
 
 /* ==========================================================================

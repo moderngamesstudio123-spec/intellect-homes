@@ -2119,6 +2119,35 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-body);
 }
 
+/* Scroll to Top (Up) Button positioned right above the VIP message icon */
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: calc(2rem + 74px);
+  right: calc(2rem + 8px);
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: rgba(21, 29, 42, 0.92);
+  backdrop-filter: blur(10px);
+  color: #DF982B;
+  border: 1.5px solid rgba(223, 152, 43, 0.75);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 15px rgba(223, 152, 43, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 990;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.scroll-to-top-btn:hover {
+  background: linear-gradient(135deg, #DF982B 0%, #9B5D11 100%);
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  transform: translateY(-3px) scale(1.08);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5), 0 0 25px rgba(223, 152, 43, 0.65);
+}
+
 .vip-concierge-trigger {
   width: 62px;
   height: 62px;
@@ -2875,6 +2904,14 @@ img, video, iframe, canvas {
     bottom: 76px !important;
     right: 1rem !important;
     z-index: 995 !important;
+  }
+
+  .scroll-to-top-btn {
+    bottom: calc(76px + 62px) !important;
+    right: calc(1rem + 4px) !important;
+    width: 44px !important;
+    height: 44px !important;
+    z-index: 990 !important;
   }
 
   .vip-concierge-trigger {
