@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-header {
   text-align: center;
   max-width: 760px;
-  margin: 0 auto 3.5rem auto;
+  margin: 0 auto 2.5rem auto;
 }
 
 .section-header h2 {
@@ -743,7 +743,7 @@ h1, h2, h3, h4, h5, h6 {
    CORE SERVICES / BUILDING PILLARS
    ========================================================================== */
 .services-section {
-  padding: 6rem 0;
+  padding: 3.75rem 0;
   background: #FFFFFF;
 }
 
@@ -1151,7 +1151,7 @@ h1, h2, h3, h4, h5, h6 {
    FEATURED DESIGNS & PORTFOLIO EXPLORER
    ========================================================================== */
 .designs-section {
-  padding: 6rem 0;
+  padding: 3.75rem 0;
   background: #F8FAFC;
 }
 
@@ -1328,7 +1328,7 @@ h1, h2, h3, h4, h5, h6 {
    KNOCK DOWN REBUILD ROADMAP (PROCESS)
    ========================================================================== */
 .process-section {
-  padding: 6rem 0;
+  padding: 3.75rem 0 2.25rem 0;
   background: #FFFFFF;
 }
 
@@ -1394,7 +1394,7 @@ h1, h2, h3, h4, h5, h6 {
    LUXURY INCLUSIONS COMPARISON TABLE
    ========================================================================== */
 .inclusions-section {
-  padding: 6rem 0;
+  padding: 3.75rem 0;
   background: #090D14;
   color: #FFFFFF;
 }
@@ -1481,7 +1481,7 @@ h1, h2, h3, h4, h5, h6 {
    ENERGY EFFICIENCY / 7-STAR SECTION
    ========================================================================== */
 .energy-section {
-  padding: 6rem 0;
+  padding: 2.5rem 0 3.75rem 0;
   background: #FFFFFF;
 }
 
@@ -1548,7 +1548,7 @@ h1, h2, h3, h4, h5, h6 {
    TESTIMONIALS & SOCIAL PROOF
    ========================================================================== */
 .testimonials-section {
-  padding: 6rem 0;
+  padding: 3.75rem 0;
   background: #0E1420;
   color: #FFFFFF;
 }
@@ -1626,7 +1626,7 @@ h1, h2, h3, h4, h5, h6 {
    MELBOURNE SUBURBS & LOCAL SEO
    ========================================================================== */
 .suburbs-section {
-  padding: 5rem 0;
+  padding: 3.25rem 0;
   background: #FFFFFF;
   border-top: 1px solid var(--border-light);
 }
@@ -1663,7 +1663,7 @@ h1, h2, h3, h4, h5, h6 {
 .cta-banner {
   background: linear-gradient(135deg, #101622 0%, #1A2436 100%);
   color: #FFFFFF;
-  padding: 5rem 0;
+  padding: 3.5rem 0;
   position: relative;
   overflow: hidden;
   border-top: 1px solid var(--border-gold);
@@ -2018,7 +2018,7 @@ h1, h2, h3, h4, h5, h6 {
    WHY INTELLECT HOMES VS VOLUME BUILDERS COMPARISON MATRIX
    ========================================================================== */
 .comparison-section {
-  padding: 6rem 0;
+  padding: 3.75rem 0;
   background: #0B1019;
   color: #FFFFFF;
   position: relative;
