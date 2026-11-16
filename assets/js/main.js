@@ -352,6 +352,14 @@ function initVIPConcierge() {
     modal.classList.toggle('active');
   });
 
+  document.querySelectorAll('[data-open-vip]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      modal.classList.add('active');
+    });
+  });
+
   if (closeBtn) {
     closeBtn.addEventListener('click', (e) => {
       e.stopPropagation();
