@@ -1595,6 +1595,50 @@ h1, h2, h3, h4, h5, h6 {
   gap: 2rem;
 }
 
+.testimonials-marquee-wrap {
+  overflow: hidden;
+  position: relative;
+  padding: 0.75rem 0;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+}
+
+.testimonials-marquee-track {
+  display: flex;
+  gap: 1.75rem;
+  width: max-content;
+  animation: testimonialMarquee 28s linear infinite;
+}
+
+.testimonials-marquee-wrap:hover .testimonials-marquee-track {
+  animation-play-state: paused;
+}
+
+.testimonials-marquee-track .testimonial-card {
+  width: 400px;
+  flex-shrink: 0;
+}
+
+@keyframes testimonialMarquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-50% - 0.875rem)); }
+}
+
+@media (max-width: 768px) {
+  .testimonials-marquee-track {
+    gap: 1.25rem;
+    animation-duration: 24s;
+  }
+  .testimonials-marquee-track .testimonial-card {
+    width: 300px;
+    padding: 1.5rem;
+  }
+  @keyframes testimonialMarquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-50% - 0.625rem)); }
+  }
+}
+
 .testimonial-card {
   background: var(--bg-card-dark);
   border: 1px solid rgba(255, 255, 255, 0.08);
