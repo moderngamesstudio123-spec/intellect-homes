@@ -18,6 +18,68 @@ function initScrollToTop() {
   document.body.appendChild(btn);
 }
 
+function initShowcaseSlider() {
+  const slider = document.getElementById('showcaseSlider');
+  if (!slider) return;
+
+  const track = slider.querySelector('.showcase-track');
+  const slides = slider.querySelectorAll('.showcase-slide');
+  const thumbs = slider.querySelectorAll('.showcase-thumb');
+  const prevBtn = slider.querySelector('.showcase-nav.prev');
+  const nextBtn = slider.querySelector('.showcase-nav.next');
+  const counter = document.getElementById('showcaseCounter');
+
+  if (!track || slides.length === 0) return;
+
+  let current = 0;
+  let timer = null;
+
+  function goTo(index) {
+    current = (index + slides.length) % slides.length;
+    track.style.transform = `translateX(-${current * 100}%)`;
+    thumbs.forEach((t, i) => t.classList.toggle('active', i === current));
+    if (counter) counter.textContent = `${current + 1} / ${slides.length}`;
+  }
+
+  function startAuto() {
+    stopAuto();
+    timer = setInterval(() => goTo(current + 1), 4500);
+  }
+
+  function stopAuto() {
+    if (timer) {
+      clearInterval(timer);
+      timer = null;
+    }
+  }
+
+  if (prevBtn) prevBtn.addEventListener('click', () => { goTo(current - 1); startAuto(); });
+  if (nextBtn) nextBtn.addEventListener('click', () => { goTo(current + 1); startAuto(); });
+  thumbs.forEach((thumb, i) => {
+    thumb.addEventListener('click', () => { goTo(i); startAuto(); });
+  });
+
+  // Touch swipe support for mobile
+  let startX = 0;
+  track.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].clientX;
+    stopAuto();
+  }, { passive: true });
+
+  track.addEventListener('touchend', (e) => {
+    const diff = startX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 40) {
+      goTo(diff > 0 ? current + 1 : current - 1);
+    }
+    startAuto();
+  }, { passive: true });
+
+  slider.addEventListener('mouseenter', stopAuto);
+  slider.addEventListener('mouseleave', startAuto);
+
+  startAuto();
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initNavbar();
   initCalculator();
@@ -28,6 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initVIPConcierge();
   initRoomInspector();
   initScrollToTop();
+  initShowcaseSlider();
 });
 
 /* ==========================================================================
