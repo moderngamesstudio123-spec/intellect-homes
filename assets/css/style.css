@@ -2083,7 +2083,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #94A3B8;
 }
 
-.feature-title {
+span.feature-title {
   font-weight: 700;
   color: #E2E8F0;
   display: block;
