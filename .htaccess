@@ -5,18 +5,26 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# 301 Redirects from old .html filenames to new .php filenames
+# Redirect explicit .php URLs to clean extensionless URLs (except send-mail.php)
+RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+RewriteRule ^ / [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+([a-zA-Z0-9_-]+)\.php[\s?] [NC]
+RewriteCond %1 !^send-mail$ [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# 301 Redirects from old .html filenames to clean URLs
 RewriteRule ^index\.html$ / [R=301,L]
-RewriteRule ^about\.html$ /about-us.php [R=301,L]
-RewriteRule ^designs\.html$ /home-designs.php [R=301,L]
-RewriteRule ^contact\.html$ /contact-us.php [R=301,L]
-RewriteRule ^(facades|floor-plan|gallery|blogs|calculator|inclusions|knockdown-rebuild)\.html$ /$1.php [R=301,L]
+RewriteRule ^about\.html$ /about-us [R=301,L]
+RewriteRule ^designs\.html$ /home-designs [R=301,L]
+RewriteRule ^contact\.html$ /contact-us [R=301,L]
+RewriteRule ^(facades|floor-plan|gallery|blogs|calculator|inclusions|knockdown-rebuild)\.html$ /$1 [R=301,L]
 
 # Old WordPress single post/design URLs
-RewriteRule ^home-design/.*$ /home-designs.php [R=301,L]
-RewriteRule ^blog/?$ /blogs.php [R=301,L]
+RewriteRule ^home-design/.*$ /home-designs [R=301,L]
+RewriteRule ^blog/?$ /blogs [R=301,L]
 
-# Support trailing-slash and extensionless URLs (e.g. /about-us/ -> about-us.php)
+# Serve clean URLs (/about-us or /about-us/) from their .php files
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.php [L]
