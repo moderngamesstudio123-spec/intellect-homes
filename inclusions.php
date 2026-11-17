@@ -37,20 +37,20 @@
   <!-- Header -->
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
-      <a href="index.html" class="brand-logo" aria-label="Intellect Homes">
+      <a href="index.php" class="brand-logo" aria-label="Intellect Homes">
         <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
       </a>
 
       <nav aria-label="Primary Navigation">
         <ul class="nav-menu">
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="designs.html" class="nav-link">Home Designs</a></li>
-          <li><a href="about.html" class="nav-link">About Us</a></li>
-          <li><a href="facades.html" class="nav-link">Facades</a></li>
-          <li><a href="floor-plan.html" class="nav-link">Floor Plan</a></li>
-          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-          <li><a href="blogs.html" class="nav-link">Blogs</a></li>
-          <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+          <li><a href="index.php" class="nav-link">Home</a></li>
+          <li><a href="home-designs.php" class="nav-link">Home Designs</a></li>
+          <li><a href="about-us.php" class="nav-link">About Us</a></li>
+          <li><a href="facades.php" class="nav-link">Facades</a></li>
+          <li><a href="floor-plan.php" class="nav-link">Floor Plan</a></li>
+          <li><a href="gallery.php" class="nav-link">Gallery</a></li>
+          <li><a href="blogs.php" class="nav-link">Blogs</a></li>
+          <li><a href="contact-us.php" class="nav-link">Contact Us</a></li>
         </ul>
       </nav>
 

@@ -37,20 +37,20 @@
   <!-- Header with EXACT Original Client Menu -->
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
-      <a href="index.html" class="brand-logo" aria-label="Intellect Homes">
+      <a href="index.php" class="brand-logo" aria-label="Intellect Homes">
         <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
       </a>
 
       <nav aria-label="Primary Navigation">
         <ul class="nav-menu">
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="designs.html" class="nav-link">Home Designs</a></li>
-          <li><a href="about.html" class="nav-link">About Us</a></li>
-          <li><a href="facades.html" class="nav-link">Facades</a></li>
-          <li><a href="floor-plan.html" class="nav-link">Floor Plan</a></li>
-          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-          <li><a href="blogs.html" class="nav-link active">Blogs</a></li>
-          <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+          <li><a href="index.php" class="nav-link">Home</a></li>
+          <li><a href="home-designs.php" class="nav-link">Home Designs</a></li>
+          <li><a href="about-us.php" class="nav-link">About Us</a></li>
+          <li><a href="facades.php" class="nav-link">Facades</a></li>
+          <li><a href="floor-plan.php" class="nav-link">Floor Plan</a></li>
+          <li><a href="gallery.php" class="nav-link">Gallery</a></li>
+          <li><a href="blogs.php" class="nav-link active">Blogs</a></li>
+          <li><a href="contact-us.php" class="nav-link">Contact Us</a></li>
         </ul>
       </nav>
 
@@ -93,7 +93,7 @@
             <h3>7 Benefits of Building a Granny Flat in Australia</h3>
             <p>From generating $450-$650/week in passive rental income to providing private, dignified accommodation for elderly parents or adult children entering the property market.</p>
             <div class="service-footer">
-              <a href="contact.html" class="service-link">
+              <a href="contact-us.php" class="service-link">
                 Read Full Guide
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
               </a>
@@ -112,7 +112,7 @@
             <h3>Why Choose a Knock Down Rebuild Instead of Renovating</h3>
             <p>Renovations frequently suffer from hidden foundation damage, outdated floor levels, and cost overruns. Rebuilding gives you Transparency fixed-price certainty and modern 7-Star energy efficiency.</p>
             <div class="service-footer">
-              <a href="knockdown-rebuild.html" class="service-link">
+              <a href="knockdown-rebuild.php" class="service-link">
                 Read Full Guide
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
               </a>
@@ -131,7 +131,7 @@
             <h3>Granny Flats vs. New Homes: What Should You Build?</h3>
             <p>An honest financial comparison between building an auxiliary 60m² unit in your backyard versus embarking on a complete luxury custom build or dual occupancy subdivision.</p>
             <div class="service-footer">
-              <a href="contact.html" class="service-link">
+              <a href="contact-us.php" class="service-link">
                 Read Full Guide
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
               </a>

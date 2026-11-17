@@ -169,20 +169,20 @@
        ========================================================================== -->
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
-      <a href="index.html" class="brand-logo" aria-label="Intellect Homes Home">
+      <a href="index.php" class="brand-logo" aria-label="Intellect Homes Home">
         <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
       </a>
 
       <nav aria-label="Primary Navigation">
         <ul class="nav-menu">
-          <li><a href="index.html" class="nav-link active">Home</a></li>
-          <li><a href="designs.html" class="nav-link">Home Designs</a></li>
-          <li><a href="about.html" class="nav-link">About Us</a></li>
-          <li><a href="facades.html" class="nav-link">Facades</a></li>
-          <li><a href="floor-plan.html" class="nav-link">Floor Plan</a></li>
-          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-          <li><a href="blogs.html" class="nav-link">Blogs</a></li>
-          <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+          <li><a href="index.php" class="nav-link active">Home</a></li>
+          <li><a href="home-designs.php" class="nav-link">Home Designs</a></li>
+          <li><a href="about-us.php" class="nav-link">About Us</a></li>
+          <li><a href="facades.php" class="nav-link">Facades</a></li>
+          <li><a href="floor-plan.php" class="nav-link">Floor Plan</a></li>
+          <li><a href="gallery.php" class="nav-link">Gallery</a></li>
+          <li><a href="blogs.php" class="nav-link">Blogs</a></li>
+          <li><a href="contact-us.php" class="nav-link">Contact Us</a></li>
         </ul>
       </nav>
 
@@ -245,11 +245,11 @@
         </ul>
 
         <div class="hero-cta-group">
-          <a href="designs.html" class="btn btn-primary">
+          <a href="home-designs.php" class="btn btn-primary">
             Explore 2026 Designs
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </a>
-          <a href="floor-plan.html" class="btn btn-secondary">
+          <a href="floor-plan.php" class="btn btn-secondary">
             View Floor Plans
           </a>
           <a href="tel:+61411560177" class="btn btn-outline-gold">
@@ -371,7 +371,7 @@
               </li>
             </ul>
             <div class="service-footer">
-              <a href="knockdown-rebuild.html" class="service-link">
+              <a href="knockdown-rebuild.php" class="service-link">
                 Learn About KDR Process
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
               </a>
@@ -403,7 +403,7 @@
               </li>
             </ul>
             <div class="service-footer">
-              <a href="designs.html" class="service-link">
+              <a href="home-designs.php" class="service-link">
                 Explore Floor Plans
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
               </a>
@@ -435,7 +435,7 @@
               </li>
             </ul>
             <div class="service-footer">
-              <a href="designs.html" class="service-link">
+              <a href="home-designs.php" class="service-link">
                 View Granny Flat Designs
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
               </a>
@@ -479,7 +479,7 @@
       </div>
 
       <div style="text-align: center; margin-top: 2.5rem;">
-        <a href="knockdown-rebuild.html" class="btn btn-outline-gold">
+        <a href="knockdown-rebuild.php" class="btn btn-outline-gold">
           Explore Complete Knock Down Rebuild Guide
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
@@ -682,7 +682,7 @@
       </div>
 
       <div style="text-align: center; margin-top: 3.5rem;">
-        <a href="designs.html" class="btn btn-primary" style="padding: 1rem 2.5rem; font-size: 1.05rem;">
+        <a href="home-designs.php" class="btn btn-primary" style="padding: 1rem 2.5rem; font-size: 1.05rem;">
           View Full 2026 Collection (20+ Designs)
         </a>
       </div>
@@ -750,7 +750,7 @@
       </div>
 
       <div style="text-align: center; margin-top: 3rem;">
-        <a href="inclusions.html" class="btn btn-outline-gold">
+        <a href="inclusions.php" class="btn btn-outline-gold">
           Download Complete 2026 Inclusions Guide (PDF)
         </a>
       </div>
@@ -1190,18 +1190,18 @@
       </div>
 
       <div class="suburbs-tags-cloud">
-        <a href="knockdown-rebuild.html" class="suburb-tag">Tarneit (3029)</a>
-        <a href="knockdown-rebuild.html" class="suburb-tag">Truganina (3029)</a>
-        <a href="knockdown-rebuild.html" class="suburb-tag">Wyndham Vale (3024)</a>
-        <a href="knockdown-rebuild.html" class="suburb-tag">Point Cook (3030)</a>
-        <a href="knockdown-rebuild.html" class="suburb-tag">Dandenong (3175)</a>
-        <a href="knockdown-rebuild.html" class="suburb-tag">Mernda (3754)</a>
-        <a href="knockdown-rebuild.html" class="suburb-tag">Mambourin (3024)</a>
-        <a href="knockdown-rebuild.html" class="suburb-tag">Berwick (3806)</a>
-        <a href="knockdown-rebuild.html" class="suburb-tag">Cranbourne (3977)</a>
-        <a href="knockdown-rebuild.html" class="suburb-tag">Glen Waverley (3150)</a>
-        <a href="knockdown-rebuild.html" class="suburb-tag">Craigieburn (3064)</a>
-        <a href="knockdown-rebuild.html" class="suburb-tag">Epping (3076)</a>
+        <a href="knockdown-rebuild.php" class="suburb-tag">Tarneit (3029)</a>
+        <a href="knockdown-rebuild.php" class="suburb-tag">Truganina (3029)</a>
+        <a href="knockdown-rebuild.php" class="suburb-tag">Wyndham Vale (3024)</a>
+        <a href="knockdown-rebuild.php" class="suburb-tag">Point Cook (3030)</a>
+        <a href="knockdown-rebuild.php" class="suburb-tag">Dandenong (3175)</a>
+        <a href="knockdown-rebuild.php" class="suburb-tag">Mernda (3754)</a>
+        <a href="knockdown-rebuild.php" class="suburb-tag">Mambourin (3024)</a>
+        <a href="knockdown-rebuild.php" class="suburb-tag">Berwick (3806)</a>
+        <a href="knockdown-rebuild.php" class="suburb-tag">Cranbourne (3977)</a>
+        <a href="knockdown-rebuild.php" class="suburb-tag">Glen Waverley (3150)</a>
+        <a href="knockdown-rebuild.php" class="suburb-tag">Craigieburn (3064)</a>
+        <a href="knockdown-rebuild.php" class="suburb-tag">Epping (3076)</a>
       </div>
     </div>
   </section>
@@ -1253,24 +1253,24 @@
         <div class="footer-col">
           <h4>Navigation</h4>
           <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="designs.html">Home Designs & Plans</a></li>
-            <li><a href="knockdown-rebuild.html">Knock Down Rebuild</a></li>
-            <li><a href="inclusions.html">Luxury Inclusions</a></li>
-            <li><a href="floor-plan.html">Floor Plans</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="home-designs.php">Home Designs & Plans</a></li>
+            <li><a href="knockdown-rebuild.php">Knock Down Rebuild</a></li>
+            <li><a href="inclusions.php">Luxury Inclusions</a></li>
+            <li><a href="floor-plan.php">Floor Plans</a></li>
+            <li><a href="about-us.php">About Us</a></li>
+            <li><a href="contact-us.php">Contact Us</a></li>
           </ul>
         </div>
 
         <div class="footer-col">
           <h4>Building Services</h4>
           <ul class="footer-links">
-            <li><a href="knockdown-rebuild.html">Knockdown Rebuild Melbourne</a></li>
-            <li><a href="designs.html">Custom Single & Double Storey</a></li>
-            <li><a href="designs.html">Architectural Granny Flats (VIC)</a></li>
-            <li><a href="designs.html">Dual Occupancy Townhomes</a></li>
-            <li><a href="inclusions.html">7-Star Energy Standard</a></li>
+            <li><a href="knockdown-rebuild.php">Knockdown Rebuild Melbourne</a></li>
+            <li><a href="home-designs.php">Custom Single & Double Storey</a></li>
+            <li><a href="home-designs.php">Architectural Granny Flats (VIC)</a></li>
+            <li><a href="home-designs.php">Dual Occupancy Townhomes</a></li>
+            <li><a href="inclusions.php">7-Star Energy Standard</a></li>
           </ul>
         </div>
 

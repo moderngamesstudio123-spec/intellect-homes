@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>About Us | Intellect Homes Melbourne Custom Builders</title>
-  <meta name="description" content="Learn about Intellect Homes. We are Melbourne's boutique custom home and knockdown rebuild specialists committed to architectural craftsmanship, fixed-price contracts, and 7-Star NatHERS energy efficiency.">
-  <link rel="canonical" href="https://intellecthomes.com.au/about-us/">
+  <title>2026 Melbourne Build Cost Calculator | Intellect Homes</title>
+  <meta name="description" content="Calculate your custom home, knockdown rebuild, or granny flat construction costs in Melbourne. Instant transparent pricing estimates based on real 2026 Victorian building rates.">
+  <link rel="canonical" href="https://intellecthomes.com.au/calculator/">
 
   <link rel="icon" type="image/webp" href="assets/images/favicon.webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
         <span class="top-bar-badge">Victoria 7-Star NatHERS Standard</span>
       </div>
       <div class="top-bar-right">
-        <a href="mailto:admin@intellecthomes.com.au" class="top-bar-link top-bar-email" style="color: #DF982B; font-weight: 700;">admin@intellecthomes.com.au</a>
+        <a href="mailto:admin@intellecthomes.com.au" class="top-bar-link">admin@intellecthomes.com.au</a>
         <a href="tel:+61411560177" class="top-bar-link" style="color: #DF982B; font-weight: 700;">+61 411 560 177</a>
       </div>
     </div>
@@ -37,20 +37,20 @@
   <!-- Header -->
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
-      <a href="index.html" class="brand-logo" aria-label="Intellect Homes">
+      <a href="index.php" class="brand-logo" aria-label="Intellect Homes">
         <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
       </a>
 
       <nav aria-label="Primary Navigation">
         <ul class="nav-menu">
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="designs.html" class="nav-link">Home Designs</a></li>
-          <li><a href="about.html" class="nav-link active">About Us</a></li>
-          <li><a href="facades.html" class="nav-link">Facades</a></li>
-          <li><a href="floor-plan.html" class="nav-link">Floor Plan</a></li>
-          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-          <li><a href="blogs.html" class="nav-link">Blogs</a></li>
-          <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+          <li><a href="index.php" class="nav-link">Home</a></li>
+          <li><a href="home-designs.php" class="nav-link">Home Designs</a></li>
+          <li><a href="about-us.php" class="nav-link">About Us</a></li>
+          <li><a href="facades.php" class="nav-link">Facades</a></li>
+          <li><a href="floor-plan.php" class="nav-link">Floor Plan</a></li>
+          <li><a href="gallery.php" class="nav-link">Gallery</a></li>
+          <li><a href="blogs.php" class="nav-link">Blogs</a></li>
+          <li><a href="contact-us.php" class="nav-link">Contact Us</a></li>
         </ul>
       </nav>
 
@@ -67,103 +67,151 @@
   <!-- Banner -->
   <section style="background: linear-gradient(135deg, #090D14 0%, #172132 100%); padding: 5rem 0 3.5rem 0; color: #fff; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.08);">
     <div class="container">
-      <span class="section-tag">WHO WE ARE</span>
-      <h1 style="font-size: clamp(2.2rem, 4vw, 3.25rem); color: #DF982B; margin-bottom: 1rem;">Building With Integrity & Intelligence</h1>
+      <span class="section-tag">2026 PRICING GUIDE</span>
+      <h1 style="font-size: clamp(2.2rem, 4vw, 3.25rem); color: #DF982B; margin-bottom: 1rem;">Instant Build Cost & Feasibility Estimator</h1>
       <p style="color: #4BB126; font-size: 1.15rem; max-width: 720px; margin: 0 auto; font-weight: 600; line-height: 1.6;">
-        We believe building a home is not just bricks and mortar—it is creating an enduring sanctuary that reflects who you are.
+        Estimate your custom build, knockdown rebuild, or granny flat in Melbourne with itemised transparency.
       </p>
     </div>
   </section>
 
-  <!-- Story & Vision -->
-  <section style="padding: 5rem 0; background: #FFFFFF;">
+  <!-- Calculator Component Section -->
+  <section class="calculator-section" style="padding: 4.5rem 0;">
     <div class="container">
-      <div class="energy-grid" style="align-items: center;">
-        <div>
-          <span class="section-tag">OUR PHILOSOPHY</span>
-          <h2>Your Personal Builder Across Melbourne</h2>
-          <p style="font-size: 1.3rem; font-weight: 700; color: #DF982B; margin: 0.75rem 0 1.5rem 0; letter-spacing: -0.01em;">
-            &ldquo;Treat Us as Your Personal Builder.&rdquo;
-          </p>
-          <p style="color: #475569; font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.5rem;">
-            At <span class="text-gold">Intellect Homes</span>, we deliberately choose quality over volume. While corporate volume builders treat clients as job numbers on an assembly line, our team of licensed architects, structural engineers, and master tradesmen works alongside you as your dedicated personal builder.
-          </p>
-          <p style="color: #475569; font-size: 1.05rem; line-height: 1.8; margin-bottom: 2rem;">
-            Crafting custom family homes all over Melbourne and many more locations across Victoria, backed by complete transparency through clear fixed-price and cost-plus contracts.
-          </p>
-          <div class="about-vision-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem;">
-            <div style="background: #F8FAFC; border: 1px solid #E2E8F0; padding: 1.25rem; border-radius: 12px;">
-              <h4 style="font-size: 1.1rem; color: #DF982B; margin-bottom: 0.35rem;">Our Vision</h4>
-              <p style="font-size: 0.88rem; color: #64748B;">To be Melbourne's most trusted boutique builder, celebrated for architectural distinction and client satisfaction.</p>
+      <div class="calculator-wrapper">
+        <!-- Left: Interactive Controls -->
+        <div class="calc-controls">
+          <!-- Step 1: Project Type -->
+          <div class="calc-step">
+            <h4>
+              <span class="calc-step-num">1</span>
+              Select Project Type
+            </h4>
+            <div class="option-grid" data-calc-group="type">
+              <div class="calc-option active" data-val="kdr">
+                <span class="calc-option-title">Knock Down Rebuild</span>
+                <span class="calc-option-desc">Demolish & rebuild on existing block</span>
+              </div>
+              <div class="calc-option" data-val="custom">
+                <span class="calc-option-title">New Land Build</span>
+                <span class="calc-option-desc">Build on vacant greenfield estate</span>
+              </div>
+              <div class="calc-option" data-val="granny">
+                <span class="calc-option-title">Granny Flat</span>
+                <span class="calc-option-desc">Secondary backyard dwelling (up to 60m²)</span>
+              </div>
+              <div class="calc-option" data-val="dual">
+                <span class="calc-option-title">Dual Occupancy</span>
+                <span class="calc-option-desc">Side-by-side or rear development</span>
+              </div>
             </div>
-            <div style="background: #F8FAFC; border: 1px solid #E2E8F0; padding: 1.25rem; border-radius: 12px;">
-              <h4 style="font-size: 1.1rem; color: #DF982B; margin-bottom: 0.35rem;">Our Mission</h4>
-              <p style="font-size: 0.88rem; color: #64748B;">Delivering high-performance, sustainable, 7-Star homes with fixed-price peace of mind and zero surprises.</p>
+          </div>
+
+          <!-- Step 2: Size & Configuration -->
+          <div class="calc-step">
+            <h4>
+              <span class="calc-step-num">2</span>
+              Home Size & Storey
+            </h4>
+            <div class="option-grid" data-calc-group="size">
+              <div class="calc-option" data-val="single-mid">
+                <span class="calc-option-title">Single Storey (26 Sq)</span>
+                <span class="calc-option-desc">4 Bed, 2 Bath, 2 Car, Alfresco</span>
+              </div>
+              <div class="calc-option" data-val="single-large">
+                <span class="calc-option-title">Grand Single (32 Sq)</span>
+                <span class="calc-option-desc">4 Bed + Theatre, Butler's, 2 Car</span>
+              </div>
+              <div class="calc-option" data-val="double-mid">
+                <span class="calc-option-title">Double Storey (38 Sq)</span>
+                <span class="calc-option-desc">4 Bed, 3 Bath, Lounge, 2 Car</span>
+              </div>
+              <div class="calc-option active" data-val="double-large">
+                <span class="calc-option-title">Luxury Double (48 Sq)</span>
+                <span class="calc-option-desc">5 Bed, 5 Ensuite, 3 Living, 2 Car</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3: Finish Tier -->
+          <div class="calc-step">
+            <h4>
+              <span class="calc-step-num">3</span>
+              Specification & Finishes Tier
+            </h4>
+            <div class="option-grid" data-calc-group="tier">
+              <div class="calc-option active" data-val="signature">
+                <span class="calc-option-title">Signature Luxury</span>
+                <span class="calc-option-desc">40mm Stone, 2.7m Ceilings, 7-Star, Refrigerated Cooling</span>
+              </div>
+              <div class="calc-option" data-val="prestige">
+                <span class="calc-option-title">Ultra-Prestige Bespoke</span>
+                <span class="calc-option-desc">3.0m Ceilings, Miele Appliances, Marble & Custom Joinery</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 4: Add-ons Checkboxes -->
+          <div class="calc-step" style="margin-bottom: 0;">
+            <h4>
+              <span class="calc-step-num">4</span>
+              Site Works & Turnkey Inclusions
+            </h4>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.5rem;">
+              <label style="display: flex; align-items: center; gap: 0.75rem; cursor: pointer; color: #CBD5E1; font-size: 0.9rem;">
+                <input type="checkbox" id="calcCheckDemo" checked style="accent-color: #DF982B; width: 18px; height: 18px;">
+                Include Complete Demolition & Site Clearance Allowance (~$28,000)
+              </label>
+              <label style="display: flex; align-items: center; gap: 0.75rem; cursor: pointer; color: #CBD5E1; font-size: 0.9rem;">
+                <input type="checkbox" id="calcCheckLandscape" checked style="accent-color: #DF982B; width: 18px; height: 18px;">
+                Include Exposed Aggregate Driveway & Boundary Fencing (~$35,000)
+              </label>
             </div>
           </div>
         </div>
-        <div class="energy-visual">
-          <img src="assets/images/4-geller-circuit-tarneit.jpg" alt="Architectural Excellence by Intellect Homes" style="width: 100%; height: auto; max-height: 520px; object-fit: cover; display: block; border-radius: var(--radius-lg); box-shadow: 0 15px 35px rgba(0,0,0,0.12);">
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Core Values -->
-  <section style="padding: 5rem 0; background: #0E1420; color: #fff;">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag" style="background: rgba(223, 152, 43, 0.15);">FOUNDATIONAL PILLARS</span>
-        <h2 style="color: #DF982B;">The Four Pillars Of Intellect Homes</h2>
-        <p style="color: #94A3B8;">What sets our building philosophy apart in the Australian construction landscape.</p>
-      </div>
+        <!-- Right: Real-Time Summary Panel -->
+        <div class="calc-summary-panel">
+          <div class="summary-header">
+            <h3>Estimated Investment</h3>
+            <p>Itemised Melbourne builder estimate (inc. GST)</p>
+          </div>
 
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem;">
-        <div style="background: #151D2A; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 2rem;">
-          <div class="trust-icon" style="margin-bottom: 1.25rem;">01</div>
-          <h3 style="font-size: 1.2rem; color: #DF982B; margin-bottom: 0.5rem;">We Are Your Personal Builder</h3>
-          <p style="color: #94A3B8; font-size: 0.9rem; line-height: 1.6;">
-            You work directly with our licensed builder and architects—not sales reps or corporate bureaucracy. Personal attention from day one to handover.
-          </p>
-        </div>
+          <div class="price-display">
+            <div class="price-display-label">Estimated Turnkey Range</div>
+            <div class="price-display-amount" id="calcEstimatedTotal">$903,000</div>
+          </div>
 
-        <div style="background: #151D2A; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 2rem;">
-          <div class="trust-icon" style="margin-bottom: 1.25rem;">02</div>
-          <h3 style="font-size: 1.2rem; color: #DF982B; margin-bottom: 0.5rem;">Transparency Turn Key Projects</h3>
-          <p style="color: #94A3B8; font-size: 0.9rem; line-height: 1.6;">
-            From council permits, soil tests, and demolition to bespoke finishes, landscaping, and driveway—completely finished and move-in ready.
-          </p>
-        </div>
+          <ul class="price-breakdown-list">
+            <li>
+              <span>Home Construction:</span>
+              <span id="calcBaseCost">$840,000</span>
+            </li>
+            <li>
+              <span>Estimated Size:</span>
+              <span id="calcHomeSize">48 Squares (446 m²)</span>
+            </li>
+            <li>
+              <span>Build Timeline:</span>
+              <span id="calcTimeline">12-15 Months</span>
+            </li>
+            <li id="calcDemoRow">
+              <span>Demolition & Disconnection:</span>
+              <span>$28,000</span>
+            </li>
+            <li id="calcLandscapeRow">
+              <span>Driveway & Perimeter:</span>
+              <span>$35,000</span>
+            </li>
+            <li>
+              <span>Energy Standard:</span>
+              <span style="color: #22C55E;">7-Star NatHERS Included</span>
+            </li>
+          </ul>
 
-        <div style="background: #151D2A; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 2rem;">
-          <div class="trust-icon" style="margin-bottom: 1.25rem;">03</div>
-          <h3 style="font-size: 1.2rem; color: #DF982B; margin-bottom: 0.5rem;">No Hidden Variations</h3>
-          <p style="color: #94A3B8; font-size: 0.9rem; line-height: 1.6;">
-            We conduct rigorous upfront engineering and site assessments so our tenders are Transparency fixed-price with rock-solid transparent contracts.
-          </p>
-        </div>
-
-        <div style="background: #151D2A; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 2rem;">
-          <div class="trust-icon" style="margin-bottom: 1.25rem;">04</div>
-          <h3 style="font-size: 1.2rem; color: #DF982B; margin-bottom: 0.5rem;">Genuine Master Craftsmanship</h3>
-          <p style="color: #94A3B8; font-size: 0.9rem; line-height: 1.6;">
-            Built by licensed Victorian master trades using superior materials, continuous quality inspections, and 7-Star NatHERS energy precision.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="cta-banner">
-    <div class="container">
-      <div class="cta-box">
-        <div class="cta-text">
-          <h2>Meet With Our Senior Builder</h2>
-          <p>Schedule a no-obligation coffee consultation or site walk at your property in Melbourne.</p>
-        </div>
-        <div>
-          <button class="btn btn-primary" data-open-modal="consultModal">Schedule Consultation</button>
+          <button class="btn btn-primary" style="width: 100%; font-size: 1rem;" data-open-vip="true">
+            Lock In Feasibility & Fixed Quote
+          </button>
         </div>
       </div>
     </div>
@@ -174,7 +222,7 @@
     <div class="container">
       <div class="footer-bottom" style="border: none; padding: 0;">
         <p>&copy; 2026 <span class="text-gold">Intellect Homes</span>. All rights reserved. VBA &amp; BPC Registered Builder &bull; CDB-U 101902 Registered Practitioner Builder.</p>
-        <p>Direct Call: <a href="tel:+61411560177" style="color: #DF982B;">+61 411 560 177</a> &bull; <a href="mailto:admin@intellecthomes.com.au" class="email-gold" style="color: #DF982B; font-weight: 700;">admin@intellecthomes.com.au</a></p>
+        <p>Direct Call: <a href="tel:+61411560177" style="color: #DF982B;">+61 411 560 177</a> &bull; admin@intellecthomes.com.au</p>
       </div>
     </div>
   </footer>
@@ -184,10 +232,10 @@
     <div class="modal-box">
       <button class="modal-close-btn" aria-label="Close modal">&times;</button>
       <div style="margin-bottom: 1.5rem;">
-        <span class="section-tag" style="margin-bottom: 0.5rem;">DIRECT BUILDER CONSULT</span>
-        <h3 style="font-size: 1.5rem; color: #0F172A; margin-bottom: 0.4rem;">Book Your Free Consultation</h3>
+        <span class="section-tag" style="margin-bottom: 0.5rem;">ESTIMATE FEASIBILITY</span>
+        <h3 style="font-size: 1.5rem; color: #0F172A; margin-bottom: 0.4rem;">Lock In Your Building Tender</h3>
         <p style="color: #64748B; font-size: 0.9rem;">
-          Speak directly with our senior builder director about your project plans, block feasibility, or architectural concepts.
+          Provide your property details and we will verify site fall, soil conditions, and prepare a guaranteed fixed-price tender.
         </p>
       </div>
       <form id="consultationForm">
@@ -210,7 +258,7 @@
           <input type="text" class="form-control" id="consultAddress" placeholder="Street Address, Suburb & Postcode" required>
         </div>
         <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.95rem; font-size: 1rem;">
-          Submit Consultation Request
+          Lock In Feasibility & Fixed Quote
         </button>
       </form>
     </div>

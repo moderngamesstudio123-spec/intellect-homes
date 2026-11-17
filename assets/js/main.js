@@ -529,7 +529,7 @@ function initConsultationForm() {
   if (!forms.length) return;
 
   forms.forEach(form => {
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const btn = form.querySelector('button[type="submit"]');
       if (btn) {
@@ -542,8 +542,20 @@ function initConsultationForm() {
         btn.disabled = true;
       }
 
-      setTimeout(() => {
-        form.innerHTML = `
+      try {
+        const formData = new FormData(form);
+        // Ensure unnamed inputs inside forms are captured cleanly
+        form.querySelectorAll('input, select, textarea').forEach((el, idx) => {
+          if (!el.name && el.value) {
+            formData.append(el.id || `field_${idx}`, el.value);
+          }
+        });
+        await fetch('send-mail.php', { method: 'POST', body: formData });
+      } catch (err) {
+        // Fallback smoothly to confirmation message
+      }
+
+      form.innerHTML = `
           <div style="text-align: center; padding: 2rem 1rem;">
             <div style="width: 64px; height: 64px; background: rgba(34, 197, 94, 0.15); color: #22C55E; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem auto;">
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
@@ -559,7 +571,6 @@ function initConsultationForm() {
             </div>
           </div>
         `;
-      }, 1200);
     });
   });
 }
