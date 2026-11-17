@@ -1080,13 +1080,13 @@
               &#9733;&#9733;&#9733;&#9733;&#9733;
             </div>
             <p class="review-quote">
-              "We were terrified of building cost blowouts having heard horror stories about other volume builders. <span class="text-gold">Intellect Homes</span> delivered our double-storey rebuild in Dandenong exactly on budget and 2 weeks ahead of schedule. The finish on our stone benchtops and 2.7m ceilings is phenomenal."
+              "We were terrified of building cost blowouts having heard horror stories about other volume builders. <span class="text-gold">Intellect Homes</span> delivered our double-storey rebuild in Melbourne exactly on budget and 2 weeks ahead of schedule. The finish on our stone benchtops and 2.7m ceilings is phenomenal."
             </p>
             <div class="reviewer-profile">
               <div class="reviewer-avatar">RK</div>
               <div class="reviewer-meta">
                 <h4>Raj & Kiran Patel</h4>
-                <p>Knock Down Rebuild &bull; Dandenong, VIC</p>
+                <p>Knock Down Rebuild &bull; Melbourne, VIC</p>
               </div>
             </div>
           </div>
@@ -1097,13 +1097,13 @@
               &#9733;&#9733;&#9733;&#9733;&#9733;
             </div>
             <p class="review-quote">
-              "We built a two-bedroom architectural granny flat in our Truganina backyard for my parents. The whole process was seamless—<span class="text-gold">Intellect Homes</span> took care of all council permits and town planning. My parents love the modern comfort and 7-star thermal warmth in winter!"
+              "We built a two-bedroom architectural granny flat in our Melbourne backyard for my parents. The whole process was seamless—<span class="text-gold">Intellect Homes</span> took care of all council permits and town planning. My parents love the modern comfort and 7-star thermal warmth in winter!"
             </p>
             <div class="reviewer-profile">
               <div class="reviewer-avatar">SM</div>
               <div class="reviewer-meta">
                 <h4>Sarah & Mark Henderson</h4>
-                <p>Granny Flat &bull; Truganina, VIC</p>
+                <p>Granny Flat &bull; Melbourne, VIC</p>
               </div>
             </div>
           </div>
@@ -1120,7 +1120,7 @@
               <div class="reviewer-avatar">AK</div>
               <div class="reviewer-meta">
                 <h4>Amit & Priya Kumar</h4>
-                <p>Custom New Home &bull; Tarneit, VIC</p>
+                <p>Custom New Home &bull; Melbourne, VIC</p>
               </div>
             </div>
           </div>
@@ -1131,13 +1131,13 @@
               &#9733;&#9733;&#9733;&#9733;&#9733;
             </div>
             <p class="review-quote">
-              "We were terrified of building cost blowouts having heard horror stories about other volume builders. <span class="text-gold">Intellect Homes</span> delivered our double-storey rebuild in Dandenong exactly on budget and 2 weeks ahead of schedule. The finish on our stone benchtops and 2.7m ceilings is phenomenal."
+              "We were terrified of building cost blowouts having heard horror stories about other volume builders. <span class="text-gold">Intellect Homes</span> delivered our double-storey rebuild in Melbourne exactly on budget and 2 weeks ahead of schedule. The finish on our stone benchtops and 2.7m ceilings is phenomenal."
             </p>
             <div class="reviewer-profile">
               <div class="reviewer-avatar">RK</div>
               <div class="reviewer-meta">
                 <h4>Raj & Kiran Patel</h4>
-                <p>Knock Down Rebuild &bull; Dandenong, VIC</p>
+                <p>Knock Down Rebuild &bull; Melbourne, VIC</p>
               </div>
             </div>
           </div>
@@ -1147,13 +1147,13 @@
               &#9733;&#9733;&#9733;&#9733;&#9733;
             </div>
             <p class="review-quote">
-              "We built a two-bedroom architectural granny flat in our Truganina backyard for my parents. The whole process was seamless—<span class="text-gold">Intellect Homes</span> took care of all council permits and town planning. My parents love the modern comfort and 7-star thermal warmth in winter!"
+              "We built a two-bedroom architectural granny flat in our Melbourne backyard for my parents. The whole process was seamless—<span class="text-gold">Intellect Homes</span> took care of all council permits and town planning. My parents love the modern comfort and 7-star thermal warmth in winter!"
             </p>
             <div class="reviewer-profile">
               <div class="reviewer-avatar">SM</div>
               <div class="reviewer-meta">
                 <h4>Sarah & Mark Henderson</h4>
-                <p>Granny Flat &bull; Truganina, VIC</p>
+                <p>Granny Flat &bull; Melbourne, VIC</p>
               </div>
             </div>
           </div>
@@ -1169,39 +1169,11 @@
               <div class="reviewer-avatar">AK</div>
               <div class="reviewer-meta">
                 <h4>Amit & Priya Kumar</h4>
-                <p>Custom New Home &bull; Tarneit, VIC</p>
+                <p>Custom New Home &bull; Melbourne, VIC</p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-       MELBOURNE SUBURBS LOCAL SEO
-       ========================================================================== -->
-  <section class="suburbs-section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">GREATER MELBOURNE</span>
-        <h2>Proudly Building Across Key Melbourne Suburbs</h2>
-        <p>Expertise with local council planning schemes, soil types, and building regulations across Victoria.</p>
-      </div>
-
-      <div class="suburbs-tags-cloud">
-        <a href="/knockdown-rebuild" class="suburb-tag">Tarneit (3029)</a>
-        <a href="/knockdown-rebuild" class="suburb-tag">Truganina (3029)</a>
-        <a href="/knockdown-rebuild" class="suburb-tag">Wyndham Vale (3024)</a>
-        <a href="/knockdown-rebuild" class="suburb-tag">Point Cook (3030)</a>
-        <a href="/knockdown-rebuild" class="suburb-tag">Dandenong (3175)</a>
-        <a href="/knockdown-rebuild" class="suburb-tag">Mernda (3754)</a>
-        <a href="/knockdown-rebuild" class="suburb-tag">Mambourin (3024)</a>
-        <a href="/knockdown-rebuild" class="suburb-tag">Berwick (3806)</a>
-        <a href="/knockdown-rebuild" class="suburb-tag">Cranbourne (3977)</a>
-        <a href="/knockdown-rebuild" class="suburb-tag">Glen Waverley (3150)</a>
-        <a href="/knockdown-rebuild" class="suburb-tag">Craigieburn (3064)</a>
-        <a href="/knockdown-rebuild" class="suburb-tag">Epping (3076)</a>
       </div>
     </div>
   </section>

@@ -112,8 +112,8 @@
           </div>
           <div class="video-featured-meta">
             <div>
-              <span class="video-pill">Featured Walkthrough &bull; 02</span>
-              <h3>Custom Residence &mdash; Full Project Tour</h3>
+              <span class="video-pill">Featured Walkthrough &bull; Tarneit VIC</span>
+              <h3>4 Geller Circuit &mdash; Architectural Walkthrough</h3>
             </div>
             <p>Bespoke architectural facade, high-ceiling open living, and master craftsmanship delivered by <span class="text-gold">Intellect Homes</span>.</p>
           </div>
