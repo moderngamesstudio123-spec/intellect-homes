@@ -22,7 +22,7 @@
     <div class="container">
       <div class="top-bar-left">
         <span class="top-bar-badge">
-          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img"></span>
+          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img" decoding="async"></span>
           VBA &amp; BPC Registered Builder &bull; CDB-U 101902 Registered Practitioner Builder
         </span>
         <span class="top-bar-badge">Victoria 7-Star NatHERS Standard</span>
@@ -38,7 +38,7 @@
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo" aria-label="Intellect Homes">
-        <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
+        <img src="assets/images/logo.webp" alt="Intellect Homes Logo" decoding="async">
       </a>
 
       <nav aria-label="Primary Navigation">
@@ -85,7 +85,7 @@
         <!-- Blog 1 -->
         <article class="service-card">
           <div class="service-image">
-            <img src="assets/images/gm3sRtrYTaOIRS7vuEh2j83dMIH27PrlblYvs8K_-j6Mt_OMl5.jpeg" alt="7 Benefits of Building a Granny Flat in Australia">
+            <img src="assets/images/gm3sRtrYTaOIRS7vuEh2j83dMIH27PrlblYvs8K_-j6Mt_OMl5.jpeg" alt="7 Benefits of Building a Granny Flat in Australia" loading="lazy" decoding="async">
             <span class="service-badge">Granny Flats</span>
           </div>
           <div class="service-body">
@@ -104,7 +104,7 @@
         <!-- Blog 2 -->
         <article class="service-card">
           <div class="service-image">
-            <img src="assets/images/GiOaZ1ZLDU5SyZZm8Sq8bWnUtLegqV0yvZOBlhe0ogUjcWhKCZ.jpeg" alt="Why Choose a Knock Down Rebuild Instead of Renovating">
+            <img src="assets/images/GiOaZ1ZLDU5SyZZm8Sq8bWnUtLegqV0yvZOBlhe0ogUjcWhKCZ.jpeg" alt="Why Choose a Knock Down Rebuild Instead of Renovating" loading="lazy" decoding="async">
             <span class="service-badge">Knock Down Rebuild</span>
           </div>
           <div class="service-body">
@@ -123,7 +123,7 @@
         <!-- Blog 3 -->
         <article class="service-card">
           <div class="service-image">
-            <img src="assets/images/3sHhEwTZsGe70E7LSQBGhnkJamAHbpmSyDR6VO4CIrsDexUPQt.jpeg" alt="Granny Flats vs. New Homes: What Should You Build?">
+            <img src="assets/images/3sHhEwTZsGe70E7LSQBGhnkJamAHbpmSyDR6VO4CIrsDexUPQt.jpeg" alt="Granny Flats vs. New Homes: What Should You Build?" loading="lazy" decoding="async">
             <span class="service-badge">Property Strategy</span>
           </div>
           <div class="service-body">
@@ -230,6 +230,6 @@
       </div>
     </div>
   </div>
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>

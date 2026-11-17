@@ -22,7 +22,7 @@
     <div class="container">
       <div class="top-bar-left">
         <span class="top-bar-badge">
-          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img"></span>
+          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img" decoding="async"></span>
           VBA &amp; BPC Registered Builder &bull; CDB-U 101902 Registered Practitioner Builder
         </span>
         <span class="top-bar-badge">Victoria 7-Star NatHERS Standard</span>
@@ -38,7 +38,7 @@
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo" aria-label="Intellect Homes">
-        <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
+        <img src="assets/images/logo.webp" alt="Intellect Homes Logo" decoding="async">
       </a>
 
       <nav aria-label="Primary Navigation">
@@ -86,7 +86,7 @@
         <!-- Item 1 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg" alt="170 Cravens Road Mernda Residence">
+            <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg" alt="170 Cravens Road Mernda Residence" loading="lazy" decoding="async">
             <span class="design-tag">Custom Residence</span>
           </div>
           <div class="design-content">
@@ -98,7 +98,7 @@
         <!-- Item 2 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_ae6wgjae6wgjae6w.jpeg" alt="Contemporary Double Storey Facade">
+            <img src="assets/images/Gemini_Generated_Image_ae6wgjae6wgjae6w.jpeg" alt="Contemporary Double Storey Facade" loading="lazy" decoding="async">
             <span class="design-tag">Luxury Exterior</span>
           </div>
           <div class="design-content">
@@ -110,7 +110,7 @@
         <!-- Item 3 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_7s1bn27s1bn27s1b.jpeg" alt="Modern Facade with Feature Render">
+            <img src="assets/images/Gemini_Generated_Image_7s1bn27s1bn27s1b.jpeg" alt="Modern Facade with Feature Render" loading="lazy" decoding="async">
             <span class="design-tag">Modern Urban</span>
           </div>
           <div class="design-content">
@@ -122,7 +122,7 @@
         <!-- Item 4 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_xzxzlyxzxzlyxzxz.jpeg" alt="Architectural Portico Living">
+            <img src="assets/images/Gemini_Generated_Image_xzxzlyxzxzlyxzxz.jpeg" alt="Architectural Portico Living" loading="lazy" decoding="async">
             <span class="design-tag">Executive Living</span>
           </div>
           <div class="design-content">
@@ -134,7 +134,7 @@
         <!-- Item 5 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_kxtb3ekxtb3ekxtb.jpeg" alt="Luxury Living Room & Dining">
+            <img src="assets/images/Gemini_Generated_Image_kxtb3ekxtb3ekxtb.jpeg" alt="Luxury Living Room & Dining" loading="lazy" decoding="async">
             <span class="design-tag">Interior Living</span>
           </div>
           <div class="design-content">
@@ -146,7 +146,7 @@
         <!-- Item 6 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_zc6bxgzc6bxgzc6b.jpeg" alt="Gourmet Waterfall Island Kitchen">
+            <img src="assets/images/Gemini_Generated_Image_zc6bxgzc6bxgzc6b.jpeg" alt="Gourmet Waterfall Island Kitchen" loading="lazy" decoding="async">
             <span class="design-tag">Gourmet Kitchen</span>
           </div>
           <div class="design-content">
@@ -158,7 +158,7 @@
         <!-- Item 7 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_yjkc22yjkc22yjkc.jpeg" alt="Designer Master Ensuite Bathroom">
+            <img src="assets/images/Gemini_Generated_Image_yjkc22yjkc22yjkc.jpeg" alt="Designer Master Ensuite Bathroom" loading="lazy" decoding="async">
             <span class="design-tag">Master Ensuite</span>
           </div>
           <div class="design-content">
@@ -170,7 +170,7 @@
         <!-- Item 8 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_sqhscasqhscasqhs.jpeg" alt="Spacious Alfresco Entertaining">
+            <img src="assets/images/Gemini_Generated_Image_sqhscasqhscasqhs.jpeg" alt="Spacious Alfresco Entertaining" loading="lazy" decoding="async">
             <span class="design-tag">Alfresco Entertaining</span>
           </div>
           <div class="design-content">
@@ -182,7 +182,7 @@
         <!-- Item 9 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_ljk25qljk25qljk2.jpeg" alt="Open Plan Lounge & Dining">
+            <img src="assets/images/Gemini_Generated_Image_ljk25qljk25qljk2.jpeg" alt="Open Plan Lounge & Dining" loading="lazy" decoding="async">
             <span class="design-tag">Family Living</span>
           </div>
           <div class="design-content">
@@ -194,7 +194,7 @@
         <!-- Item 10 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_g9jbp8g9jbp8g9jb.jpeg" alt="Boutique Bedroom Suite">
+            <img src="assets/images/Gemini_Generated_Image_g9jbp8g9jbp8g9jb.jpeg" alt="Boutique Bedroom Suite" loading="lazy" decoding="async">
             <span class="design-tag">Master Bedroom</span>
           </div>
           <div class="design-content">
@@ -206,7 +206,7 @@
         <!-- Item 11 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_cnwgsycnwgsycnwg.jpeg" alt="Minimalist Modern Facade">
+            <img src="assets/images/Gemini_Generated_Image_cnwgsycnwgsycnwg.jpeg" alt="Minimalist Modern Facade" loading="lazy" decoding="async">
             <span class="design-tag">Modern Minimalist</span>
           </div>
           <div class="design-content">
@@ -218,7 +218,7 @@
         <!-- Item 12 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_496oxs496oxs496o.jpeg" alt="Natural Stone & Timber Elevation">
+            <img src="assets/images/Gemini_Generated_Image_496oxs496oxs496o.jpeg" alt="Natural Stone & Timber Elevation" loading="lazy" decoding="async">
             <span class="design-tag">Signature Luxury</span>
           </div>
           <div class="design-content">
@@ -230,7 +230,7 @@
         <!-- Item 13 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_22s78m22s78m22s7.jpeg" alt="3 Reetaj Crescent Truganina Residence">
+            <img src="assets/images/Gemini_Generated_Image_22s78m22s78m22s7.jpeg" alt="3 Reetaj Crescent Truganina Residence" loading="lazy" decoding="async">
             <span class="design-tag">New Construction</span>
           </div>
           <div class="design-content">
@@ -242,7 +242,7 @@
         <!-- Item 14 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg" alt="7 Abbington Drive Truganina Residence">
+            <img src="assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg" alt="7 Abbington Drive Truganina Residence" loading="lazy" decoding="async">
             <span class="design-tag">Completed Build</span>
           </div>
           <div class="design-content">
@@ -254,7 +254,7 @@
         <!-- Item 15 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_cyhyopcyhyopcyhy.jpeg" alt="Modern Urban Single Storey">
+            <img src="assets/images/Gemini_Generated_Image_cyhyopcyhyopcyhy.jpeg" alt="Modern Urban Single Storey" loading="lazy" decoding="async">
             <span class="design-tag">Single Storey</span>
           </div>
           <div class="design-content">
@@ -266,7 +266,7 @@
         <!-- Item 16 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_tztuultztuultztu.jpeg" alt="Architectural Staircase & Void">
+            <img src="assets/images/Gemini_Generated_Image_tztuultztuultztu.jpeg" alt="Architectural Staircase & Void" loading="lazy" decoding="async">
             <span class="design-tag">Interior Architecture</span>
           </div>
           <div class="design-content">
@@ -278,7 +278,7 @@
         <!-- Item 17 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_fnk1zkfnk1zkfnk1.jpeg" alt="Executive Lounge Sanctuary">
+            <img src="assets/images/Gemini_Generated_Image_fnk1zkfnk1zkfnk1.jpeg" alt="Executive Lounge Sanctuary" loading="lazy" decoding="async">
             <span class="design-tag">Formal Lounge</span>
           </div>
           <div class="design-content">
@@ -290,7 +290,7 @@
         <!-- Item 18 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_qekcdcqekcdcqekc.jpeg" alt="Luxury Walk-In Dressing Suite">
+            <img src="assets/images/Gemini_Generated_Image_qekcdcqekcdcqekc.jpeg" alt="Luxury Walk-In Dressing Suite" loading="lazy" decoding="async">
             <span class="design-tag">Walk-In Robe</span>
           </div>
           <div class="design-content">
@@ -302,7 +302,7 @@
         <!-- Item 19 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_e4hcvoe4hcvoe4hc.jpeg" alt="Modern Facade Lighting">
+            <img src="assets/images/Gemini_Generated_Image_e4hcvoe4hcvoe4hc.jpeg" alt="Modern Facade Lighting" loading="lazy" decoding="async">
             <span class="design-tag">Night Illumination</span>
           </div>
           <div class="design-content">
@@ -314,7 +314,7 @@
         <!-- Item 20 -->
         <article class="design-card">
           <div class="design-media" style="height: 280px;">
-            <img src="assets/images/Gemini_Generated_Image_qoor10qoor10qoor.jpeg" alt="Landscape Integration & Entrance">
+            <img src="assets/images/Gemini_Generated_Image_qoor10qoor10qoor.jpeg" alt="Landscape Integration & Entrance" loading="lazy" decoding="async">
             <span class="design-tag">Street Appeal</span>
           </div>
           <div class="design-content">
@@ -430,6 +430,6 @@
       </div>
     </div>
   </div>
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>

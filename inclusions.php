@@ -22,7 +22,7 @@
     <div class="container">
       <div class="top-bar-left">
         <span class="top-bar-badge">
-          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img"></span>
+          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img" decoding="async"></span>
           VBA &amp; BPC Registered Builder &bull; CDB-U 101902 Registered Practitioner Builder
         </span>
         <span class="top-bar-badge">Victoria 7-Star NatHERS Standard</span>
@@ -38,7 +38,7 @@
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo" aria-label="Intellect Homes">
-        <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
+        <img src="assets/images/logo.webp" alt="Intellect Homes Logo" decoding="async">
       </a>
 
       <nav aria-label="Primary Navigation">
@@ -117,7 +117,7 @@
           </ul>
         </div>
         <div class="energy-visual">
-          <img src="assets/images/Gemini_Generated_Image_zc6bxgzc6bxgzc6b.jpeg" alt="Luxury Gourmet Kitchen by Intellect Homes">
+          <img src="assets/images/Gemini_Generated_Image_zc6bxgzc6bxgzc6b.jpeg" alt="Luxury Gourmet Kitchen by Intellect Homes" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -128,7 +128,7 @@
     <div class="container">
       <div class="energy-grid" style="align-items: center;">
         <div class="energy-visual" style="order: 2;">
-          <img src="assets/images/Gemini_Generated_Image_yjkc22yjkc22yjkc.jpeg" alt="Master Suite and Bathroom Living">
+          <img src="assets/images/Gemini_Generated_Image_yjkc22yjkc22yjkc.jpeg" alt="Master Suite and Bathroom Living" loading="lazy" decoding="async">
         </div>
         <div style="order: 1;">
           <span class="section-tag">SANCTUARY & RELAXATION</span>
@@ -343,6 +343,6 @@
       </div>
     </div>
   </div>
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>

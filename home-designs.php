@@ -34,7 +34,7 @@
     <div class="container">
       <div class="top-bar-left">
         <span class="top-bar-badge">
-          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img"></span>
+          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img" decoding="async"></span>
           VBA &amp; BPC Registered Builder &bull; CDB-U 101902 Registered Practitioner Builder
         </span>
         <span class="top-bar-badge">
@@ -53,7 +53,7 @@
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo" aria-label="Intellect Homes">
-        <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
+        <img src="assets/images/logo.webp" alt="Intellect Homes Logo" decoding="async">
       </a>
 
       <nav aria-label="Primary Navigation">
@@ -109,11 +109,11 @@
         <article class="design-card" data-category="knockdown">
           <div class="design-media-duo">
             <div class="media-col photo-col" title="21 Oswald Street Dandenong Facade">
-              <img src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="21 Oswald street dandenong 3175">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="21 Oswald street dandenong 3175" loading="lazy" decoding="async">
               <span class="media-pill-tag">Facade</span>
             </div>
             <div class="media-col plan-col" title="21 Oswald Street Floor Plan">
-              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="21 Oswald Street Floor Plan Blueprint">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="21 Oswald Street Floor Plan Blueprint" loading="lazy" decoding="async">
               <span class="media-pill-tag plan-tag">Floor Plan</span>
             </div>
             <span class="design-tag">Knock Down Rebuild</span>
@@ -146,7 +146,7 @@
               <span style="font-size: 0.7rem; color: #94A3B8; margin-top: 0.2rem;">19 Somerlayton Crescent</span>
             </div>
             <div class="media-col plan-col" title="19 Somerlayton Crescent Floor Plan">
-              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="19 Somerlayton Crescent Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="19 Somerlayton Crescent Floor Plan" loading="lazy" decoding="async">
               <span class="media-pill-tag plan-tag">Floor Plan</span>
             </div>
             <span class="design-tag">Knock Down Rebuild</span>
@@ -174,11 +174,11 @@
         <article class="design-card" data-category="new-build">
           <div class="design-media-duo">
             <div class="media-col photo-col" title="16 Vivero Wyndham Vale Facade">
-              <img src="assets/images/WhatsApp-Image-2026-09-02-at-10.36.14-PM.jpeg" alt="16 vivero Wyndham vale Vic 3024">
+              <img src="assets/images/WhatsApp-Image-2026-09-02-at-10.36.14-PM.jpeg" alt="16 vivero Wyndham vale Vic 3024" loading="lazy" decoding="async">
               <span class="media-pill-tag">Facade</span>
             </div>
             <div class="media-col plan-col" title="16 Vivero Floor Plan">
-              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="16 Vivero Wyndham Vale Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="16 Vivero Wyndham Vale Floor Plan" loading="lazy" decoding="async">
               <span class="media-pill-tag plan-tag">Floor Plan</span>
             </div>
             <span class="design-tag">New Construction</span>
@@ -206,11 +206,11 @@
         <article class="design-card" data-category="new-build">
           <div class="design-media-duo">
             <div class="media-col photo-col" title="193 Callway Street Mambourin Facade">
-              <img src="assets/images/193-callaway-street-mambourin.jpg" alt="193 Callway Street Mambourin">
+              <img src="assets/images/193-callaway-street-mambourin.jpg" alt="193 Callway Street Mambourin" loading="lazy" decoding="async">
               <span class="media-pill-tag">Facade</span>
             </div>
             <div class="media-col plan-col" title="193 Callway Street Floor Plan">
-              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.47-PM-1024x786.jpeg" alt="193 Callway Street Architectural Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.47-PM-1024x786.jpeg" alt="193 Callway Street Architectural Floor Plan" loading="lazy" decoding="async">
               <span class="media-pill-tag plan-tag">Floor Plan</span>
             </div>
             <span class="design-tag">New Construction</span>
@@ -238,11 +238,11 @@
         <article class="design-card" data-category="granny-flat">
           <div class="design-media-duo">
             <div class="media-col photo-col" title="7 Abbington Drive Truganina Facade">
-              <img src="assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg" alt="7 Abbington Drive Truganina">
+              <img src="assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg" alt="7 Abbington Drive Truganina" loading="lazy" decoding="async">
               <span class="media-pill-tag">Facade</span>
             </div>
             <div class="media-col plan-col" title="7 Abbington Drive Granny Flat Floor Plan">
-              <img src="assets/images/granny-flat.jpg" alt="7 Abbington Drive Granny Flat Floor Plan">
+              <img src="assets/images/granny-flat.jpg" alt="7 Abbington Drive Granny Flat Floor Plan" loading="lazy" decoding="async">
               <span class="media-pill-tag plan-tag">Floor Plan</span>
             </div>
             <span class="design-tag">Granny Flat &amp; Living</span>
@@ -270,11 +270,11 @@
         <article class="design-card" data-category="new-build">
           <div class="design-media-duo">
             <div class="media-col photo-col" title="3 Reetaj Crescent Truganina Facade">
-              <img src="assets/images/Gemini_Generated_Image_22s78m22s78m22s7.jpeg" alt="3 Reetaj Crescent Truganina 3029">
+              <img src="assets/images/Gemini_Generated_Image_22s78m22s78m22s7.jpeg" alt="3 Reetaj Crescent Truganina 3029" loading="lazy" decoding="async">
               <span class="media-pill-tag">Facade</span>
             </div>
             <div class="media-col plan-col" title="3 Reetaj Crescent Floor Plan">
-              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.54-PM.jpeg" alt="3 Reetaj Crescent Architectural Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.54-PM.jpeg" alt="3 Reetaj Crescent Architectural Floor Plan" loading="lazy" decoding="async">
               <span class="media-pill-tag plan-tag">Floor Plan</span>
             </div>
             <span class="design-tag">New Construction</span>
@@ -302,11 +302,11 @@
         <article class="design-card" data-category="new-build">
           <div class="design-media-duo">
             <div class="media-col photo-col" title="170 Cravens Road Mernda Facade">
-              <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg" alt="170 cravens road mernda vic 3754">
+              <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg" alt="170 cravens road mernda vic 3754" loading="lazy" decoding="async">
               <span class="media-pill-tag">Facade</span>
             </div>
             <div class="media-col plan-col" title="170 Cravens Road Floor Plan">
-              <img src="assets/images/WhatsApp-Image-2026-09-02-at-2.53.03-PM-1024x726.jpeg" alt="170 Cravens Road Mernda Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-02-at-2.53.03-PM-1024x726.jpeg" alt="170 Cravens Road Mernda Floor Plan" loading="lazy" decoding="async">
               <span class="media-pill-tag plan-tag">Floor Plan</span>
             </div>
             <span class="design-tag">New Construction</span>
@@ -334,11 +334,11 @@
         <article class="design-card" data-category="new-build">
           <div class="design-media-duo">
             <div class="media-col photo-col" title="4 Geller Circuit Tarneit Exterior">
-              <img src="assets/images/4-geller-circuit-tarneit.jpg" alt="4 Geller Circuit Tarneit Exterior">
+              <img src="assets/images/4-geller-circuit-tarneit.jpg" alt="4 Geller Circuit Tarneit Exterior" loading="lazy" decoding="async">
               <span class="media-pill-tag photo-tag">Exterior</span>
             </div>
             <div class="media-col plan-col" title="4 Geller Circuit Floor Plan">
-              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="4 Geller Circuit Tarneit Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="4 Geller Circuit Tarneit Floor Plan" loading="lazy" decoding="async">
               <span class="media-pill-tag plan-tag">Floor Plan</span>
             </div>
             <span class="design-tag">New Construction</span>
@@ -366,11 +366,11 @@
         <article class="design-card" data-category="new-build">
           <div class="design-media-duo">
             <div class="media-col photo-col" title="4 Conservation Drive Tarneit Facade">
-              <img src="assets/images/Gemini_Generated_Image_pibvl0pibvl0pibv.jpeg" alt="4 conservation Drive Tarneit vic 3029">
+              <img src="assets/images/Gemini_Generated_Image_pibvl0pibvl0pibv.jpeg" alt="4 conservation Drive Tarneit vic 3029" loading="lazy" decoding="async">
               <span class="media-pill-tag">Facade</span>
             </div>
             <div class="media-col plan-col" title="4 Conservation Drive Floor Plan">
-              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="4 Conservation Drive Tarneit Floor Plan">
+              <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="4 Conservation Drive Tarneit Floor Plan" loading="lazy" decoding="async">
               <span class="media-pill-tag plan-tag">Floor Plan</span>
             </div>
             <span class="design-tag">New Construction</span>
@@ -488,7 +488,7 @@
       </div>
 
       <div style="border-radius: 12px; overflow: hidden; margin-bottom: 1.5rem; max-height: 380px; background: #0A0F17;">
-        <img id="planModalImg" src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="Design Elevation" style="width: 100%; height: 380px; object-fit: contain; background: #090E17;">
+        <img id="planModalImg" src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="Design Elevation" style="width: 100%; height: 380px; object-fit: contain; background: #090E17;" loading="lazy" decoding="async">
       </div>
 
       <div class="plan-stats-modal-grid" style="grid-template-columns: 1fr 1fr;">
@@ -565,6 +565,6 @@
     </div>
   </div>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>

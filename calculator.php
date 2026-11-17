@@ -22,7 +22,7 @@
     <div class="container">
       <div class="top-bar-left">
         <span class="top-bar-badge">
-          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img"></span>
+          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img" decoding="async"></span>
           VBA &amp; BPC Registered Builder &bull; CDB-U 101902 Registered Practitioner Builder
         </span>
         <span class="top-bar-badge">Victoria 7-Star NatHERS Standard</span>
@@ -38,7 +38,7 @@
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo" aria-label="Intellect Homes">
-        <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
+        <img src="assets/images/logo.webp" alt="Intellect Homes Logo" decoding="async">
       </a>
 
       <nav aria-label="Primary Navigation">
@@ -309,6 +309,6 @@
       </div>
     </div>
   </div>
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>

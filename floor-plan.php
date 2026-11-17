@@ -22,7 +22,7 @@
     <div class="container">
       <div class="top-bar-left">
         <span class="top-bar-badge">
-          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img"></span>
+          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img" decoding="async"></span>
           VBA &amp; BPC Registered Builder &bull; CDB-U 101902 Registered Practitioner Builder
         </span>
         <span class="top-bar-badge">Victoria 7-Star NatHERS Standard</span>
@@ -38,7 +38,7 @@
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo" aria-label="Intellect Homes">
-        <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
+        <img src="assets/images/logo.webp" alt="Intellect Homes Logo" decoding="async">
       </a>
 
       <nav aria-label="Primary Navigation">
@@ -94,7 +94,7 @@
         <!-- Plan 1 -->
         <article class="design-card" data-category="double">
           <div class="design-media" style="background: #fff;">
-            <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="21 Oswald Street Dandenong Floor Plan" style="object-fit: contain; padding: 0.5rem; background: #fff;">
+            <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="21 Oswald Street Dandenong Floor Plan" style="object-fit: contain; padding: 0.5rem; background: #fff;" loading="lazy" decoding="async">
           </div>
           <div class="design-content">
             <div class="design-title-row">
@@ -117,7 +117,7 @@
         <!-- Plan 2 -->
         <article class="design-card" data-category="double">
           <div class="design-media" style="background: #fff;">
-            <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="16 Vivero Wyndham Vale Floor Plan" style="object-fit: contain; padding: 0.5rem; background: #fff;">
+            <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="16 Vivero Wyndham Vale Floor Plan" style="object-fit: contain; padding: 0.5rem; background: #fff;" loading="lazy" decoding="async">
           </div>
           <div class="design-content">
             <div class="design-title-row">
@@ -140,7 +140,7 @@
         <!-- Plan 3 -->
         <article class="design-card" data-category="double">
           <div class="design-media" style="background: #fff;">
-            <img src="assets/images/WhatsApp-Image-2026-09-02-at-2.53.03-PM-1024x726.jpeg" alt="170 Cravens Road Mernda Floor Plan" style="object-fit: contain; padding: 0.5rem; background: #fff;">
+            <img src="assets/images/WhatsApp-Image-2026-09-02-at-2.53.03-PM-1024x726.jpeg" alt="170 Cravens Road Mernda Floor Plan" style="object-fit: contain; padding: 0.5rem; background: #fff;" loading="lazy" decoding="async">
           </div>
           <div class="design-content">
             <div class="design-title-row">
@@ -163,7 +163,7 @@
         <!-- Plan 4 -->
         <article class="design-card" data-category="single">
           <div class="design-media" style="background: #fff;">
-            <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.47-PM-1024x786.jpeg" alt="19 Somerlayton Crescent Fawkner Floor Plan" style="object-fit: contain; padding: 0.5rem; background: #fff;">
+            <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.47-PM-1024x786.jpeg" alt="19 Somerlayton Crescent Fawkner Floor Plan" style="object-fit: contain; padding: 0.5rem; background: #fff;" loading="lazy" decoding="async">
           </div>
           <div class="design-content">
             <div class="design-title-row">
@@ -278,7 +278,7 @@
       </div>
 
       <div style="border-radius: 12px; overflow: hidden; margin-bottom: 1.5rem; max-height: 380px; background: #0A0F17;">
-        <img id="planModalImg" src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="Design Elevation" style="width: 100%; height: 380px; object-fit: contain; background: #090E17;">
+        <img id="planModalImg" src="assets/images/WhatsApp-Image-2026-09-03-at-6.26.15-PM-1024x714.jpeg" alt="Design Elevation" style="width: 100%; height: 380px; object-fit: contain; background: #090E17;" loading="lazy" decoding="async">
       </div>
 
       <div class="plan-stats-modal-grid" style="grid-template-columns: 1fr 1fr;">
@@ -355,6 +355,6 @@
     </div>
   </div>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>

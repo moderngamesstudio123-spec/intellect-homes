@@ -23,7 +23,7 @@
     <div class="container">
       <div class="top-bar-left">
         <span class="top-bar-badge">
-          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img"></span>
+          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img" decoding="async"></span>
           VBA &amp; BPC Registered Builder &bull; CDB-U 101902 Registered Practitioner Builder
         </span>
         <span class="top-bar-badge">Victoria 7-Star NatHERS Standard</span>
@@ -39,7 +39,7 @@
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo" aria-label="Intellect Homes">
-        <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
+        <img src="assets/images/logo.webp" alt="Intellect Homes Logo" decoding="async">
       </a>
 
       <nav aria-label="Primary Navigation">
@@ -86,7 +86,7 @@
         <!-- Facade 1 -->
         <article class="design-card">
           <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-09-02-at-10.36.14-PM-1024x577.jpeg" alt="Contemporary Double Storey Facade">
+            <img src="assets/images/WhatsApp-Image-2026-09-02-at-10.36.14-PM-1024x577.jpeg" alt="Contemporary Double Storey Facade" loading="lazy" decoding="async">
             <span class="design-tag">Contemporary Minimalist</span>
           </div>
           <div class="design-content">
@@ -110,7 +110,7 @@
         <!-- Facade 2 -->
         <article class="design-card">
           <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM-1024x768.jpeg" alt="Urban Horizon Facade">
+            <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM-1024x768.jpeg" alt="Urban Horizon Facade" loading="lazy" decoding="async">
             <span class="design-tag">Modern Urban</span>
           </div>
           <div class="design-content">
@@ -134,7 +134,7 @@
         <!-- Facade 3 -->
         <article class="design-card">
           <div class="design-media">
-            <img src="assets/images/categroy1.webp" alt="Knock Down Rebuild Luxury Facade">
+            <img src="assets/images/categroy1.webp" alt="Knock Down Rebuild Luxury Facade" loading="lazy" decoding="async">
             <span class="design-tag">Executive Estate</span>
           </div>
           <div class="design-content">
@@ -158,7 +158,7 @@
         <!-- Facade 4 -->
         <article class="design-card">
           <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg" alt="The Abbington Modern Facade">
+            <img src="assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg" alt="The Abbington Modern Facade" loading="lazy" decoding="async">
             <span class="design-tag">Granny Flat – Single Storey</span>
           </div>
           <div class="design-content">
@@ -182,7 +182,7 @@
         <!-- Facade 5 -->
         <article class="design-card">
           <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-09-05-at-2.57.32-PM.jpeg" alt="The Metro Architectural Facade">
+            <img src="assets/images/WhatsApp-Image-2026-09-05-at-2.57.32-PM.jpeg" alt="The Metro Architectural Facade" loading="lazy" decoding="async">
             <span class="design-tag">Architectural Masonry</span>
           </div>
           <div class="design-content">
@@ -206,7 +206,7 @@
         <!-- Facade 6 -->
         <article class="design-card">
           <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-09-05-at-2.57.33-PM.jpeg" alt="The Panorama Grand Facade">
+            <img src="assets/images/WhatsApp-Image-2026-09-05-at-2.57.33-PM.jpeg" alt="The Panorama Grand Facade" loading="lazy" decoding="async">
             <span class="design-tag">Luxury Grand</span>
           </div>
           <div class="design-content">
@@ -230,7 +230,7 @@
         <!-- Facade 7 -->
         <article class="design-card">
           <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-09-05-at-2.58.34-PM.jpeg" alt="The Zenith Cantilever Facade">
+            <img src="assets/images/WhatsApp-Image-2026-09-05-at-2.58.34-PM.jpeg" alt="The Zenith Cantilever Facade" loading="lazy" decoding="async">
             <span class="design-tag">Designer Modern</span>
           </div>
           <div class="design-content">
@@ -324,7 +324,7 @@
         <h3 style="font-size: 1.6rem; color: #0F172A;" id="planModalTitle">Residence Overview</h3>
       </div>
       <div style="border-radius: 12px; overflow: hidden; margin-bottom: 1.5rem; max-height: 380px;">
-        <img id="planModalImg" src="assets/images/project-dandenong.jpg" alt="Design Elevation" style="width: 100%; height: 100%; object-fit: cover;">
+        <img id="planModalImg" src="assets/images/project-dandenong.jpg" alt="Design Elevation" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy" decoding="async">
       </div>
       <button class="btn btn-primary" style="width: 100%;" data-open-modal="consultModal">
         Request Quote For This Facade
@@ -377,6 +377,6 @@
       </div>
     </div>
   </div>
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>

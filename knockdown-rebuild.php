@@ -27,7 +27,7 @@
     <div class="container">
       <div class="top-bar-left">
         <span class="top-bar-badge">
-          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img"></span>
+          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img" decoding="async"></span>
           VBA &amp; BPC Registered Builder &bull; CDB-U 101902 Registered Practitioner Builder
         </span>
         <span class="top-bar-badge">
@@ -46,7 +46,7 @@
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo" aria-label="Intellect Homes">
-        <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
+        <img src="assets/images/logo.webp" alt="Intellect Homes Logo" decoding="async">
       </a>
 
       <nav aria-label="Primary Navigation">
@@ -190,11 +190,11 @@
 
       <div class="before-after-wrapper">
         <div class="before-after-img before">
-          <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg" alt="Before: Older Melbourne House">
+          <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg" alt="Before: Older Melbourne House" loading="lazy" decoding="async">
           <span class="before-after-label before-lbl">Existing Old Home</span>
         </div>
         <div class="before-after-img after">
-          <img src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="After: Intellect Homes KDR 21 Oswald Street Dandenong">
+          <img src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="After: Intellect Homes KDR 21 Oswald Street Dandenong" loading="lazy" decoding="async">
           <span class="before-after-label after-lbl"><span class="text-gold">Intellect Homes</span> Luxury Rebuild</span>
         </div>
         <div class="before-after-handle">
@@ -219,7 +219,7 @@
         <!-- KDR Project 1 -->
         <article class="design-card" style="background: #141C2B; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; overflow: hidden;">
           <div class="design-media" style="position: relative; height: 260px;">
-            <img src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="21 Oswald Street Dandenong KDR" style="width: 100%; height: 100%; object-fit: cover;">
+            <img src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="21 Oswald Street Dandenong KDR" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy" decoding="async">
             <span class="design-tag" style="position: absolute; top: 1rem; left: 1rem; background: var(--accent-gold); color: #0B1019; font-weight: 700; font-size: 0.75rem; padding: 0.35rem 0.8rem; border-radius: 9999px;">Knock Down Rebuild</span>
             <span class="design-suburb" style="position: absolute; bottom: 1rem; left: 1rem; background: rgba(0,0,0,0.65); color: #fff; font-size: 0.75rem; padding: 0.3rem 0.75rem; border-radius: 9999px;">Dandenong VIC 3175</span>
           </div>
@@ -235,7 +235,7 @@
         <!-- KDR Project 2 -->
         <article class="design-card" style="background: #141C2B; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; overflow: hidden;">
           <div class="design-media" style="position: relative; height: 260px;">
-            <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="19 Somerlayton Crescent Fawkner VIC 3060 KDR Plan" style="width: 100%; height: 100%; object-fit: contain; background: #0A0F17; padding: 1rem;">
+            <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="19 Somerlayton Crescent Fawkner VIC 3060 KDR Plan" style="width: 100%; height: 100%; object-fit: contain; background: #0A0F17; padding: 1rem;" loading="lazy" decoding="async">
             <span class="design-tag" style="position: absolute; top: 1rem; left: 1rem; background: var(--accent-gold); color: #0B1019; font-weight: 700; font-size: 0.75rem; padding: 0.35rem 0.8rem; border-radius: 9999px;">Knock Down Rebuild</span>
             <span class="design-suburb" style="position: absolute; bottom: 1rem; left: 1rem; background: rgba(0,0,0,0.65); color: #fff; font-size: 0.75rem; padding: 0.3rem 0.75rem; border-radius: 9999px;">Fawkner VIC 3060</span>
           </div>
@@ -410,6 +410,6 @@
       </div>
     </div>
   </div>
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>

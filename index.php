@@ -97,7 +97,7 @@
     <div class="container">
       <div class="top-bar-left">
         <span class="top-bar-badge">
-          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img"></span>
+          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img" decoding="async"></span>
           VBA &amp; BPC Registered Builder &bull; CDB-U 101902 Registered Practitioner Builder
         </span>
         <span class="top-bar-badge">
@@ -170,7 +170,7 @@
   <header class="site-header" id="siteHeader">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo" aria-label="Intellect Homes Home">
-        <img src="assets/images/logo.webp" alt="Intellect Homes Logo">
+        <img src="assets/images/logo.webp" alt="Intellect Homes Logo" decoding="async">
       </a>
 
       <nav aria-label="Primary Navigation">
@@ -206,10 +206,10 @@
        ========================================================================== -->
   <section class="hero-section">
     <div class="hero-background" id="heroBgSlider">
-      <img src="assets/images/slider-modern-facade.jpg" alt="Completed Modern Brick and Render Facade by Intellect Homes" class="hero-bg-slide active">
-      <img src="assets/images/slider-kitchen-living.jpg" alt="Open-Plan Kitchen and Living with LED Cove Lighting by Intellect Homes" class="hero-bg-slide">
-      <img src="assets/images/slider-designer-kitchen.jpg" alt="Custom Waterfall Stone Island Kitchen by Intellect Homes" class="hero-bg-slide">
-      <img src="assets/images/slider-feature-living.jpg" alt="Architectural Living and Media Niche by Intellect Homes" class="hero-bg-slide">
+      <img src="assets/images/slider-modern-facade.jpg" alt="Completed Modern Brick and Render Facade by Intellect Homes" class="hero-bg-slide active" fetchpriority="high" decoding="async">
+      <img src="assets/images/slider-kitchen-living.jpg" alt="Open-Plan Kitchen and Living with LED Cove Lighting by Intellect Homes" class="hero-bg-slide" loading="lazy" decoding="async">
+      <img src="assets/images/slider-designer-kitchen.jpg" alt="Custom Waterfall Stone Island Kitchen by Intellect Homes" class="hero-bg-slide" loading="lazy" decoding="async">
+      <img src="assets/images/slider-feature-living.jpg" alt="Architectural Living and Media Niche by Intellect Homes" class="hero-bg-slide" loading="lazy" decoding="async">
     </div>
     <div class="hero-overlay"></div>
     <div class="hero-slider-dots" id="heroSliderDots" aria-label="Hero background slide controls">
@@ -222,7 +222,7 @@
     <div class="container">
       <div class="hero-content">
         <div class="hero-trust-pill">
-          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img"></span>
+          <span class="badge-logo-box"><img src="assets/images/bpc-primary.png" alt="BPC Registered Builder" class="badge-logo-img" decoding="async"></span>
           <span>VBA &amp; BPC &bull; CDB-U 101902 REGISTERED PRACTITIONER BUILDER</span>
         </div>
 
@@ -284,7 +284,7 @@
       <div class="trust-grid">
         <div class="trust-feature">
           <div class="trust-logo-box" title="Victorian Building Authority Registered Builder">
-            <img src="assets/images/vba-logo.svg" alt="VBA Registered Builder Logo" class="trust-logo-img">
+            <img src="assets/images/vba-logo.svg" alt="VBA Registered Builder Logo" class="trust-logo-img" loading="lazy" decoding="async">
           </div>
           <div class="trust-info">
             <h4>VBA Registered Builder</h4>
@@ -294,7 +294,7 @@
 
         <div class="trust-feature">
           <div class="trust-logo-box" title="Building and Plumbing Commission (BPC) Registered">
-            <img src="assets/images/bpc-primary.png" alt="Building and Plumbing Commission (BPC) Official Logo" class="trust-logo-img">
+            <img src="assets/images/bpc-primary.png" alt="Building and Plumbing Commission (BPC) Official Logo" class="trust-logo-img" decoding="async">
           </div>
           <div class="trust-info">
             <h4>Building &amp; Plumbing Commission</h4>
@@ -304,7 +304,7 @@
 
         <div class="trust-feature">
           <div class="trust-logo-box" title="CDB-U 101902 Registered Practitioner Builder">
-            <img src="assets/images/cdbu-badge.svg" alt="CDB-U 101902 Registered Practitioner Builder" class="trust-logo-img">
+            <img src="assets/images/cdbu-badge.svg" alt="CDB-U 101902 Registered Practitioner Builder" class="trust-logo-img" loading="lazy" decoding="async">
           </div>
           <div class="trust-info">
             <h4>CDB-U 101902 Practitioner</h4>
@@ -314,7 +314,7 @@
 
         <div class="trust-feature">
           <div class="trust-logo-box" title="Guaranteed Timeline">
-            <img src="assets/images/guaranteed-timeline.svg" alt="Guaranteed Timeline &amp; Milestone Delivery" class="trust-logo-img">
+            <img src="assets/images/guaranteed-timeline.svg" alt="Guaranteed Timeline &amp; Milestone Delivery" class="trust-logo-img" loading="lazy" decoding="async">
           </div>
           <div class="trust-info">
             <h4>Guaranteed Timeline</h4>
@@ -324,7 +324,7 @@
 
         <div class="trust-feature">
           <div class="trust-logo-box" title="Victoria 7-Star NatHERS Standard">
-            <img src="assets/images/nathers-7star.svg" alt="Victoria 7-Star NatHERS Standard" class="trust-logo-img">
+            <img src="assets/images/nathers-7star.svg" alt="Victoria 7-Star NatHERS Standard" class="trust-logo-img" loading="lazy" decoding="async">
           </div>
           <div class="trust-info">
             <h4>7-Star Standard</h4>
@@ -350,7 +350,7 @@
         <!-- Card 1: Knock Down Rebuild -->
         <article class="service-card">
           <div class="service-image">
-            <img src="assets/images/categroy1.webp" alt="Knock Down Rebuild in Melbourne by Intellect Homes">
+            <img src="assets/images/categroy1.webp" alt="Knock Down Rebuild in Melbourne by Intellect Homes" loading="lazy" decoding="async">
             <span class="service-badge">Highest ROI</span>
           </div>
           <div class="service-body">
@@ -382,7 +382,7 @@
         <!-- Card 2: Custom New Construction -->
         <article class="service-card">
           <div class="service-image">
-            <img src="assets/images/4-geller-circuit-tarneit.jpg" alt="Custom New Construction Melbourne">
+            <img src="assets/images/4-geller-circuit-tarneit.jpg" alt="Custom New Construction Melbourne" loading="lazy" decoding="async">
             <span class="service-badge">Signature Living</span>
           </div>
           <div class="service-body">
@@ -414,7 +414,7 @@
         <!-- Card 3: Modern Granny Flats & Secondary Dwellings -->
         <article class="service-card">
           <div class="service-image">
-            <img src="assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg" alt="Architectural Granny Flat Melbourne">
+            <img src="assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg" alt="Architectural Granny Flat Melbourne" loading="lazy" decoding="async">
             <span class="service-badge">Passive Income</span>
           </div>
           <div class="service-body">
@@ -460,13 +460,13 @@
       <div class="before-after-wrapper">
         <!-- Before Image (Older house) -->
         <div class="before-after-img before">
-          <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg" alt="Before: Existing Melbourne residence">
+          <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg" alt="Before: Existing Melbourne residence" loading="lazy" decoding="async">
           <span class="before-after-label before-lbl">Existing Old Home</span>
         </div>
 
         <!-- After Image (Intellect Homes Luxury Rebuild) -->
         <div class="before-after-img after">
-          <img src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="After: Intellect Homes Luxury Rebuild 21 Oswald Street Dandenong">
+          <img src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="After: Intellect Homes Luxury Rebuild 21 Oswald Street Dandenong" loading="lazy" decoding="async">
           <span class="before-after-label after-lbl"><span class="text-gold">Intellect Homes</span> Luxury Rebuild</span>
         </div>
 
@@ -513,7 +513,7 @@
         <!-- Project 1 -->
         <article class="design-card" data-category="knockdown">
           <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="21 Oswald Street Dandenong">
+            <img src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="21 Oswald Street Dandenong" loading="lazy" decoding="async">
             <span class="design-tag">Knock Down Rebuild</span>
             <span class="design-suburb">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -537,7 +537,7 @@
         <!-- Project 1b: 19 Somerlayton Crescent, Fawkner (Knock Down Rebuild) -->
         <article class="design-card" data-category="knockdown">
           <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="19 Somerlayton Crescent Fawkner VIC 3060 Architectural Plan" style="object-fit: contain; background: #0E1524; padding: 1rem;">
+            <img src="assets/images/WhatsApp-Image-2026-09-03-at-6.25.19-PM-1024x731.jpeg" alt="19 Somerlayton Crescent Fawkner VIC 3060 Architectural Plan" style="object-fit: contain; background: #0E1524; padding: 1rem;" loading="lazy" decoding="async">
             <span class="design-tag">Knock Down Rebuild</span>
             <span class="design-suburb">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -561,7 +561,7 @@
         <!-- Project 2 -->
         <article class="design-card" data-category="new-build">
           <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-09-02-at-10.36.14-PM.jpeg" alt="16 Vivero Wyndham Vale">
+            <img src="assets/images/WhatsApp-Image-2026-09-02-at-10.36.14-PM.jpeg" alt="16 Vivero Wyndham Vale" loading="lazy" decoding="async">
             <span class="design-tag">New Construction</span>
             <span class="design-suburb">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -586,7 +586,7 @@
         <!-- Project 3 -->
         <article class="design-card" data-category="new-build">
           <div class="design-media">
-            <img src="assets/images/Gemini_Generated_Image_22s78m22s78m22s7.jpeg" alt="3 Reetaj Crescent Truganina">
+            <img src="assets/images/Gemini_Generated_Image_22s78m22s78m22s7.jpeg" alt="3 Reetaj Crescent Truganina" loading="lazy" decoding="async">
             <span class="design-tag">New Construction</span>
             <span class="design-suburb">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -610,7 +610,7 @@
         <!-- Project 4: Granny Flat -->
         <article class="design-card" data-category="granny-flat">
           <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg" alt="7 Abbington Drive Truganina">
+            <img src="assets/images/WhatsApp-Image-2026-08-25-at-9.58.16-AM.jpeg" alt="7 Abbington Drive Truganina" loading="lazy" decoding="async">
             <span class="design-tag">Granny Flat</span>
             <span class="design-suburb">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -634,7 +634,7 @@
         <!-- Project 5 -->
         <article class="design-card" data-category="new-build">
           <div class="design-media">
-            <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg" alt="170 Cravens Road Mernda">
+            <img src="assets/images/WhatsApp-Image-2026-08-28-at-12.30.06-PM.jpeg" alt="170 Cravens Road Mernda" loading="lazy" decoding="async">
             <span class="design-tag">New Construction</span>
             <span class="design-suburb">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -659,7 +659,7 @@
         <!-- Project 6 -->
         <article class="design-card" data-category="new-build">
           <div class="design-media">
-            <img src="assets/images/4-geller-circuit-tarneit.jpg" alt="4 Geller Circuit Tarneit">
+            <img src="assets/images/4-geller-circuit-tarneit.jpg" alt="4 Geller Circuit Tarneit" loading="lazy" decoding="async">
             <span class="design-tag">New Construction</span>
             <span class="design-suburb">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -845,7 +845,7 @@
     <div class="container">
       <div class="energy-grid">
         <div class="energy-visual">
-          <img src="assets/images/Gemini_Generated_Image_zc6bxgzc6bxgzc6b.jpeg" alt="7-Star Energy Efficient Luxury Interior Melbourne">
+          <img src="assets/images/Gemini_Generated_Image_zc6bxgzc6bxgzc6b.jpeg" alt="7-Star Energy Efficient Luxury Interior Melbourne" loading="lazy" decoding="async">
           <div class="energy-badge-overlay">
             <div class="stars-rating">
               <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
@@ -1237,7 +1237,7 @@
       <div class="footer-grid">
         <div class="footer-col">
           <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;">
-            <img src="assets/images/logo.webp" alt="Intellect Homes" style="height: 48px; width: auto;">
+            <img src="assets/images/logo.webp" alt="Intellect Homes" style="height: 48px; width: auto;" decoding="async">
             <span style="font-family: var(--font-heading); font-weight: 800; font-size: 1.25rem; color: var(--accent-gold);">INTELLECT HOMES</span>
           </div>
           <p style="margin-bottom: 1.5rem; line-height: 1.6;">
@@ -1417,7 +1417,7 @@
       </div>
 
       <div style="border-radius: 12px; overflow: hidden; margin-bottom: 1.5rem; max-height: 380px; background: #0A0F17;">
-        <img id="planModalImg" src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="Design Elevation" style="width: 100%; height: 380px; object-fit: contain; background: #090E17;">
+        <img id="planModalImg" src="assets/images/WhatsApp-Image-2026-09-03-at-3.51.27-PM.jpeg" alt="Design Elevation" style="width: 100%; height: 380px; object-fit: contain; background: #090E17;" loading="lazy" decoding="async">
       </div>
 
       
@@ -1491,6 +1491,6 @@
   </div>
 
   <!-- Main JavaScript File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>
