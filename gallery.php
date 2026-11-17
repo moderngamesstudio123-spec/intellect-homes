@@ -87,19 +87,36 @@
         <p style="color: #94A3B8;">Watch real construction progress, finished interiors, and turnkey handovers by <span class="text-gold">Intellect Homes</span>.</p>
       </div>
 
-      <!-- Featured 16:9 Landscape Video -->
-      <div class="video-featured-card">
-        <div class="video-featured-media">
-          <video class="gallery-video-player" controls playsinline preload="metadata">
-            <source src="assets/videos/landscape-1.mp4#t=0.5" type="video/mp4">
-          </video>
-        </div>
-        <div class="video-featured-meta">
-          <div>
-            <span class="video-pill">Featured Walkthrough &bull; Landscape</span>
-            <h3>Granny Flat &mdash; Architectural Walkthrough</h3>
+      <!-- Featured 16:9 Landscape Videos (2-Column Grid) -->
+      <div class="video-landscape-grid">
+        <div class="video-featured-card">
+          <div class="video-featured-media">
+            <video class="gallery-video-player" controls playsinline preload="metadata">
+              <source src="assets/videos/landscape-1.mp4#t=0.5" type="video/mp4">
+            </video>
           </div>
-          <p>Self-contained designer granny flat engineered with 7-Star thermal comfort and complete turnkey finishes.</p>
+          <div class="video-featured-meta">
+            <div>
+              <span class="video-pill">Featured Walkthrough &bull; 01</span>
+              <h3>Granny Flat &mdash; Architectural Walkthrough</h3>
+            </div>
+            <p>Self-contained designer granny flat engineered with 7-Star thermal comfort and complete turnkey finishes.</p>
+          </div>
+        </div>
+
+        <div class="video-featured-card">
+          <div class="video-featured-media">
+            <video class="gallery-video-player" controls playsinline preload="metadata">
+              <source src="assets/videos/landscape-2.mp4#t=0.5" type="video/mp4">
+            </video>
+          </div>
+          <div class="video-featured-meta">
+            <div>
+              <span class="video-pill">Featured Walkthrough &bull; 02</span>
+              <h3>Custom Residence &mdash; Full Project Tour</h3>
+            </div>
+            <p>Bespoke architectural facade, high-ceiling open living, and master craftsmanship delivered by <span class="text-gold">Intellect Homes</span>.</p>
+          </div>
         </div>
       </div>
 
