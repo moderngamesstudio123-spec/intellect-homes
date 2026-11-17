@@ -78,8 +78,98 @@
     </div>
   </section>
 
+  <!-- Video Walkthroughs Showcase (1 Landscape + 5 Portrait Reels) -->
+  <section class="video-showcase-section">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 2.25rem;">
+        <span class="section-tag" style="background: rgba(223, 152, 43, 0.15);">LIVE PROJECT WALKTHROUGHS</span>
+        <h2 style="color: #FFFFFF;">Video Tours Across Melbourne</h2>
+        <p style="color: #94A3B8;">Watch real construction progress, finished interiors, and turnkey handovers by <span class="text-gold">Intellect Homes</span>.</p>
+      </div>
+
+      <!-- Featured 16:9 Landscape Video -->
+      <div class="video-featured-card">
+        <div class="video-featured-media">
+          <video class="gallery-video-player" controls playsinline preload="metadata">
+            <source src="assets/videos/landscape-1.mp4#t=0.5" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-featured-meta">
+          <div>
+            <span class="video-pill">Featured Walkthrough &bull; Landscape</span>
+            <h3>Granny Flat &mdash; Architectural Walkthrough</h3>
+          </div>
+          <p>Self-contained designer granny flat engineered with 7-Star thermal comfort and complete turnkey finishes.</p>
+        </div>
+      </div>
+
+      <!-- 5 Portrait Reels Grid (9:16) -->
+      <div class="video-reels-grid">
+        <article class="video-reel-card">
+          <div class="video-reel-media">
+            <video class="gallery-video-player" controls playsinline preload="metadata">
+              <source src="assets/videos/portrait-1.mp4#t=0.5" type="video/mp4">
+            </video>
+          </div>
+          <div class="video-reel-info">
+            <span class="video-suburb-tag">Truganina VIC</span>
+            <h4>3 Reetaj Crescent</h4>
+          </div>
+        </article>
+
+        <article class="video-reel-card">
+          <div class="video-reel-media">
+            <video class="gallery-video-player" controls playsinline preload="metadata">
+              <source src="assets/videos/portrait-2.mp4#t=0.5" type="video/mp4">
+            </video>
+          </div>
+          <div class="video-reel-info">
+            <span class="video-suburb-tag">Mernda VIC</span>
+            <h4>170 Cravens Road</h4>
+          </div>
+        </article>
+
+        <article class="video-reel-card">
+          <div class="video-reel-media">
+            <video class="gallery-video-player" controls playsinline preload="metadata">
+              <source src="assets/videos/portrait-3.mp4#t=0.5" type="video/mp4">
+            </video>
+          </div>
+          <div class="video-reel-info">
+            <span class="video-suburb-tag">Wyndham Vale VIC</span>
+            <h4>16 Vivero</h4>
+          </div>
+        </article>
+
+        <article class="video-reel-card">
+          <div class="video-reel-media">
+            <video class="gallery-video-player" controls playsinline preload="metadata">
+              <source src="assets/videos/portrait-4.mp4#t=0.5" type="video/mp4">
+            </video>
+          </div>
+          <div class="video-reel-info">
+            <span class="video-suburb-tag">Tarneit VIC</span>
+            <h4>4 Conservation Drive</h4>
+          </div>
+        </article>
+
+        <article class="video-reel-card">
+          <div class="video-reel-media">
+            <video class="gallery-video-player" controls playsinline preload="metadata">
+              <source src="assets/videos/portrait-5.mp4#t=0.5" type="video/mp4">
+            </video>
+          </div>
+          <div class="video-reel-info">
+            <span class="video-suburb-tag">Mambourin VIC</span>
+            <h4>193 Callaway Street</h4>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <!-- Gallery Section -->
-  <section style="padding: 5rem 0; background: #FFFFFF;">
+  <section style="padding: 3.75rem 0; background: #FFFFFF;">
     <div class="container">
       
       <div class="designs-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2rem;">

@@ -57,6 +57,20 @@ function initHeroSlider() {
   startAuto();
 }
 
+function initGalleryVideos() {
+  const players = document.querySelectorAll('.gallery-video-player');
+  if (!players.length) return;
+  players.forEach(player => {
+    player.addEventListener('play', () => {
+      players.forEach(other => {
+        if (other !== player && !other.paused) {
+          other.pause();
+        }
+      });
+    });
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initNavbar();
   initCalculator();
@@ -68,6 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initRoomInspector();
   initScrollToTop();
   initHeroSlider();
+  initGalleryVideos();
 });
 
 /* ==========================================================================
