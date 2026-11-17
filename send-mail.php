@@ -11,12 +11,40 @@ function clean_text($val) {
     return trim(strip_tags((string) $val));
 }
 
-$name    = clean_text($_POST['name'] ?? $_POST['fullName'] ?? 'Website Visitor');
-$email   = filter_var(trim((string) ($_POST['email'] ?? '')), FILTER_SANITIZE_EMAIL);
-$phone   = clean_text($_POST['phone'] ?? '');
-$suburb  = clean_text($_POST['suburb'] ?? $_POST['address'] ?? '');
-$service = clean_text($_POST['service'] ?? $_POST['projectType'] ?? 'Site Feasibility / Consultation');
-$message = clean_text($_POST['message'] ?? $_POST['msg'] ?? '');
+function first_post($keys, $default = '') {
+    foreach ($keys as $k) {
+        if (isset($_POST[$k]) && trim((string) $_POST[$k]) !== '') {
+            return clean_text($_POST[$k]);
+        }
+    }
+    return $default;
+}
+
+$name    = first_post(['name', 'fullName', 'contactName', 'modalName', 'cName'], 'Website Visitor');
+$email   = filter_var(first_post(['email', 'contactEmail', 'modalEmail', 'cEmail']), FILTER_SANITIZE_EMAIL);
+$phone   = first_post(['phone', 'contactPhone', 'modalPhone', 'cPhone']);
+$suburb  = first_post(['suburb', 'address', 'contactAddress', 'modalAddress', 'cAddress']);
+$service = first_post(['service', 'projectType', 'contactService', 'modalService'], 'Site Feasibility / Consultation');
+$message = first_post(['message', 'msg', 'contactMessage', 'modalMessage', 'cMessage']);
+$pageUrl = first_post(['pageUrl']);
+
+// Capture any other non-standard fields sent by any page form
+$knownKeys = [
+    'name', 'fullName', 'contactName', 'modalName', 'cName',
+    'email', 'contactEmail', 'modalEmail', 'cEmail',
+    'phone', 'contactPhone', 'modalPhone', 'cPhone',
+    'suburb', 'address', 'contactAddress', 'modalAddress', 'cAddress',
+    'service', 'projectType', 'contactService', 'modalService',
+    'message', 'msg', 'contactMessage', 'modalMessage', 'cMessage',
+    'pageUrl'
+];
+
+$extraLines = [];
+foreach ($_POST as $k => $v) {
+    if (!in_array($k, $knownKeys, true) && trim((string) $v) !== '') {
+        $extraLines[] = clean_text($k) . ': ' . clean_text($v);
+    }
+}
 
 $to = 'admin@intellecthomes.com.au';
 $subject = 'New Website Enquiry - ' . ($name !== '' ? $name : 'Intellect Homes');
@@ -32,9 +60,21 @@ $bodyLines = [
     "Service / Interest: " . ($service ?: 'N/A'),
     "Message:",
     ($message ?: 'No additional message provided.'),
-    "--------------------------------------------------",
-    "Submitted at: " . date('Y-m-d H:i:s'),
 ];
+
+if (!empty($extraLines)) {
+    $bodyLines[] = "Additional Details:";
+    foreach ($extraLines as $el) {
+        $bodyLines[] = " - " . $el;
+    }
+}
+
+if ($pageUrl !== '') {
+    $bodyLines[] = "Submitted From Page: " . $pageUrl;
+}
+
+$bodyLines[] = "--------------------------------------------------";
+$bodyLines[] = "Submitted at: " . date('Y-m-d H:i:s');
 $body = implode("\r\n", $bodyLines);
 
 $headers = [

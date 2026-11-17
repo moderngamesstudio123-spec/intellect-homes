@@ -565,6 +565,7 @@ function initConsultationForm() {
             formData.append(el.id || `field_${idx}`, el.value);
           }
         });
+        formData.append('pageUrl', window.location.href);
         await fetch('send-mail.php', { method: 'POST', body: formData });
       } catch (err) {
         // Fallback smoothly to confirmation message
