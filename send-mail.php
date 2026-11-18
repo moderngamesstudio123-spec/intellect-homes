@@ -28,7 +28,6 @@ $service = first_post(['service', 'projectType', 'contactService', 'modalService
 $message = first_post(['message', 'msg', 'contactMessage', 'modalMessage', 'cMessage']);
 $pageUrl = first_post(['pageUrl']);
 
-// Capture any other non-standard fields sent by any page form
 $knownKeys = [
     'name', 'fullName', 'contactName', 'modalName', 'cName',
     'email', 'contactEmail', 'modalEmail', 'cEmail',
@@ -47,6 +46,7 @@ foreach ($_POST as $k => $v) {
 }
 
 $to = 'admin@intellecthomes.com.au';
+$fromEmail = 'admin@intellecthomes.com.au';
 $subject = 'New Website Enquiry - ' . ($name !== '' ? $name : 'Intellect Homes');
 $subject = str_replace(["\r", "\n"], '', $subject);
 
@@ -77,18 +77,26 @@ $bodyLines[] = "--------------------------------------------------";
 $bodyLines[] = "Submitted at: " . date('Y-m-d H:i:s');
 $body = implode("\r\n", $bodyLines);
 
+// Backup enquiry to local log file (protected from direct web access via .htaccess)
+@file_put_contents(__DIR__ . '/enquiries.log', $body . "\r\n\r\n", FILE_APPEND | LOCK_EX);
+
 $headers = [
     'MIME-Version: 1.0',
     'Content-Type: text/plain; charset=UTF-8',
-    'From: Intellect Homes Website <noreply@intellecthomes.com.au>',
+    'From: Intellect Homes Website <' . $fromEmail . '>',
+    'Sender: ' . $fromEmail,
+    'X-Mailer: PHP/' . phpversion(),
 ];
 
 if ($email && filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $safeEmail = str_replace(["\r", "\n"], '', $email);
     $headers[] = 'Reply-To: ' . $safeEmail;
+} else {
+    $headers[] = 'Reply-To: ' . $fromEmail;
 }
 
-$sent = @mail($to, $subject, $body, implode("\r\n", $headers));
+// Use -f envelope sender matching an existing Hostinger mailbox so Hostinger accepts & delivers it
+$sent = @mail($to, $subject, $body, implode("\r\n", $headers), '-f' . $fromEmail);
 
 echo json_encode([
     'success' => true,

@@ -1,6 +1,11 @@
 DirectoryIndex index.php
 RewriteEngine On
 
+# Protect enquiry log file from direct public access
+<Files "enquiries.log">
+    Require all denied
+</Files>
+
 # Force HTTPS on Hostinger
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
